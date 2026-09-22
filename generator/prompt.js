@@ -38,12 +38,16 @@ The course must be understandable to everyone:
 
 LANGUAGE:
 
-- Generate the actual lesson in natural, standard, simple Telugu.
-- Use Telugu script for Telugu words.
-- Use English/Latin script only for appropriate technical terms, established product or model names, or necessary proper names.
-- Do not mix other languages or writing systems into Telugu sentences.
-- Do not translate technical terms unnaturally.
-- Prefer clear Telugu explanations with familiar English technical terms when appropriate.
+- Generate the actual lesson in natural, standard, simple English.
+- Use clear English suitable for complete beginners.
+- Use English/Latin script for all lesson content.
+- Do not use Telugu script.
+- Do not use other writing systems.
+- Use established technical terms, product names, model names, and necessary proper names in their standard form.
+- Do not unnecessarily translate technical terminology.
+- Prefer clear English explanations with familiar technical terms when appropriate.
+- Keep the language natural and easy to understand.
+- Avoid unnecessarily complicated vocabulary.
 
 TEACHING STYLE:
 
@@ -69,8 +73,8 @@ CONTENT STRUCTURE:
 
 Create:
 
-1. A clear Telugu title.
-2. A short introduction.
+1. A clear English title.
+2. A short English introduction.
 3. At least 4 small learning sections.
 4. Every section MUST have:
    - a meaningful heading
@@ -101,6 +105,7 @@ PRACTICE RULES:
 - The activity should reinforce the main concept.
 - Do not require special software, paid tools, or user documents unless today's syllabus specifically requires them.
 - Keep the activity practical and beginner-friendly.
+- Write the practice activity in simple English.
 
 KEY TAKEAWAY RULES:
 
@@ -108,36 +113,37 @@ KEY TAKEAWAY RULES:
 - Each takeaway must contain a useful learning point.
 - Avoid repeating the same statement in different words.
 - Keep takeaways concise and easy to remember.
+- Write all takeaways in simple English.
 
 OUTPUT JSON:
 
 Return exactly ONE JSON object with ONLY these properties:
 
 {
-  "title": "Telugu title",
-  "introduction": "Short Telugu introduction",
+  "title": "English title",
+  "introduction": "Short English introduction",
   "sections": [
     {
-      "heading": "Meaningful Telugu heading",
-      "subheading": "Meaningful Telugu subheading",
+      "heading": "Meaningful English heading",
+      "subheading": "Meaningful English subheading",
       "paragraphs": [
-        "Short Telugu paragraph",
-        "Short Telugu paragraph"
+        "Short English paragraph",
+        "Short English paragraph"
       ],
       "example": {
         "title": "Example title",
-        "content": "Practical Telugu example"
+        "content": "Practical English example"
       }
     }
   ],
   "practice": {
     "title": "Practice title",
-    "instruction": "Small practical Telugu activity"
+    "instruction": "Small practical English activity"
   },
   "keyTakeaways": [
-    "Telugu takeaway 1",
-    "Telugu takeaway 2",
-    "Telugu takeaway 3"
+    "English takeaway 1",
+    "English takeaway 2",
+    "English takeaway 3"
   ]
 }
 
@@ -154,12 +160,14 @@ TITLE:
 
 - title must be a non-empty string.
 - The title must clearly represent today's supplied syllabus.
+- The title must be written in natural English.
 
 INTRODUCTION:
 
 - introduction must be a non-empty string.
 - Keep it short but meaningful.
 - It should explain why today's topic matters.
+- Write it in simple English.
 
 SECTIONS:
 
@@ -177,6 +185,7 @@ SECTIONS:
   - title
   - content
 - Example content must be non-empty.
+- All section content must be written in English.
 
 PRACTICE:
 
@@ -184,11 +193,13 @@ PRACTICE:
   - title
   - instruction
 - Both must be non-empty.
+- Both must be written in English.
 
 KEY TAKEAWAYS:
 
 - keyTakeaways must contain at least 3 items.
 - Every item must be a non-empty string.
+- All items must be written in English.
 
 DO NOT GENERATE:
 
@@ -218,7 +229,11 @@ Do not generate aiUpdate.
 
 Do not generate day, courseDate, or publishAt.
 
-Use only Telugu plus appropriate English/Latin technical terms and necessary proper names. Do not use other writing systems.
+Use natural, standard, simple English throughout the entire lesson.
+
+Use only English/Latin script and necessary standard technical terms or proper names.
+
+Do not use Telugu script or any other writing system.
 
 Return ONLY valid JSON.
 `;
