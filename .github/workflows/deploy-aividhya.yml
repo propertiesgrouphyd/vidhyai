@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PROJECT_NAME: vidhwaan-aividhya
+      PROJECT_NAME: vidhwaan-vidhyai
 
     steps:
 
