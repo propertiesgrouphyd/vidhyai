@@ -11,7 +11,6 @@ const MAX_ATTEMPTS = 3;
    CONTENT SCRIPT VALIDATION
 ============================================================ */
 
-const ALLOWED_SCRIPT_TELUGU = /\p{Script=Telugu}/u;
 const ALLOWED_SCRIPT_LATIN = /\p{Script=Latin}/u;
 const ALLOWED_SCRIPT_COMMON = /\p{Script=Common}/u;
 const ALLOWED_SCRIPT_INHERITED = /\p{Script=Inherited}/u;
@@ -23,7 +22,6 @@ function findUnsupportedScript(
   if (typeof value === "string") {
     for (const character of value) {
       if (
-        !ALLOWED_SCRIPT_TELUGU.test(character) &&
         !ALLOWED_SCRIPT_LATIN.test(character) &&
         !ALLOWED_SCRIPT_COMMON.test(character) &&
         !ALLOWED_SCRIPT_INHERITED.test(character)
@@ -301,7 +299,11 @@ function buildLessonAttemptPrompt(
 
 FINAL CORRECTION FOR THIS RETRY:
 
-Use natural, standard Telugu for the lesson. English/Latin technical terms are allowed where appropriate. Do not use any other writing system.
+Use natural, standard, simple English for the lesson.
+
+Use English/Latin script throughout the entire lesson.
+
+Do not use Telugu script or any other writing system.
 
 The previous lesson generation did not pass automated validation.
 
@@ -365,7 +367,11 @@ function buildMCQAttemptPrompt(
 
 FINAL CORRECTION FOR THIS RETRY:
 
-Use natural, standard Telugu for all MCQ text. English/Latin technical terms are allowed where appropriate. Do not use any other writing system.
+Use natural, standard, simple English for all MCQ text.
+
+Use English/Latin script throughout the entire MCQ content.
+
+Do not use Telugu script or any other writing system.
 
 The previous MCQ generation did not pass automated validation.
 
@@ -601,7 +607,7 @@ export async function generateLessonWithGroq(
           attemptPrompt,
           LESSON_SCHEMA,
           "vidhwaan_aividhya_lesson",
-          "You are VIDHWAAN AIVidhya's professional Telugu educational lesson generator. Generate natural, standard Telugu. English/Latin technical terms are allowed where appropriate; do not use any other writing system. Follow the JSON schema exactly. Never add extra fields. Never omit required fields. Do not generate MCQs, aiUpdate, day, courseDate, or publishAt."
+          "You are VIDHWAAN AIVidhya's professional English educational lesson generator. Generate natural, standard, simple English. Use English/Latin script throughout the lesson. Do not use Telugu script or any other writing system. Follow the JSON schema exactly. Never add extra fields. Never omit required fields. Do not generate MCQs, aiUpdate, day, courseDate, or publishAt."
         );
 
       const content =
@@ -682,7 +688,7 @@ export async function generateMCQsWithGroq(
           attemptPrompt,
           MCQ_SCHEMA,
           "vidhwaan_aividhya_mcqs",
-          "You are VIDHWAAN AIVidhya's professional Telugu examination-question generator. Generate exactly five high-quality MCQs in natural, standard Telugu based only on the supplied lesson. English/Latin technical terms are allowed where appropriate; do not use any other writing system. Follow the JSON schema exactly. Every MCQ must have exactly four options and exactly one correct answer. Never add extra fields."
+          "You are VIDHWAAN AIVidhya's professional English examination-question generator. Generate exactly five high-quality MCQs in natural, standard, simple English based only on the supplied lesson. Use English/Latin script throughout the MCQ content. Do not use Telugu script or any other writing system. Follow the JSON schema exactly. Every MCQ must have exactly four options and exactly one correct answer. Never add extra fields."
         );
 
       const content =
