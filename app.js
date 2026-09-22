@@ -8,7 +8,7 @@
 
   const COURSE = Object.freeze({
     totalDays: 365,
-    startDate: "2026-08-20",
+    startDate: "2026-09-22",
     publishHour: 6,
     timezone: "Asia/Kolkata",
     dataPath: "./data/"
