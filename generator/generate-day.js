@@ -273,9 +273,12 @@ provided below.
 
 LANGUAGE:
 
-- Write questions in natural, simple Telugu.
-- Use English technical terms in parentheses where useful.
-- Keep explanations in natural Telugu.
+- Write questions in natural, simple English.
+- Use standard English terminology.
+- Keep explanations in natural, simple English.
+- Use English/Latin script throughout.
+- Do not use Telugu script.
+- Do not use any other writing system.
 
 MCQ REQUIREMENTS:
 
@@ -309,15 +312,15 @@ Return ONLY this JSON structure:
 {
   "mcqs": [
     {
-      "question": "Telugu question",
+      "question": "English question",
       "options": [
-        "Telugu option A",
-        "Telugu option B",
-        "Telugu option C",
-        "Telugu option D"
+        "English option A",
+        "English option B",
+        "English option C",
+        "English option D"
       ],
       "answer": 0,
-      "explanation": "Short Telugu explanation"
+      "explanation": "Short English explanation"
     }
   ]
 }
