@@ -330,8 +330,8 @@
 
     if (!isDayUnlocked(dayNumber)) {
       showStatus(
-        "పాఠం ఇంకా అందుబాటులో లేదు",
-        "ఈ రోజు పాఠం ఉదయం 6:00 గంటలకు అందుబాటులోకి వస్తుంది."
+        "Lesson Not Available Yet",
+        "Today's lesson will be available at 6:00 AM."
       );
 
       return;
@@ -344,7 +344,7 @@
     el.lessonContainer.innerHTML = `
       <div class="lesson-loading">
         <div class="loading-spinner" aria-hidden="true"></div>
-        <p>పాఠం లోడ్ అవుతోంది...</p>
+        <p>Loading lesson...</p>
       </div>
     `;
 
@@ -395,8 +395,8 @@
       console.error(error);
 
       showStatus(
-        "పాఠం అందుబాటులో లేదు",
-        `Day ${dayNumber} కోసం పాఠం ఫైల్ ప్రస్తుతం అందుబాటులో లేదు.`
+        "Lesson Not Available",
+        `The lesson file for Day ${dayNumber} is currently unavailable.`
       );
     }
   }
@@ -816,7 +816,7 @@
           KEY TAKEAWAYS
         </div>
 
-        <h2>ఈ రోజు గుర్తుంచుకోవాల్సినవి</h2>
+        <h2>Key Takeaways</h2>
 
         <ul>
           ${takeaways
@@ -854,13 +854,13 @@
           </div>
 
           <h2>
-            మీ అవగాహనను పరీక్షించుకోండి
+            Test Your Understanding
           </h2>
 
           <p>
-            సరైన సమాధానాన్ని ఎంచుకోండి.
-            తప్పు సమాధానం ఎరుపుగా,
-            సరైన సమాధానం ఆకుపచ్చగా కనిపిస్తుంది.
+            Choose the correct answer.
+            The wrong answer appears in red
+            and the correct answer appears in green.
           </p>
 
         </div>
@@ -1032,7 +1032,7 @@
 
       feedback.innerHTML = `
         <div class="feedback-title">
-          ✓ సరైన సమాధానం
+          ✓ Correct Answer
         </div>
 
         ${
@@ -1072,11 +1072,11 @@
 
     feedback.innerHTML = `
       <div class="feedback-title">
-        ✕ ఇది సరైన సమాధానం కాదు
+        ✕ Incorrect Answer
       </div>
 
       <div class="feedback-correct">
-        ✓ సరైన సమాధానం:
+        ✓ Correct Answer:
         ${
           correctButton
             ? escapeHTML(
