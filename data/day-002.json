@@ -1,0 +1,140 @@
+{
+  "day": 2,
+  "courseDate": "2026-08-21",
+  "publishAt": "2026-08-21T06:00:00+05:30",
+  "title": "AI in Everyday Life",
+  "introduction": "This lesson shows how artificial intelligence is already part of the things we do every day, from searching online to using our phones.",
+  "sections": [
+    {
+      "heading": "AI in Online Search",
+      "subheading": "How search engines use AI to find information quickly",
+      "paragraphs": [
+        "Search engines like Google use AI to understand the words you type and to rank the most relevant pages.",
+        "The AI models look at many factors such as your location, recent trends, and the meaning of the query to give you fast results."
+      ],
+      "example": {
+        "title": "Finding a recipe with Google",
+        "content": "You type \"chocolate cake recipe\" and Google’s AI suggests a list of popular recipes, showing pictures and cooking steps within seconds."
+      }
+    },
+    {
+      "heading": "Recommendation Systems",
+      "subheading": "Personalized suggestions on videos, music, and shopping",
+      "paragraphs": [
+        "Websites and apps analyze your past behavior with AI to recommend new items you might like.",
+        "These systems learn patterns from many users, so they can suggest movies, songs, or products that match your taste."
+      ],
+      "example": {
+        "title": "YouTube video suggestions",
+        "content": "After watching a cooking video, YouTube’s AI shows more cooking videos and related recipes on your home page."
+      }
+    },
+    {
+      "heading": "Smart Navigation and Maps",
+      "subheading": "AI helps plan routes and avoid traffic",
+      "paragraphs": [
+        "Map apps use AI to predict traffic conditions and suggest the fastest route.",
+        "The AI continuously updates the route based on real‑time data from other drivers and road sensors."
+      ],
+      "example": {
+        "title": "Getting directions on Google Maps",
+        "content": "You ask for directions to a grocery store, and the app shows a route that avoids a traffic jam, updating it if the jam clears."
+      }
+    },
+    {
+      "heading": "AI in Smartphones and Cameras",
+      "subheading": "Voice assistants, photo enhancements, and predictive text",
+      "paragraphs": [
+        "Your phone’s AI can understand spoken commands, improve photos, and suggest the next word while you type.",
+        "These features work by learning from large data sets and from your own usage patterns."
+      ],
+      "example": {
+        "title": "Using Siri to set a reminder",
+        "content": "You say, \"Hey Siri, remind me to call Mom at 5 PM,\" and Siri records the reminder using natural‑language processing."
+      }
+    },
+    {
+      "heading": "AI in Banking and Shopping",
+      "subheading": "Automation and fraud detection in everyday transactions",
+      "paragraphs": [
+        "Banks use AI to spot unusual activity and protect your account from fraud.",
+        "Online stores use AI to show you products similar to what you have bought before, making shopping faster."
+      ],
+      "example": {
+        "title": "Credit‑card fraud alert",
+        "content": "Your bank’s AI detects a purchase in a different city and sends you an instant alert to confirm the transaction."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Spot AI Around You",
+    "instruction": "Look around your home, phone, or computer and write down three things that use AI, such as a voice assistant, a recommendation list, or a navigation app."
+  },
+  "keyTakeaways": [
+    "AI is present in many everyday tools like search engines, maps, and smartphones.",
+    "Recommendation systems use AI to suggest videos, music, and products based on your behavior.",
+    "AI helps keep transactions safe and makes navigation faster by learning from real‑time data."
+  ],
+  "mcqs": [
+    {
+      "question": "Which factor is NOT mentioned as something AI in search engines considers when ranking results?",
+      "options": [
+        "Your location",
+        "Recent trends",
+        "Weather conditions",
+        "The meaning of the query"
+      ],
+      "answer": 2,
+      "explanation": "The lesson lists location, recent trends, and query meaning, but does not mention weather as a factor."
+    },
+    {
+      "question": "How does a recommendation system improve its suggestions over time?",
+      "options": [
+        "By learning patterns from many users",
+        "By randomly picking items",
+        "By using fixed pre‑programmed lists",
+        "By analyzing only your own past behavior"
+      ],
+      "answer": 0,
+      "explanation": "The lesson explains that recommendation systems learn patterns from many users to suggest items that match your taste."
+    },
+    {
+      "question": "What does a map app do when it receives real‑time traffic data from other drivers?",
+      "options": [
+        "It ignores the data",
+        "It suggests the longest route",
+        "It updates the suggested route to avoid congestion",
+        "It shuts down"
+      ],
+      "answer": 2,
+      "explanation": "Map apps use AI to continuously update routes based on real‑time traffic information, helping you avoid jams."
+    },
+    {
+      "question": "Which of the following is an example of predictive text on a smartphone?",
+      "options": [
+        "Siri setting a reminder",
+        "Camera auto‑enhance",
+        "The phone suggesting the next word while you type",
+        "Voice call quality improvement"
+      ],
+      "answer": 2,
+      "explanation": "Predictive text refers to the AI feature that suggests the next word as you type, as described in the smartphone section."
+    },
+    {
+      "question": "In the banking example, what triggers the AI to send an alert to the user?",
+      "options": [
+        "A purchase in a different city",
+        "A purchase at the same store",
+        "Logging into the app",
+        "Changing your password"
+      ],
+      "answer": 0,
+      "explanation": "The lesson states that the bank’s AI detects unusual activity, such as a purchase in a different city, and sends an instant alert."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
