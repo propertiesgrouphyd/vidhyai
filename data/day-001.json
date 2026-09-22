@@ -1,0 +1,128 @@
+{
+  "day": 1,
+  "courseDate": "2026-08-20",
+  "publishAt": "2026-08-20T06:00:00+05:30",
+  "title": "What Is Artificial Intelligence?",
+  "introduction": "Artificial Intelligence (AI) is the idea that machines can do tasks that usually need human thinking. Understanding AI helps us see how technology works in our daily lives.",
+  "sections": [
+    {
+      "heading": "Defining Artificial Intelligence",
+      "subheading": "A simple description of AI",
+      "paragraphs": [
+        "AI means a computer or device can perform tasks that normally need human thought, like recognizing pictures or understanding speech.",
+        "It tries to act like a brain by learning from data and making decisions."
+      ],
+      "example": {
+        "title": "AI Definition Example",
+        "content": "When a phone suggests the next word while you type, it is using AI to predict your intention."
+      }
+    },
+    {
+      "heading": "Why It Is Called Intelligence",
+      "subheading": "AI mimics human thinking",
+      "paragraphs": [
+        "The word \"intelligence\" is used because the system can solve problems, learn, and adapt, similar to how people do.",
+        "It does not think like a human, but it can handle tasks that need reasoning."
+      ],
+      "example": {
+        "title": "Smart Assistant",
+        "content": "Siri understands spoken questions and gives answers, showing a form of machine intelligence."
+      }
+    },
+    {
+      "heading": "AI vs. Traditional Software",
+      "subheading": "Key differences in how they work",
+      "paragraphs": [
+        "Traditional software follows fixed rules written by programmers. AI systems learn patterns from data and improve over time.",
+        "Because AI learns, it can handle new situations that were not explicitly programmed."
+      ],
+      "example": {
+        "title": "Rule‑Based vs. Learning",
+        "content": "A calculator follows exact formulas, while an AI program can improve its answers by learning from past calculations."
+      }
+    },
+    {
+      "heading": "Everyday AI Examples",
+      "subheading": "Common AI you see every day",
+      "paragraphs": [
+        "Many apps use AI to recommend movies, music, or products based on your past choices.",
+        "Navigation apps predict traffic and suggest faster routes using AI analysis."
+      ],
+      "example": {
+        "title": "Shopping Recommendations",
+        "content": "Online stores show products you might like based on your browsing history, using AI to analyze patterns."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify AI Around You",
+    "instruction": "Look around your home or phone and write down three things that use AI, such as voice assistants, photo tagging, or navigation suggestions."
+  },
+  "keyTakeaways": [
+    "AI means machines can perform tasks that normally need human intelligence.",
+    "AI learns from data, unlike traditional software that follows fixed rules.",
+    "Simple AI tools like voice assistants and recommendation systems are part of everyday life."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main difference between AI systems and traditional software?",
+      "options": [
+        "AI follows fixed rules written by programmers",
+        "AI learns patterns from data and improves over time",
+        "AI cannot handle new situations",
+        "AI only works with images"
+      ],
+      "answer": 1,
+      "explanation": "AI systems learn from data and can adapt, while traditional software follows static, programmer‑written rules."
+    },
+    {
+      "question": "Which feature on a phone uses AI to predict the next word while you type?",
+      "options": [
+        "Spell checker",
+        "Autocorrect",
+        "Predictive text",
+        "Grammar checker"
+      ],
+      "answer": 2,
+      "explanation": "Predictive text analyzes your typing habits and uses AI to guess the word you intend to type next."
+    },
+    {
+      "question": "Why is the word \"intelligence\" used to describe AI systems?",
+      "options": [
+        "Because they can solve problems, learn, and adapt",
+        "Because they use electricity",
+        "Because they run faster than humans",
+        "Because they store large amounts of data"
+      ],
+      "answer": 0,
+      "explanation": "AI is called intelligence because it can reason, learn from experience, and adjust its behavior, similar to human thinking."
+    },
+    {
+      "question": "Which everyday application uses AI to suggest faster routes based on traffic conditions?",
+      "options": [
+        "Photo editor",
+        "Music player",
+        "Calculator",
+        "Navigation app"
+      ],
+      "answer": 3,
+      "explanation": "Navigation apps analyze real‑time traffic data with AI algorithms to recommend quicker routes."
+    },
+    {
+      "question": "According to the lesson, what is a key takeaway about AI compared to traditional software?",
+      "options": [
+        "AI learns from data while traditional software follows fixed rules",
+        "AI never needs data",
+        "Traditional software can adapt without new code",
+        "AI is only used in scientific labs"
+      ],
+      "answer": 0,
+      "explanation": "A central point is that AI learns from data, unlike traditional software that relies on pre‑written, unchanging rules."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
