@@ -8,7 +8,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: vidhwaan-aividhya-deploy
+  group: vidhwaan-vidhyai-deploy
   cancel-in-progress: true
 
 jobs:
