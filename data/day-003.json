@@ -1,0 +1,125 @@
+{
+  "day": 3,
+  "courseDate": "2026-08-22",
+  "publishAt": "2026-08-22T06:00:00+05:30",
+  "title": "Understanding Computers, Software, and AI: Key Differences",
+  "introduction": "This lesson explains how computers, software, and AI are related but different, helping beginners see what each part does in everyday life.",
+  "sections": [
+    {
+      "heading": "What Is a Computer?",
+      "subheading": "The physical machine that processes data",
+      "paragraphs": [
+        "A computer is a device made of electronic parts such as a processor, memory, and storage. It can receive input, perform calculations, and show output."
+      ],
+      "example": {
+        "title": "Home Desktop Example",
+        "content": "Your desktop computer has a monitor, keyboard, and a hard drive. When you click an icon, the hardware works together to run the program you selected."
+      }
+    },
+    {
+      "heading": "What Is Software?",
+      "subheading": "Instructions that tell the computer what to do",
+      "paragraphs": [
+        "Software is a set of coded instructions that runs on a computer. It tells the hardware how to process data and respond to users."
+      ],
+      "example": {
+        "title": "Word Processor Example",
+        "content": "Microsoft Word is software that lets you type, edit, and format text. The program runs on your computer’s hardware to display the document on the screen."
+      }
+    },
+    {
+      "heading": "Traditional Programs and Algorithms",
+      "subheading": "Step‑by‑step rules written by programmers",
+      "paragraphs": [
+        "A traditional program follows an explicit algorithm, which is a clear list of steps. The computer executes each step exactly as written."
+      ],
+      "example": {
+        "title": "Calculator Program Example",
+        "content": "A simple calculator app adds two numbers by following a fixed rule: read the numbers, add them, and show the result. It does not change its method."
+      }
+    },
+    {
+      "heading": "Automation vs. AI Systems",
+      "subheading": "How fixed rules differ from learning systems",
+      "paragraphs": [
+        "Automation uses rule‑based programs to perform repetitive tasks without human help. AI systems can learn patterns from data and improve over time, not just follow fixed rules."
+      ],
+      "example": {
+        "title": "Spam Filter Example",
+        "content": "A rule‑based spam filter blocks emails containing certain keywords. An AI‑based filter looks at many email features and learns to identify spam even when new words appear."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Hardware and Software",
+    "instruction": "Look around your room. Write down three items that are hardware (like a phone or laptop) and three that are software or apps you use (like a game or video‑calling app)."
+  },
+  "keyTakeaways": [
+    "A computer is the physical hardware that runs programs.",
+    "Software is the code that tells hardware how to work.",
+    "Traditional programs follow explicit, unchanging instructions.",
+    "AI systems can learn from data and adapt, unlike fixed rule‑based automation."
+  ],
+  "mcqs": [
+    {
+      "question": "Which part of a desktop computer is considered hardware?",
+      "options": [
+        "Monitor",
+        "Microsoft Word",
+        "Email server",
+        "Cloud storage"
+      ],
+      "answer": 0,
+      "explanation": "A monitor is a physical device that you can touch, making it hardware, while the other options are software or services."
+    },
+    {
+      "question": "Which characteristic distinguishes an AI‑based spam filter from a rule‑based filter?",
+      "options": [
+        "It uses fixed keywords",
+        "It requires manual updates",
+        "It blocks all emails",
+        "It learns from many email features"
+      ],
+      "answer": 3,
+      "explanation": "An AI‑based filter examines many features of emails and learns patterns, unlike a rule‑based filter that only looks for specific keywords."
+    },
+    {
+      "question": "In the calculator program example, what would happen if the program tried to add three numbers instead of two?",
+      "options": [
+        "It would automatically adjust to three numbers",
+        "It would ask the user for more input",
+        "It would still add only two numbers because the algorithm is fixed",
+        "It would crash"
+      ],
+      "answer": 2,
+      "explanation": "The program follows a fixed step‑by‑step algorithm that reads two numbers, adds them, and shows the result; it does not change its method."
+    },
+    {
+      "question": "What does the term \"algorithm\" refer to in a traditional program?",
+      "options": [
+        "A random guess",
+        "A set of explicit step‑by‑step rules",
+        "The computer's physical parts",
+        "The user interface design"
+      ],
+      "answer": 1,
+      "explanation": "An algorithm is a clear list of steps that the program follows exactly, which is the basis of traditional, rule‑based software."
+    },
+    {
+      "question": "Which of the following is an example of hardware?",
+      "options": [
+        "Hard drive",
+        "Microsoft Word",
+        "Spam filter software",
+        "AI model"
+      ],
+      "answer": 0,
+      "explanation": "A hard drive is a physical storage component inside a computer, while the other options are software."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
