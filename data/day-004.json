@@ -1,0 +1,128 @@
+{
+  "day": 4,
+  "courseDate": "2026-08-23",
+  "publishAt": "2026-08-23T06:00:00+05:30",
+  "title": "Why Was Artificial Intelligence Created?",
+  "introduction": "Understanding why AI was invented helps us see its purpose and how it fits into everyday life. This lesson explains the original goals, the problems people wanted machines to solve, and how the idea grew over time.",
+  "sections": [
+    {
+      "heading": "Early Dreams of Thinking Machines",
+      "subheading": "How humans first imagined intelligent devices",
+      "paragraphs": [
+        "Long ago, inventors imagined machines that could think like people. They wanted tools that could do work without constant human control.",
+        "These early ideas set the stage for modern AI, even though the technology was very simple at first."
+      ],
+      "example": {
+        "title": "Abacus to Early Computers",
+        "content": "The abacus helped people add numbers quickly. Later, early computers were built to perform calculations faster than any human could, showing the first step toward machines that solve problems automatically."
+      }
+    },
+    {
+      "heading": "The Goal: Solving Problems Automatically",
+      "subheading": "Why people wanted machines to help with hard tasks",
+      "paragraphs": [
+        "Scientists wanted computers to handle tasks that were too large or repetitive for people, such as complex math or data sorting.",
+        "By automating these tasks, humans could focus on creative and strategic work instead of routine calculations."
+      ],
+      "example": {
+        "title": "Calculating Large Numbers",
+        "content": "In the 1940s, the ENIAC computer was used to calculate artillery trajectories, a task that would take humans many hours. The computer solved it in minutes, demonstrating the power of automated problem solving."
+      }
+    },
+    {
+      "heading": "Recognizing Patterns and Language",
+      "subheading": "From simple rules to understanding speech",
+      "paragraphs": [
+        "Early AI programs tried to recognize patterns, like spotting repeated words in text or identifying simple shapes in images.",
+        "These pattern‑recognition abilities later grew into language processing, allowing machines to understand and generate human language."
+      ],
+      "example": {
+        "title": "Spam Filter Prototype",
+        "content": "A basic rule‑based filter looked for words like \"free\" or \"winner\" in emails. When those words appeared, the email was marked as spam, showing early pattern recognition for language."
+      }
+    },
+    {
+      "heading": "From Past to Present: Continuous Progress",
+      "subheading": "How early ideas grew into today’s AI",
+      "paragraphs": [
+        "Each generation of AI built on the previous one, adding more data, better algorithms, and faster computers.",
+        "Today’s AI, such as voice assistants and chatbots, are the result of decades of work that started with simple problem‑solving machines."
+      ],
+      "example": {
+        "title": "From Chess Programs to Chatbots",
+        "content": "The first chess programs could evaluate board positions using simple rules. Over time, similar techniques expanded to natural language, leading to modern chatbots that can hold conversations."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Everyday Tasks for Automation",
+    "instruction": "Write down three daily activities that could be helped by a simple computer program, such as reminding you of appointments or sorting emails."
+  },
+  "keyTakeaways": [
+    "AI was created to help humans solve difficult or repetitive problems automatically.",
+    "Early AI focused on pattern recognition and simple language rules, which later evolved into modern capabilities.",
+    "The development of AI is a long, continuous journey, not a sudden invention tied only to recent chatbots."
+  ],
+  "mcqs": [
+    {
+      "question": "What was one of the original goals of creating early computers like ENIAC?",
+      "options": [
+        "To play chess",
+        "To calculate artillery trajectories",
+        "To send emails",
+        "To stream video"
+      ],
+      "answer": 1,
+      "explanation": "ENIAC was built to compute artillery trajectories quickly, showing how machines could solve large, repetitive calculations faster than humans."
+    },
+    {
+      "question": "Which example best illustrates early AI's pattern‑recognition work?",
+      "options": [
+        "Filtering emails with words like \"free\"",
+        "Recognizing spoken commands",
+        "Predicting stock prices",
+        "Generating music"
+      ],
+      "answer": 0,
+      "explanation": "The early rule‑based spam filter looked for specific words, demonstrating simple pattern recognition in language."
+    },
+    {
+      "question": "Why did scientists want machines to handle large or repetitive tasks?",
+      "options": [
+        "To replace all human workers",
+        "To free humans for creative work",
+        "To make computers more expensive",
+        "To reduce the need for electricity"
+      ],
+      "answer": 1,
+      "explanation": "Automating tedious calculations let people focus on creative and strategic activities instead of routine work."
+    },
+    {
+      "question": "How did early AI programs develop into today’s voice assistants and chatbots?",
+      "options": [
+        "By adding more data, better algorithms, and faster computers",
+        "By using only the original simple rules",
+        "By removing pattern recognition",
+        "By focusing solely on hardware without software changes"
+      ],
+      "answer": 0,
+      "explanation": "Each generation built on the last with larger datasets, improved algorithms, and faster hardware, leading to modern conversational AI."
+    },
+    {
+      "question": "Which historical device is mentioned as a precursor to early computers because it helped people add numbers quickly?",
+      "options": [
+        "Slide rule",
+        "Abacus",
+        "Calculator",
+        "Turing machine"
+      ],
+      "answer": 1,
+      "explanation": "The abacus is cited as an early tool for fast addition, paving the way for later computing machines."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
