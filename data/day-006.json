@@ -1,0 +1,142 @@
+{
+  "day": 6,
+  "courseDate": "2026-08-25",
+  "publishAt": "2026-08-25T06:00:00+05:30",
+  "title": "What Is Data? Understanding Information for AI",
+  "introduction": "Data is the basic building block that AI uses to learn and make decisions. Knowing what data is and the many forms it can take helps you see how everyday information powers smart technologies.",
+  "sections": [
+    {
+      "heading": "Defining Data",
+      "subheading": "Data as raw information for computers",
+      "paragraphs": [
+        "Data means any piece of information that can be stored, processed, or transmitted by a computer.",
+        "It can be simple facts like a number or complex collections like a document."
+      ],
+      "example": {
+        "title": "Daily diary entry",
+        "content": "A text note you write on your phone is data that AI can read to understand language."
+      }
+    },
+    {
+      "heading": "Types of Text and Numerical Data",
+      "subheading": "Words, numbers, and structured records",
+      "paragraphs": [
+        "Text data includes words, sentences, and documents, while numerical data includes numbers, dates, and measurements.",
+        "Both types are easy for computers to store and analyze."
+      ],
+      "example": {
+        "title": "Shopping list",
+        "content": "A list of items with quantities is text and numeric data that AI can use to suggest purchases or organize groceries."
+      }
+    },
+    {
+      "heading": "Visual, Audio, and Video Data",
+      "subheading": "Images, sounds, and moving pictures as data",
+      "paragraphs": [
+        "Images are made of pixels, audio is made of sound waves, and video combines many images over time.",
+        "These formats let AI recognize faces, understand speech, and detect actions."
+      ],
+      "example": {
+        "title": "Photo of a cat",
+        "content": "The picture file contains pixel values that an AI model can analyze to identify the cat."
+      }
+    },
+    {
+      "heading": "Sensor and Real-World Data",
+      "subheading": "Measurements from devices and the environment",
+      "paragraphs": [
+        "Sensors collect data like temperature, humidity, and motion.",
+        "This real‑world data helps AI systems respond to changing conditions."
+      ],
+      "example": {
+        "title": "Smart thermostat reading",
+        "content": "Temperature numbers sent by a sensor are data that AI can use to control heating automatically."
+      }
+    },
+    {
+      "heading": "Why Data is Essential for AI",
+      "subheading": "Learning, predicting, and making decisions",
+      "paragraphs": [
+        "AI models learn patterns by looking at large amounts of data.",
+        "Without data, an AI cannot make accurate predictions or useful decisions."
+      ],
+      "example": {
+        "title": "Spam filter training",
+        "content": "Thousands of email texts are fed to an AI model so it learns to spot spam messages."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Data Around You",
+    "instruction": "Look around your room and write down at least five different pieces of data you see (e.g., a text message, a photo, a temperature reading). Note the type of each."
+  },
+  "keyTakeaways": [
+    "Data is any information that can be stored and processed by a computer.",
+    "AI systems need data to learn patterns and make predictions.",
+    "Data comes in many forms: text, numbers, images, audio, video, and sensor readings.",
+    "The quality and variety of data affect how well an AI works.",
+    "Everyday objects like photos, messages, and temperature readings are examples of data used by AI."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the most accurate definition of data according to the lesson?",
+      "options": [
+        "Any piece of information that can be stored, processed, or transmitted by a computer.",
+        "A program that runs on a computer.",
+        "A hardware component that powers a device.",
+        "A user interface for interacting with software."
+      ],
+      "answer": 0,
+      "explanation": "The lesson defines data as any information that a computer can store, process, or transmit."
+    },
+    {
+      "question": "Which of the following is an example of numerical data mentioned in the lesson?",
+      "options": [
+        "A photo of a cat.",
+        "A shopping list of items with quantities.",
+        "Temperature numbers sent by a sensor.",
+        "A spoken sentence recorded as audio."
+      ],
+      "answer": 2,
+      "explanation": "Temperature readings are numbers, and the lesson cites sensor temperature data as numerical data."
+    },
+    {
+      "question": "How does an AI model use image data such as a photo of a cat?",
+      "options": [
+        "By reading pixel values to identify objects in the picture.",
+        "By converting the pixels into sound waves.",
+        "By ignoring the pixel values and focusing only on the file name.",
+        "By treating the image as a block of text."
+      ],
+      "answer": 0,
+      "explanation": "Images are made of pixels; AI analyzes those pixel values to recognize objects like a cat."
+    },
+    {
+      "question": "Why are temperature sensor readings useful for a smart thermostat controlled by AI?",
+      "options": [
+        "They provide visual cues for the AI.",
+        "They give real‑world measurements that the AI can use to adjust heating.",
+        "They eliminate the need for any user input.",
+        "They are stored as audio files that the AI can play."
+      ],
+      "answer": 1,
+      "explanation": "Sensor data such as temperature gives the AI real‑world information needed to decide when to turn heating on or off."
+    },
+    {
+      "question": "Which of the following is NOT listed as a type of data in the lesson?",
+      "options": [
+        "Audio data",
+        "Video data",
+        "Geographic map data",
+        "Sensor data"
+      ],
+      "answer": 2,
+      "explanation": "The lesson mentions text, numeric, image, audio, video, and sensor data, but does not mention geographic map data."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
