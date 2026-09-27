@@ -1,0 +1,127 @@
+{
+  "day": 7,
+  "courseDate": "2026-08-26",
+  "publishAt": "2026-08-26T06:00:00+05:30",
+  "title": "Understanding AI Models",
+  "introduction": "In this lesson you will learn what an AI model is, how it learns from data, and how it is used to make predictions or generate results. Knowing the basics helps you see how many AI tools work.",
+  "sections": [
+    {
+      "heading": "What Is an AI Model?",
+      "subheading": "A simple definition of a model",
+      "paragraphs": [
+        "An AI model is a computer program that has learned patterns from data. It stores these patterns in a mathematical form so it can recognize similar situations later."
+      ],
+      "example": {
+        "title": "Spam filter model",
+        "content": "A spam filter model looks at many emails, learns which words and patterns appear in spam, and then decides if a new email is spam or not."
+      }
+    },
+    {
+      "heading": "How Models Learn From Data",
+      "subheading": "From examples to patterns",
+      "paragraphs": [
+        "During training, the model is shown many examples called training data. It adjusts its internal parameters to capture the regularities in that data.",
+        "When the training is finished, the model can apply what it has learned to new, unseen data."
+      ],
+      "example": {
+        "title": "Handwritten digit recognizer",
+        "content": "The model is trained on thousands of pictures of handwritten numbers. After training, it can correctly label a new picture of a digit it has never seen before."
+      }
+    },
+    {
+      "heading": "Using Models for Predictions",
+      "subheading": "Turning learned patterns into answers",
+      "paragraphs": [
+        "A trained model can make predictions, such as estimating a future value, or classifications, such as labeling an item into a category.",
+        "Some models can also generate new content, like writing a short paragraph or creating an image."
+      ],
+      "example": {
+        "title": "Weather forecast model",
+        "content": "The model looks at past temperature, humidity, and pressure data, learns the patterns, and predicts tomorrow's temperature."
+      }
+    },
+    {
+      "heading": "Models vs. AI Applications",
+      "subheading": "Difference between the engine and the tool",
+      "paragraphs": [
+        "The model is the core engine that contains learned knowledge. An AI application is the software that uses the model to provide a service to users.",
+        "An application may combine several models and add user interfaces, but the model itself is just the learned pattern recognizer."
+      ],
+      "example": {
+        "title": "Voice assistant app",
+        "content": "A voice assistant uses a speech‑recognition model to turn spoken words into text, then another language‑understanding model to decide what action to take."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the Model in Everyday Tools",
+    "instruction": "Think of three tools you use daily (for example, a phone camera, a music recommendation service, or a navigation app). Write down the type of AI model each tool might contain, such as an image‑recognition model, a recommendation model, or a routing model."
+  },
+  "keyTakeaways": [
+    "An AI model is a learned mathematical representation of patterns in data.",
+    "Training data teaches the model how to recognize or predict new examples.",
+    "A model is the engine; an AI application is the user‑facing product that uses one or more models."
+  ],
+  "mcqs": [
+    {
+      "question": "What best describes an AI model?",
+      "options": [
+        "A computer program that stores patterns learned from data",
+        "A hardware device that processes user input",
+        "A database of raw data",
+        "A user interface for an app"
+      ],
+      "answer": 0,
+      "explanation": "An AI model is a software component that has learned mathematical patterns from data and uses them to recognize similar situations."
+    },
+    {
+      "question": "During training, what does the model adjust?",
+      "options": [
+        "The number of users",
+        "Its internal parameters",
+        "The color scheme of the app",
+        "The network bandwidth"
+      ],
+      "answer": 1,
+      "explanation": "Training changes the model's internal parameters (weights) so it can capture regularities in the training data."
+    },
+    {
+      "question": "Which example shows a model used for generation rather than classification?",
+      "options": [
+        "Spam filter model",
+        "Weather forecast model",
+        "Handwritten digit recognizer",
+        "A text‑generation model that writes a paragraph"
+      ],
+      "answer": 3,
+      "explanation": "Generation models create new content, such as writing a paragraph, while the other examples mainly classify or predict existing data."
+    },
+    {
+      "question": "In the voice‑assistant example, which component is the model?",
+      "options": [
+        "The microphone hardware",
+        "The speech‑recognition model",
+        "The screen display",
+        "The battery"
+      ],
+      "answer": 1,
+      "explanation": "The speech‑recognition model processes spoken words into text; it is the learned pattern recognizer, not the hardware or UI."
+    },
+    {
+      "question": "Which statement correctly differentiates a model from an AI application?",
+      "options": [
+        "A model is the user‑facing product",
+        "An application contains the learned knowledge",
+        "A model is the core engine that holds learned patterns",
+        "An application is a type of training data"
+      ],
+      "answer": 2,
+      "explanation": "The model is the engine that stores learned patterns, while an AI application is the software that uses one or more models to provide a service."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
