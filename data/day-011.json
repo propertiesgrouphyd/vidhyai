@@ -1,0 +1,129 @@
+{
+  "day": 11,
+  "courseDate": "2026-08-30",
+  "publishAt": "2026-08-30T06:00:00+05:30",
+  "title": "Understanding Supervised, Unsupervised and Reinforcement Learning",
+  "introduction": "This lesson explains the three main ways machines learn from data. Knowing the differences helps you choose the right method for a problem.",
+  "sections": [
+    {
+      "heading": "Supervised Learning",
+      "subheading": "Learning from labeled examples",
+      "paragraphs": [
+        "In supervised learning the data comes with correct answers, called labels. The model learns to map inputs to these labels.",
+        "It is like a student who practices with solved math problems and learns the pattern to solve new ones."
+      ],
+      "example": {
+        "title": "Spam Email Detection",
+        "content": "A system is trained with emails marked as \"spam\" or \"not spam\". After learning, it can classify new emails correctly."
+      }
+    },
+    {
+      "heading": "Unsupervised Learning",
+      "subheading": "Finding hidden patterns without labels",
+      "paragraphs": [
+        "Unsupervised learning works with data that has no labels. The goal is to discover structure, such as groups or similarities.",
+        "It is similar to sorting a mixed pile of stones by size or color without being told the categories."
+      ],
+      "example": {
+        "title": "Customer Segmentation",
+        "content": "A retailer groups shoppers based on purchase behavior. No prior categories exist, but the algorithm finds natural clusters."
+      }
+    },
+    {
+      "heading": "Reinforcement Learning",
+      "subheading": "Learning through actions, feedback and rewards",
+      "paragraphs": [
+        "In reinforcement learning an agent interacts with an environment, takes actions, and receives rewards or penalties. Over time it learns actions that give the highest total reward.",
+        "Think of a child learning to ride a bike: each successful balance is a reward, each fall is a penalty, guiding future attempts."
+      ],
+      "example": {
+        "title": "Game Playing AI",
+        "content": "A computer learns to play chess by playing many games, receiving positive feedback for winning moves and negative feedback for losing moves."
+      }
+    },
+    {
+      "heading": "Comparing the Three Approaches",
+      "subheading": "When to use each learning type",
+      "paragraphs": [
+        "Supervised learning is best when you have many examples with correct answers, such as image classification with labeled pictures.",
+        "Unsupervised learning shines when you want to explore data without predefined categories, like discovering topics in a collection of articles.",
+        "Reinforcement learning fits problems where decisions affect future outcomes, such as robot navigation or recommendation systems that adapt over time."
+      ],
+      "example": {
+        "title": "Choosing a Learning Method for a New App",
+        "content": "If the app predicts user age from profile data, use supervised learning with age labels. If it groups users by behavior without known groups, use unsupervised learning. If it suggests actions that improve user engagement and learns from clicks, use reinforcement learning."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the Learning Type",
+    "instruction": "Read each short scenario and write down whether it uses supervised, unsupervised, or reinforcement learning."
+  },
+  "keyTakeaways": [
+    "Supervised learning needs labeled data to predict outcomes.",
+    "Unsupervised learning discovers patterns without any labels.",
+    "Reinforcement learning learns by trial, error, and rewards from the environment."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main requirement that distinguishes supervised learning from unsupervised learning?",
+      "options": [
+        "Labeled training data with correct answers",
+        "Ability to interact with an environment",
+        "Need to discover hidden clusters",
+        "Learning without any feedback"
+      ],
+      "answer": 0,
+      "explanation": "Supervised learning relies on data that already includes the correct output (labels) for each input."
+    },
+    {
+      "question": "Which learning approach is most suitable for grouping shoppers into segments when no prior categories are known?",
+      "options": [
+        "Supervised learning",
+        "Reinforcement learning",
+        "Unsupervised learning",
+        "Semi‑supervised learning"
+      ],
+      "answer": 2,
+      "explanation": "Unsupervised learning discovers natural groupings or clusters in data without using predefined labels."
+    },
+    {
+      "question": "In reinforcement learning, what does the agent receive after taking an action in the environment?",
+      "options": [
+        "A set of feature vectors",
+        "A reward or penalty signal",
+        "A label indicating the correct action",
+        "A cluster assignment"
+      ],
+      "answer": 1,
+      "explanation": "The agent gets a reward (positive) or penalty (negative) that tells it how good the action was."
+    },
+    {
+      "question": "Which of the following problems is best solved using supervised learning?",
+      "options": [
+        "Discovering topics in a set of articles",
+        "Teaching a robot to balance by trial and error",
+        "Grouping images without any tags",
+        "Predicting house prices from historical sales data"
+      ],
+      "answer": 3,
+      "explanation": "Predicting house prices uses past examples with known prices (labels), which fits supervised learning."
+    },
+    {
+      "question": "A game‑playing AI improves its moves by playing many games and receiving feedback for wins and losses. Which learning type does this describe?",
+      "options": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Transfer learning"
+      ],
+      "answer": 2,
+      "explanation": "The AI learns from trial‑and‑error, receiving rewards for winning moves and penalties for losing moves, which is reinforcement learning."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
