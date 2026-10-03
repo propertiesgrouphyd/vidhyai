@@ -65,7 +65,7 @@ jobs:
           npm run validate
 
           node --input-type=module <<'NODE'
-          import fs from "fs";
+          import fs from "node:fs";
 
           const required = [
             "index.html",
@@ -326,6 +326,153 @@ jobs:
 
 
       # ==========================================
+      # FINAL SINGLE-LINE PRODUCTION FILES
+      # ==========================================
+
+      - name: Make Final Production Files Single Line
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+
+          const textFiles = [
+            "dist/index.html",
+            "dist/main.css",
+            "dist/app.js",
+            "dist/sw.js"
+          ];
+
+          for (const file of textFiles) {
+            if (!fs.existsSync(file)) {
+              throw new Error(`Missing production file: ${file}`);
+            }
+
+            const content = fs
+              .readFileSync(file, "utf8")
+              .replace(/\r?\n|\r/g, "")
+              .trim();
+
+            fs.writeFileSync(file, content, "utf8");
+
+            console.log(`Single-line: ${file}`);
+          }
+
+          const manifestFile = "dist/manifest.json";
+
+          if (!fs.existsSync(manifestFile)) {
+            throw new Error(
+              `Missing production file: ${manifestFile}`
+            );
+          }
+
+          const manifest = JSON.parse(
+            fs.readFileSync(manifestFile, "utf8")
+          );
+
+          fs.writeFileSync(
+            manifestFile,
+            JSON.stringify(manifest),
+            "utf8"
+          );
+
+          console.log(`Single-line: ${manifestFile}`);
+
+          const dataDir = "dist/data";
+
+          if (fs.existsSync(dataDir)) {
+            for (const file of fs.readdirSync(dataDir)) {
+
+              if (!file.endsWith(".dat")) {
+                continue;
+              }
+
+              const filePath = `${dataDir}/${file}`;
+
+              const content = fs
+                .readFileSync(filePath, "utf8")
+                .replace(/\r?\n|\r/g, "")
+                .trim();
+
+              fs.writeFileSync(
+                filePath,
+                content,
+                "utf8"
+              );
+
+              console.log(`Single-line: ${filePath}`);
+            }
+          }
+          NODE
+
+
+      # ==========================================
+      # VERIFY SINGLE-LINE FILES
+      # ==========================================
+
+      - name: Verify Single-Line Production Files
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from "node:fs";
+
+          const files = [
+            "dist/index.html",
+            "dist/main.css",
+            "dist/app.js",
+            "dist/sw.js",
+            "dist/manifest.json"
+          ];
+
+          const dataDir = "dist/data";
+
+          if (fs.existsSync(dataDir)) {
+            for (const file of fs.readdirSync(dataDir)) {
+              if (file.endsWith(".dat")) {
+                files.push(`${dataDir}/${file}`);
+              }
+            }
+          }
+
+          for (const file of files) {
+            if (!fs.existsSync(file)) {
+              throw new Error(
+                `Missing production file: ${file}`
+              );
+            }
+
+            const content = fs.readFileSync(
+              file,
+              "utf8"
+            );
+
+            if (/[\r\n]/.test(content)) {
+              throw new Error(
+                `Production file is not single-line: ${file}`
+              );
+            }
+
+            console.log(
+              `✓ Single-line: ${file}`
+            );
+          }
+
+          console.log(
+            `Single-line verification: PASSED (${files.length} files)`
+          );
+          NODE
+
+
+      # ==========================================
+      # FINAL JAVASCRIPT VALIDATION
+      # ==========================================
+
+      - name: Validate Final JavaScript
+        run: |
+          node --check dist/app.js
+          node --check dist/sw.js
+
+          echo "Final JavaScript validation: PASSED"
+
+
+      # ==========================================
       # VERIFY PRODUCTION BUILD
       # ==========================================
 
@@ -380,7 +527,8 @@ jobs:
             dist/index.html \
             dist/main.css \
             dist/app.js \
-            dist/sw.js
+            dist/sw.js \
+            dist/manifest.json
 
           echo
           echo "=============================================="
@@ -453,6 +601,9 @@ jobs:
           echo "✓ Lesson JSON AES-256-GCM protected"
           echo "✓ Plain JSON excluded from dist"
           echo "✓ Only .dat lesson files deployed"
+          echo "✓ Final text production files are single-line"
+          echo "✓ Single-line files verified"
+          echo "✓ Final JavaScript syntax verified"
           echo "✓ Cache busting enabled"
           echo "✓ PWA service worker preserved"
           echo "✓ GitHub Pages deployment complete"
