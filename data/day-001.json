@@ -1,0 +1,128 @@
+{
+  "day": 1,
+  "courseDate": "2026-10-05",
+  "publishAt": "2026-10-05T06:00:00+05:30",
+  "title": "What Is Artificial Intelligence?",
+  "introduction": "Artificial Intelligence, or AI, is the idea that machines can do tasks that usually need human thinking. Knowing what AI is helps us see how technology works in our daily lives.",
+  "sections": [
+    {
+      "heading": "Defining Artificial Intelligence",
+      "subheading": "A simple description of AI",
+      "paragraphs": [
+        "Artificial Intelligence is a field of computer science that aims to create machines that can perform tasks that normally require human intelligence, such as recognizing speech or making decisions.",
+        "In simple terms, AI tries to give computers the ability to think, learn, and solve problems like a person would."
+      ],
+      "example": {
+        "title": "AI in a smartphone",
+        "content": "When your phone suggests the next word while you type, it uses AI to predict what you might want to write."
+      }
+    },
+    {
+      "heading": "Why AI Is Called Intelligence",
+      "subheading": "How machines mimic human thinking",
+      "paragraphs": [
+        "AI is called intelligence because it can process information, learn from experience, and make choices without being explicitly programmed for each situation.",
+        "This ability to adapt and improve over time is similar to how humans learn from practice and feedback."
+      ],
+      "example": {
+        "title": "Voice assistant understanding commands",
+        "content": "Siri or Google Assistant listens to your voice, interprets the request, and replies, showing a form of machine intelligence."
+      }
+    },
+    {
+      "heading": "AI vs. Traditional Software",
+      "subheading": "Key differences in how they work",
+      "paragraphs": [
+        "Traditional software follows fixed rules written by programmers. It does exactly what the code tells it to do, no more, no less.",
+        "AI, on the other hand, can learn patterns from data and change its behavior, allowing it to handle new situations it was not directly programmed for."
+      ],
+      "example": {
+        "title": "Spam filter comparison",
+        "content": "A rule‑based filter blocks emails containing certain words, while an AI spam filter learns from many emails to spot new spam patterns automatically."
+      }
+    },
+    {
+      "heading": "Everyday Examples of AI",
+      "subheading": "AI you see in daily life",
+      "paragraphs": [
+        "AI appears in many common tools, such as recommendation engines that suggest movies or products based on your past choices.",
+        "It also powers features like photo tagging, navigation route optimization, and language translation, making everyday tasks easier."
+      ],
+      "example": {
+        "title": "Recommendation systems",
+        "content": "Netflix suggests movies based on what you have watched before, using AI to find patterns and predict what you might like next."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify AI around you",
+    "instruction": "Look around your home or phone and write down three things that use AI, such as a voice assistant, photo tagging, or navigation suggestions."
+  },
+  "keyTakeaways": [
+    "AI means machines can perform tasks that normally need human intelligence.",
+    "AI differs from regular software because it can learn and improve from data.",
+    "Simple AI examples include voice assistants, predictive text, and recommendation systems."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main goal of artificial intelligence as described in the lesson?",
+      "options": [
+        "To make computers faster",
+        "To enable machines to perform tasks that normally require human intelligence",
+        "To replace all human workers",
+        "To store large amounts of data"
+      ],
+      "answer": 1,
+      "explanation": "The lesson states that AI aims to create machines that can perform tasks that normally need human intelligence, such as speech recognition or decision making."
+    },
+    {
+      "question": "Why is AI called \"intelligence\" according to the lesson?",
+      "options": [
+        "Because it follows fixed rules written by programmers",
+        "Because it can process information, learn from experience, and make choices without being explicitly programmed for each situation",
+        "Because it only works with voice commands",
+        "Because it never makes mistakes"
+      ],
+      "answer": 1,
+      "explanation": "AI is called intelligence because it can learn from data, adapt, and make decisions, similar to how humans learn from practice and feedback."
+    },
+    {
+      "question": "Which statement best describes a key difference between traditional software and AI?",
+      "options": [
+        "Traditional software can learn from data",
+        "AI follows fixed rules only",
+        "Traditional software follows fixed rules written by programmers",
+        "AI cannot handle new situations"
+      ],
+      "answer": 2,
+      "explanation": "Traditional software executes exactly the rules given by programmers, while AI can learn patterns from data and adjust its behavior."
+    },
+    {
+      "question": "Which everyday application uses AI to suggest movies or products based on past choices?",
+      "options": [
+        "Netflix recommendation system",
+        "A basic photo viewer",
+        "A digital clock",
+        "A calculator"
+      ],
+      "answer": 0,
+      "explanation": "The lesson gives the example of Netflix using AI to analyze viewing history and predict movies you might like."
+    },
+    {
+      "question": "According to the key takeaways, which of the following is NOT listed as a simple AI example?",
+      "options": [
+        "Voice assistants",
+        "Predictive text",
+        "Recommendation systems",
+        "Spreadsheet formulas"
+      ],
+      "answer": 3,
+      "explanation": "The lesson lists voice assistants, predictive text, and recommendation systems as simple AI examples; spreadsheet formulas are not mentioned."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
