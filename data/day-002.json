@@ -1,0 +1,128 @@
+{
+  "day": 2,
+  "courseDate": "2026-10-06",
+  "publishAt": "2026-10-06T06:00:00+05:30",
+  "title": "AI in Everyday Life",
+  "introduction": "Artificial Intelligence is already part of many daily activities. Knowing where AI works helps you understand the technology better and use it wisely.",
+  "sections": [
+    {
+      "heading": "AI in Search Engines",
+      "subheading": "How your queries are understood and answered",
+      "paragraphs": [
+        "When you type a question, AI models analyze the words and predict the most relevant results. The system learns from billions of past searches to improve accuracy.",
+        "Search engines also rank pages using AI algorithms that consider relevance, freshness, and user behavior."
+      ],
+      "example": {
+        "title": "Google Search Suggestion",
+        "content": "As you start typing \"best pizza\", Google shows suggestions like \"best pizza near me\" based on popular recent searches and your location."
+      }
+    },
+    {
+      "heading": "Recommendation Systems",
+      "subheading": "Personalized suggestions on shopping and media platforms",
+      "paragraphs": [
+        "Online stores and streaming services use AI to recommend products or videos that match your interests. The algorithm looks at what you and similar users liked before.",
+        "These recommendations update continuously as you interact more with the platform."
+      ],
+      "example": {
+        "title": "Netflix Movie Recommendations",
+        "content": "After watching a comedy, Netflix suggests other comedies and shows with similar humor, using AI to compare your viewing history with other users."
+      }
+    },
+    {
+      "heading": "AI in Navigation and Maps",
+      "subheading": "Smart routing, traffic prediction, and place discovery",
+      "paragraphs": [
+        "Map apps use AI to calculate the fastest route by analyzing real‑time traffic data, road closures, and historical patterns.",
+        "AI also suggests nearby restaurants or attractions based on your preferences and current location."
+      ],
+      "example": {
+        "title": "Google Maps Live Traffic",
+        "content": "When you request directions, Google Maps shows colored lines indicating traffic speed and may reroute you to avoid congestion, all powered by AI models."
+      }
+    },
+    {
+      "heading": "AI in Smartphones and Everyday Apps",
+      "subheading": "Voice assistants, camera features, and banking automation",
+      "paragraphs": [
+        "Your phone’s voice assistant understands spoken commands using natural language processing, an AI technique.",
+        "Camera apps use AI to enhance photos, detect scenes, and apply filters automatically. Banking apps use AI to detect fraud and suggest budgeting tips."
+      ],
+      "example": {
+        "title": "Smartphone Camera Night Mode",
+        "content": "When you take a photo in low light, the camera AI combines multiple exposures to brighten the image while reducing noise."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Spot the AI Around You",
+    "instruction": "Look at the devices and apps you use today. Write down three services that use AI and note what they help you do, such as finding information, recommending items, or improving safety."
+  },
+  "keyTakeaways": [
+    "AI powers search engines, helping them understand and rank your queries.",
+    "Recommendation systems use AI to suggest products, movies, and music you may like.",
+    "Navigation apps rely on AI for real‑time traffic updates and route optimization."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main role of AI in search engines when you type a query?",
+      "options": [
+        "To store your personal data for later use",
+        "To analyze the words and predict the most relevant results",
+        "To translate the query into another language automatically",
+        "To block advertisements on the results page"
+      ],
+      "answer": 1,
+      "explanation": "AI models examine the words in the query and predict which web pages are most relevant based on past search data."
+    },
+    {
+      "question": "Which of the following is NOT typically considered by AI algorithms when ranking search results?",
+      "options": [
+        "Relevance of the content",
+        "Freshness of the page",
+        "User behavior on the site",
+        "The color of the website's logo"
+      ],
+      "answer": 3,
+      "explanation": "The color of a website’s logo is not a factor used by search ranking algorithms; they focus on relevance, freshness, and user behavior."
+    },
+    {
+      "question": "How does a recommendation system decide what movie to suggest next?",
+      "options": [
+        "It selects a movie at random",
+        "It only shows the most recent releases",
+        "It compares your viewing history with that of similar users",
+        "It chooses movies based on the length of their titles"
+      ],
+      "answer": 2,
+      "explanation": "Recommendation systems compare your past behavior with that of similar users to find items you are likely to enjoy."
+    },
+    {
+      "question": "Why might a navigation app suggest a different route during a trip?",
+      "options": [
+        "It uses AI to analyze real‑time traffic and historical patterns to avoid congestion",
+        "It always chooses the shortest distance regardless of traffic conditions",
+        "It selects routes based on the user’s favorite colors",
+        "It randomly changes routes to keep the journey interesting"
+      ],
+      "answer": 0,
+      "explanation": "Navigation AI continuously processes live traffic information and past patterns to suggest faster routes and avoid jams."
+    },
+    {
+      "question": "Which AI technique allows a smartphone voice assistant to understand spoken commands?",
+      "options": [
+        "Image recognition",
+        "Natural language processing",
+        "Genetic algorithms",
+        "Quantum computing"
+      ],
+      "answer": 1,
+      "explanation": "Voice assistants use natural language processing, an AI method that interprets spoken language into commands."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
