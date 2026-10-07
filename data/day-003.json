@@ -1,0 +1,128 @@
+{
+  "day": 3,
+  "courseDate": "2026-10-07",
+  "publishAt": "2026-10-07T06:00:00+05:30",
+  "title": "Computers, Software and AI: Understanding the Differences",
+  "introduction": "This lesson explains what a computer is, what software does, how traditional programs work, and how AI systems are different. Knowing these basics helps you see how everyday technology works.",
+  "sections": [
+    {
+      "heading": "What Is a Computer?",
+      "subheading": "Hardware that processes data",
+      "paragraphs": [
+        "A computer is a physical machine made of electronic parts. It can store, retrieve, and process information quickly.",
+        "The main hardware parts are the CPU (brain), memory (short‑term storage), and storage devices like hard drives or SSDs (long‑term storage)."
+      ],
+      "example": {
+        "title": "Home Desktop Example",
+        "content": "A typical home desktop has a CPU, RAM, a hard drive, a monitor, keyboard, and mouse. All these parts work together to run programs."
+      }
+    },
+    {
+      "heading": "Understanding Software",
+      "subheading": "Instructions that tell the computer what to do",
+      "paragraphs": [
+        "Software is a set of instructions that tells the hardware how to perform tasks. It can be an app, a game, or a system program.",
+        "Software does not have a physical form; it exists as code stored on the computer’s storage and runs when needed."
+      ],
+      "example": {
+        "title": "Word Processor",
+        "content": "Microsoft Word is software that lets you type, edit, and format documents. The hardware runs the Word program to display text on the screen."
+      }
+    },
+    {
+      "heading": "Traditional Programs and Automation",
+      "subheading": "Rule‑based instructions that follow a set path",
+      "paragraphs": [
+        "Traditional programs follow explicit steps written by a programmer. They execute the same way every time given the same input.",
+        "Automation uses these rule‑based programs to perform repetitive tasks without human help."
+      ],
+      "example": {
+        "title": "Thermostat Automation",
+        "content": "A programmable thermostat turns heating on when the room temperature falls below 20°C and turns it off when it rises above 22°C. The rules are fixed and do not change."
+      }
+    },
+    {
+      "heading": "How AI Systems Differ",
+      "subheading": "Learning from data instead of fixed rules",
+      "paragraphs": [
+        "AI systems use data to learn patterns and make decisions. They are not limited to a single set of hard‑coded rules.",
+        "When new data is added, an AI model can improve its performance, unlike traditional programs that stay the same unless rewritten."
+      ],
+      "example": {
+        "title": "Voice Assistant",
+        "content": "A voice assistant like Siri learns from many voice recordings. Over time it gets better at understanding different accents and new words."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Classify the Example",
+    "instruction": "Look at each item below and decide if it is hardware, traditional software, or an AI system. Write your answer for each: (1) A laptop computer, (2) A calculator app, (3) A spam‑filter that improves over time."
+  },
+  "keyTakeaways": [
+    "A computer is the physical hardware that runs programs.",
+    "Software is a set of instructions that tell hardware what to do.",
+    "AI systems learn from data and can change their behavior, unlike fixed rule‑based programs."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the primary function of the CPU in a computer?",
+      "options": [
+        "It stores long‑term data",
+        "It displays graphics on the monitor",
+        "It processes instructions as the computer's brain",
+        "It provides power to the system"
+      ],
+      "answer": 2,
+      "explanation": "The CPU (Central Processing Unit) executes instructions and performs calculations, acting as the brain of the computer."
+    },
+    {
+      "question": "How does a traditional program behave when given the same input multiple times?",
+      "options": [
+        "It produces the same output each time",
+        "It changes its output each time",
+        "It learns from the input and improves",
+        "It randomly decides what to do"
+      ],
+      "answer": 0,
+      "explanation": "Traditional programs follow fixed, rule‑based instructions, so identical inputs always lead to identical outputs."
+    },
+    {
+      "question": "Which of the following examples best illustrates an AI system?",
+      "options": [
+        "A programmable thermostat that turns heating on or off",
+        "A voice assistant that learns from many recordings",
+        "A hard‑drive that stores files",
+        "A word processor used to edit documents"
+      ],
+      "answer": 1,
+      "explanation": "A voice assistant learns from data (voice recordings) and improves over time, which is characteristic of AI systems."
+    },
+    {
+      "question": "What is the main difference between AI systems and traditional software?",
+      "options": [
+        "AI systems can be rewritten easily",
+        "AI systems use fixed rule sets",
+        "AI systems improve performance when new data is added",
+        "AI systems require no hardware"
+      ],
+      "answer": 2,
+      "explanation": "AI models are trained on data; adding new data lets them learn new patterns and become better, unlike fixed rule‑based programs."
+    },
+    {
+      "question": "In the practice classification, which item is hardware?",
+      "options": [
+        "Calculator app",
+        "Spam‑filter that improves over time",
+        "Voice assistant",
+        "Laptop computer"
+      ],
+      "answer": 3,
+      "explanation": "A laptop computer is a physical machine made of electronic parts, which classifies it as hardware."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
