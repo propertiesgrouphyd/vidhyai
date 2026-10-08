@@ -1,0 +1,146 @@
+{
+  "day": 4,
+  "courseDate": "2026-10-08",
+  "publishAt": "2026-10-08T06:00:00+05:30",
+  "title": "Why Was Artificial Intelligence Created?",
+  "introduction": "Understanding why AI was invented helps us see its purpose and how it can help solve real problems in everyday life.",
+  "sections": [
+    {
+      "heading": "The Need to Solve Problems",
+      "subheading": "How humans wanted machines to help with difficult tasks",
+      "paragraphs": [
+        "People have always faced problems that are hard or time‑consuming to solve by hand.",
+        "Early computers were built to perform calculations and logical steps much faster than a person could.",
+        "These machines opened the idea that a machine could think about a problem and find a solution."
+      ],
+      "example": {
+        "title": "Calculating Large Numbers",
+        "content": "In the 1940s, scientists created electronic computers to quickly solve complex equations for physics and engineering, tasks that were too slow to do manually."
+      }
+    },
+    {
+      "heading": "Recognizing Patterns",
+      "subheading": "Why spotting regularities mattered for machines",
+      "paragraphs": [
+        "Humans notice patterns in data, like shapes, sounds, or trends, and use them to make decisions.",
+        "Early AI researchers wanted computers to detect such patterns automatically.",
+        "Pattern recognition is the basis for many modern AI applications such as image and speech analysis."
+      ],
+      "example": {
+        "title": "Handwritten Digit Recognition",
+        "content": "Researchers taught simple programs to identify handwritten numbers, a skill humans perform effortlessly, showing machines could learn visual patterns."
+      }
+    },
+    {
+      "heading": "Understanding Language",
+      "subheading": "The goal of making machines communicate with people",
+      "paragraphs": [
+        "Language lets us share ideas, but it is complex for computers to interpret.",
+        "Early AI work focused on translating words and answering simple questions.",
+        "If a machine can understand language, it can assist people in many daily tasks."
+      ],
+      "example": {
+        "title": "Machine Translation",
+        "content": "In the 1950s, basic programs were built to translate word lists between English and Russian, aiming to break language barriers."
+      }
+    },
+    {
+      "heading": "Automating Repetitive Tasks",
+      "subheading": "Saving time by letting machines handle routine work",
+      "paragraphs": [
+        "Many jobs involve repetitive steps that can be tiring or error‑prone for humans.",
+        "AI and robotics were introduced to perform these steps consistently and quickly.",
+        "Automation frees people to focus on creative or strategic work."
+      ],
+      "example": {
+        "title": "Assembly Line Robots",
+        "content": "Factories added robots to weld, paint, and assemble parts, reducing human labor and increasing production speed."
+      }
+    },
+    {
+      "heading": "AI Did Not Appear Suddenly",
+      "subheading": "A brief look at the long history before modern chatbots",
+      "paragraphs": [
+        "The idea of thinking machines dates back centuries, but practical work began in the mid‑20th century.",
+        "Programs like the Logic Theorist (1956) could prove mathematical theorems, showing early AI reasoning.",
+        "These early experiments paved the way for today’s sophisticated models, so AI grew gradually over decades."
+      ],
+      "example": {
+        "title": "Early AI Programs",
+        "content": "The Logic Theorist and ELIZA were early software that demonstrated problem solving and simple conversation long before today’s chatbots."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Everyday Problems AI Can Help With",
+    "instruction": "Write down three simple tasks you do each day (e.g., sorting emails, finding directions, remembering appointments) and think of one way a computer or robot could assist with each task."
+  },
+  "keyTakeaways": [
+    "AI was created to help humans solve difficult problems faster.",
+    "Pattern recognition and language understanding are core goals of early AI research.",
+    "Automation of repetitive work lets people focus on more creative activities.",
+    "AI development has a long history; modern chatbots are the result of many decades of research."
+  ],
+  "mcqs": [
+    {
+      "question": "What was the main reason early computers were built?",
+      "options": [
+        "To perform calculations and logical steps faster than a person",
+        "To create video games",
+        "To store large music libraries",
+        "To manage social media"
+      ],
+      "answer": 0,
+      "explanation": "Early computers were designed to solve hard or time‑consuming calculations quickly, which humans could not do by hand."
+    },
+    {
+      "question": "Which early AI example showed that machines could learn visual patterns?",
+      "options": [
+        "Machine translation",
+        "Handwritten digit recognition",
+        "Speech synthesis",
+        "Chess playing"
+      ],
+      "answer": 1,
+      "explanation": "Researchers taught simple programs to identify handwritten numbers, demonstrating that a computer could recognize visual patterns."
+    },
+    {
+      "question": "Which program, created in 1956, could prove mathematical theorems?",
+      "options": [
+        "ELIZA",
+        "Deep Blue",
+        "Logic Theorist",
+        "Watson"
+      ],
+      "answer": 2,
+      "explanation": "The Logic Theorist was an early AI program that could automatically prove mathematical theorems, showing reasoning ability."
+    },
+    {
+      "question": "What is a major benefit of using AI to automate repetitive tasks?",
+      "options": [
+        "It makes work slower",
+        "It increases human error",
+        "It reduces the need for any human workers",
+        "It frees people to focus on creative or strategic work"
+      ],
+      "answer": 3,
+      "explanation": "Automation handles routine steps consistently, allowing humans to spend time on more creative or strategic activities."
+    },
+    {
+      "question": "In the 1950s, early AI work on language aimed to do what?",
+      "options": [
+        "Generate music",
+        "Translate word lists between languages",
+        "Control industrial robots",
+        "Predict stock prices"
+      ],
+      "answer": 1,
+      "explanation": "Early language programs tried to translate word lists, such as English‑Russian pairs, to break language barriers."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
