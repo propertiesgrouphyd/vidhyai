@@ -1,0 +1,131 @@
+{
+  "day": 6,
+  "courseDate": "2026-10-10",
+  "publishAt": "2026-10-10T06:00:00+05:30",
+  "title": "Understanding Data for AI",
+  "introduction": "Data is the basic building block that AI systems use to learn and make decisions. Knowing what data is and the many forms it takes helps you see how everyday information powers modern AI.",
+  "sections": [
+    {
+      "heading": "What Data Means",
+      "subheading": "Data as raw information",
+      "paragraphs": [
+        "Data is any piece of information that can be recorded or measured.",
+        "In AI, data is the material that algorithms learn from."
+      ],
+      "example": {
+        "title": "Daily data example",
+        "content": "When you write a text message, the words you type are text data that can be used by AI to understand language."
+      }
+    },
+    {
+      "heading": "Common Forms of Data",
+      "subheading": "Text, numbers, and structured data",
+      "paragraphs": [
+        "Text data includes words, sentences, and documents.",
+        "Numeric data includes measurements, counts, and statistics.",
+        "Structured data is organized in tables like spreadsheets."
+      ],
+      "example": {
+        "title": "Spreadsheet example",
+        "content": "A spreadsheet of sales numbers is numeric data that AI can analyze to predict future sales."
+      }
+    },
+    {
+      "heading": "Multimedia and Sensor Data",
+      "subheading": "Images, audio, video, and sensor signals",
+      "paragraphs": [
+        "Image data are pictures that AI can recognize objects in.",
+        "Audio data are sounds, such as speech, that AI can transcribe.",
+        "Video data combines images over time, and sensor data comes from devices like temperature sensors."
+      ],
+      "example": {
+        "title": "Voice assistant example",
+        "content": "When you speak to a voice assistant, your spoken words become audio data that the AI processes to respond."
+      }
+    },
+    {
+      "heading": "Why AI Needs Data",
+      "subheading": "Data as the foundation for learning",
+      "paragraphs": [
+        "AI models learn patterns by analyzing large amounts of data.",
+        "Without data, an AI system cannot make predictions or decisions.",
+        "The quality and variety of data affect how well the AI works."
+      ],
+      "example": {
+        "title": "Image classification example",
+        "content": "A model trained on many labeled pictures can later identify objects in new photos."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Data Around You",
+    "instruction": "Write down five different types of data you encounter today (e.g., a text message, a photo, a temperature reading)."
+  },
+  "keyTakeaways": [
+    "Data is any recorded information that AI can use to learn.",
+    "AI works with many data types: text, numbers, images, audio, video, and sensor signals.",
+    "The amount and quality of data directly influence an AI system’s performance."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the lesson define as data in the context of AI?",
+      "options": [
+        "Any piece of information that can be recorded or measured.",
+        "A computer program that runs AI algorithms.",
+        "The hardware component that stores AI models.",
+        "The user interface that displays AI results."
+      ],
+      "answer": 0,
+      "explanation": "The lesson states that data is any recorded information that AI can use to learn."
+    },
+    {
+      "question": "Which example best illustrates structured data?",
+      "options": [
+        "A paragraph of a novel.",
+        "A spreadsheet of sales numbers.",
+        "A photo of a cat.",
+        "An audio recording of a song."
+      ],
+      "answer": 1,
+      "explanation": "Structured data is organized in tables, like a spreadsheet of sales numbers."
+    },
+    {
+      "question": "Why do the amount and quality of data matter for AI performance?",
+      "options": [
+        "They determine the size of the hard drive needed.",
+        "They affect the speed of the internet connection.",
+        "They influence how well the AI can learn patterns.",
+        "They change the color scheme of the AI application."
+      ],
+      "answer": 2,
+      "explanation": "The lesson explains that data quality and variety directly affect how well AI models learn."
+    },
+    {
+      "question": "When you speak to a voice assistant, which type of data is primarily processed?",
+      "options": [
+        "Video data",
+        "Image data",
+        "Numeric data",
+        "Audio data"
+      ],
+      "answer": 3,
+      "explanation": "Your spoken words become audio data, which the AI processes to respond."
+    },
+    {
+      "question": "If an AI system is trained only on text data, which task is it least likely to perform well on?",
+      "options": [
+        "Sentiment analysis of product reviews.",
+        "Classifying objects in photographs.",
+        "Translating sentences between languages.",
+        "Generating chat responses."
+      ],
+      "answer": 1,
+      "explanation": "The system lacks image data, so it would struggle with image classification tasks."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
