@@ -1,0 +1,128 @@
+{
+  "day": 7,
+  "courseDate": "2026-10-11",
+  "publishAt": "2026-10-11T06:00:00+05:30",
+  "title": "What Is an AI Model?",
+  "introduction": "In this lesson you will learn what an AI model is, how it learns from data, and how it is used to make predictions or generate results. Understanding models helps you see how AI works behind the scenes.",
+  "sections": [
+    {
+      "heading": "What Is an AI Model?",
+      "subheading": "A simple definition of a model",
+      "paragraphs": [
+        "An AI model is a mathematical or computational representation that captures patterns found in data. It is like a recipe that tells a computer how to turn input into output based on what it has learned.",
+        "The model itself does not contain raw data; it stores the knowledge extracted from data in the form of numbers, rules, or structures."
+      ],
+      "example": {
+        "title": "House Price Prediction Model",
+        "content": "A model trained on past house sales learns how features like size, location, and number of rooms affect price. When you give it a new house description, it predicts the likely selling price."
+      }
+    },
+    {
+      "heading": "How Models Learn from Data",
+      "subheading": "Patterns are discovered during training",
+      "paragraphs": [
+        "During training, the model looks at many examples and adjusts its internal parameters to reduce errors. This process is called learning.",
+        "The more diverse and high‑quality the training data, the better the model can capture real‑world patterns."
+      ],
+      "example": {
+        "title": "Cat Image Classifier",
+        "content": "A model is shown thousands of pictures labeled as \"cat\" or \"not cat.\" It learns visual patterns that distinguish cats, so later it can correctly label a new picture."
+      }
+    },
+    {
+      "heading": "Models vs. AI Applications",
+      "subheading": "The core model and the software that uses it",
+      "paragraphs": [
+        "The model is the learned function that makes predictions. An AI application is the complete software that includes the model, user interface, and other logic to deliver a service.",
+        "An application may combine several models, add rules, and handle inputs and outputs for the user."
+      ],
+      "example": {
+        "title": "Speech‑to‑Text App",
+        "content": "The app records your voice, sends the audio to an acoustic model that converts sound waves into text, and then displays the words on the screen."
+      }
+    },
+    {
+      "heading": "Different Models for Different Tasks",
+      "subheading": "Choosing the right model for the job",
+      "paragraphs": [
+        "Models can be built for classification (assigning labels), regression (predicting numbers), or generation (creating new content).",
+        "Selecting the correct type of model depends on what you want the AI to do."
+      ],
+      "example": {
+        "title": "Sentiment Analysis vs. Image Generation",
+        "content": "A sentiment analysis model classifies a review as positive or negative, while an image generation model creates a new picture from a text description."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the Model in Everyday Tools",
+    "instruction": "Think of a digital tool you use (for example, an email spam filter). Write a short note describing what the AI model in that tool does – what kind of input it takes and what output it produces."
+  },
+  "keyTakeaways": [
+    "An AI model is a learned representation that captures patterns from data.",
+    "Training data teaches the model how to make accurate predictions or classifications.",
+    "A model is the core predictive component, while an AI application is the full system that uses the model to serve users."
+  ],
+  "mcqs": [
+    {
+      "question": "What does an AI model store after training?",
+      "options": [
+        "Knowledge extracted from data",
+        "Raw training data",
+        "User interface designs",
+        "Hardware specifications"
+      ],
+      "answer": 0,
+      "explanation": "A model keeps the patterns it learned as numbers, rules, or structures, not the original raw data."
+    },
+    {
+      "question": "During the training phase, what does the model adjust to reduce its errors?",
+      "options": [
+        "The input examples",
+        "Its internal parameters",
+        "The output format",
+        "The computer's memory size"
+      ],
+      "answer": 1,
+      "explanation": "Training changes the model's internal parameters (weights) so that predictions become more accurate."
+    },
+    {
+      "question": "Which statement best describes the relationship between an AI model and an AI application?",
+      "options": [
+        "An AI model includes the user interface.",
+        "An AI application is only the model without any extra code.",
+        "An AI application contains the model plus additional logic and UI.",
+        "An AI model is the hardware that runs the application."
+      ],
+      "answer": 2,
+      "explanation": "An AI application is the full software system; it uses the trained model and adds interfaces, rules, and other processing."
+    },
+    {
+      "question": "Which type of AI model is most suitable for predicting a house's selling price?",
+      "options": [
+        "Classification model",
+        "Generation model",
+        "Clustering model",
+        "Regression model"
+      ],
+      "answer": 3,
+      "explanation": "Predicting a numeric value like price is a regression task, so a regression model is appropriate."
+    },
+    {
+      "question": "In a speech‑to‑text app, what is the primary function of the acoustic model?",
+      "options": [
+        "Convert sound waves into written text",
+        "Record the user's voice",
+        "Display the transcribed text on the screen",
+        "Translate the text into another language"
+      ],
+      "answer": 0,
+      "explanation": "The acoustic model processes audio input and outputs the corresponding text, which the app then shows to the user."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
