@@ -1,0 +1,128 @@
+{
+  "day": 8,
+  "courseDate": "2026-10-12",
+  "publishAt": "2026-10-12T06:00:00+05:30",
+  "title": "Training vs Inference",
+  "introduction": "In this lesson you will learn the two main stages of an AI system: training, where a model learns from data, and inference, where the trained model gives answers for new inputs. Understanding both helps you see how AI works from start to finish.",
+  "sections": [
+    {
+      "heading": "Training: Teaching the Model",
+      "subheading": "How a model learns from data",
+      "paragraphs": [
+        "During training, the model looks at many examples and adjusts its internal settings to recognize patterns. This process is similar to a student studying many problems to understand a topic.",
+        "Training requires a lot of data and computing power because the model tries many possibilities before finding the best fit."
+      ],
+      "example": {
+        "title": "Training a Spam Detector",
+        "content": "We give the model thousands of emails labeled as \"spam\" or \"not spam\". The model studies the words and patterns, learning to tell the two classes apart."
+      }
+    },
+    {
+      "heading": "Inference: Using the Model",
+      "subheading": "Applying learned knowledge to new data",
+      "paragraphs": [
+        "Inference is the stage where the trained model is asked to make a prediction on fresh, unseen input. It uses the patterns it learned during training to give an answer quickly.",
+        "This step is what you see in everyday apps, like voice assistants answering a question or a camera recognizing faces."
+      ],
+      "example": {
+        "title": "Spam detection in your inbox",
+        "content": "When a new email arrives, the trained model checks its content and decides whether it is spam, without retraining anything."
+      }
+    },
+    {
+      "heading": "Key Differences Between Training and Inference",
+      "subheading": "Learning vs. Predicting",
+      "paragraphs": [
+        "Training is a slow, resource‑intensive process that changes the model's parameters. Inference is fast and uses the fixed parameters to produce outputs.",
+        "During training the model sees many labeled examples; during inference it sees only one new example at a time and does not update itself."
+      ],
+      "example": {
+        "title": "Resource needs",
+        "content": "Training may run on powerful servers for hours, while inference can happen on a phone in a fraction of a second."
+      }
+    },
+    {
+      "heading": "From Training to Inference: A Simple AI Lifecycle",
+      "subheading": "Step‑by‑step flow of an AI project",
+      "paragraphs": [
+        "First, collect and label data. Next, train the model on that data and evaluate its performance. After the model is good enough, deploy it so it can be used for inference on real‑world inputs.",
+        "The cycle can repeat: new data can be added, the model retrained, and the updated version redeployed."
+      ],
+      "example": {
+        "title": "End‑to‑end example",
+        "content": "Collect images of cats and dogs → train a classifier → test its accuracy → upload the model to a web app → users upload a picture and the app tells if it is a cat or a dog."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the Stage",
+    "instruction": "Read each sentence and decide whether it describes training or inference. Write \"training\" or \"inference\" after each one.\n1. The model adjusts its weights after seeing many labeled pictures.\n2. The app tells you the weather forecast based on the latest data."
+  },
+  "keyTakeaways": [
+    "Training is the learning phase where a model builds its knowledge from many examples.",
+    "Inference is the usage phase where a trained model makes predictions on new inputs.",
+    "Training needs lots of data and compute, while inference is fast and can run on small devices."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of the training stage in an AI system?",
+      "options": [
+        "To adjust the model's internal parameters using many labeled examples",
+        "To make predictions on new, unseen inputs",
+        "To store the data for later use",
+        "To reduce the size of the model"
+      ],
+      "answer": 0,
+      "explanation": "During training the model looks at many examples and changes its weights so it can learn patterns."
+    },
+    {
+      "question": "Which description best matches the inference stage?",
+      "options": [
+        "The model updates its weights after each new example",
+        "The model collects and labels more data",
+        "The model uses learned patterns to predict the label of a new input",
+        "The model runs many experiments to find the best architecture"
+      ],
+      "answer": 2,
+      "explanation": "Inference is when a trained model applies its fixed parameters to give a quick prediction on fresh data."
+    },
+    {
+      "question": "In the spam‑detector example, what happens when a new email arrives?",
+      "options": [
+        "The model is retrained with that email",
+        "The model checks the email content using patterns learned during training",
+        "A human manually labels the email as spam or not",
+        "The model collects more spam emails for future training"
+      ],
+      "answer": 1,
+      "explanation": "During inference the trained spam detector examines the new email and decides if it is spam without changing its parameters."
+    },
+    {
+      "question": "Which statement about the resource needs of training and inference is correct?",
+      "options": [
+        "Training can be done on a phone in a fraction of a second",
+        "Inference requires powerful servers for many hours",
+        "Both training and inference need the same amount of compute",
+        "Training often runs on powerful servers for a long time"
+      ],
+      "answer": 3,
+      "explanation": "Training is a slow, compute‑intensive process that typically runs on strong hardware, while inference is fast and can run on small devices."
+    },
+    {
+      "question": "After a model has been trained and its performance is satisfactory, what is the next step before users can benefit from it?",
+      "options": [
+        "Collect more data for the model",
+        "Deploy the model so it can be used for inference",
+        "Retrain the model with the same data",
+        "Delete the training data"
+      ],
+      "answer": 1,
+      "explanation": "The usual AI lifecycle is: collect data, train, evaluate, then deploy the model so it can serve predictions during inference."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
