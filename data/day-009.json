@@ -1,0 +1,141 @@
+{
+  "day": 9,
+  "courseDate": "2026-10-13",
+  "publishAt": "2026-10-13T06:00:00+05:30",
+  "title": "Understanding AI, Machine Learning, Deep Learning, and Generative AI",
+  "introduction": "This lesson explains what AI, Machine Learning, Deep Learning, and Generative AI mean and how they are connected, so you can see how modern technology works.",
+  "sections": [
+    {
+      "heading": "Artificial Intelligence (AI)",
+      "subheading": "The broad goal of making machines think",
+      "paragraphs": [
+        "Artificial Intelligence is the idea of creating machines that can perform tasks that normally need human intelligence, such as understanding language or recognizing objects.",
+        "AI includes many techniques, from simple rule‑based systems to advanced learning models."
+      ],
+      "example": {
+        "title": "Smart Home Assistant",
+        "content": "A voice‑controlled speaker that can answer questions, set reminders, and control lights uses AI to understand and act on user commands."
+      }
+    },
+    {
+      "heading": "Machine Learning (ML)",
+      "subheading": "Teaching computers to learn from data",
+      "paragraphs": [
+        "Machine Learning is a subset of AI that lets computers improve their performance by finding patterns in data without being explicitly programmed for each task.",
+        "Instead of fixed rules, ML algorithms adjust themselves as they see more examples."
+      ],
+      "example": {
+        "title": "Email Spam Filter",
+        "content": "The filter looks at many past emails and learns patterns that indicate spam, then uses those patterns to block new spam messages."
+      }
+    },
+    {
+      "heading": "Deep Learning (DL)",
+      "subheading": "Neural networks with many layers",
+      "paragraphs": [
+        "Deep Learning is a specialized form of Machine Learning that uses artificial neural networks with many layers to model complex patterns.",
+        "These deep networks can automatically extract features from raw data, such as pixels in an image."
+      ],
+      "example": {
+        "title": "Image Recognition",
+        "content": "A deep learning model can look at a photo and correctly label it as a cat, dog, or car by processing pixel data through many layers."
+      }
+    },
+    {
+      "heading": "Generative AI",
+      "subheading": "Creating new content with learned patterns",
+      "paragraphs": [
+        "Generative AI uses Machine Learning, often Deep Learning, to produce new data that resembles the training material, such as text, images, or music.",
+        "It goes beyond classification and tries to create, not just recognize."
+      ],
+      "example": {
+        "title": "AI Text Writer",
+        "content": "A generative AI model reads many books and then writes a short story that sounds like it was written by a human."
+      }
+    },
+    {
+      "heading": "Putting It All Together",
+      "subheading": "How AI, ML, DL, and Generative AI connect",
+      "paragraphs": [
+        "AI is the overall field. Machine Learning is one way to achieve AI, and Deep Learning is a powerful technique within Machine Learning. Generative AI is an application that often relies on deep learning models to create new content.",
+        "Think of a self‑driving car: AI decides the overall driving strategy, ML predicts traffic, DL interprets camera images, and generative AI can simulate possible routes for planning."
+      ],
+      "example": {
+        "title": "Self‑Driving Car Stack",
+        "content": "The car uses AI for overall decision making, ML for predicting traffic patterns, deep learning for interpreting camera images, and generative AI for simulating possible routes."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Classify Everyday Technologies",
+    "instruction": "Take three devices or apps you use daily (for example, a smartphone, a navigation app, and a music recommendation service). Write down whether each uses AI, Machine Learning, Deep Learning, or Generative AI, and add a short reason for your choice."
+  },
+  "keyTakeaways": [
+    "AI is the broad goal of making machines act intelligently, while ML is a method that lets machines learn from data.",
+    "Deep Learning is a type of ML that uses many‑layered neural networks to handle complex data like images and speech.",
+    "Generative AI creates new content by learning patterns, often using deep learning techniques.",
+    "All four concepts are related: Generative AI ⊂ Deep Learning ⊂ Machine Learning ⊂ Artificial Intelligence."
+  ],
+  "mcqs": [
+    {
+      "question": "Which statement correctly describes the hierarchy of AI, Machine Learning, Deep Learning, and Generative AI?",
+      "options": [
+        "Generative AI ⊂ Deep Learning ⊂ Machine Learning ⊂ Artificial Intelligence",
+        "Artificial Intelligence ⊂ Machine Learning ⊂ Deep Learning ⊂ Generative AI",
+        "Machine Learning ⊂ Deep Learning ⊂ Generative AI ⊂ Artificial Intelligence",
+        "Deep Learning ⊂ Generative AI ⊂ Machine Learning ⊂ Artificial Intelligence"
+      ],
+      "answer": 0,
+      "explanation": "Generative AI is a subset of Deep Learning, which is a subset of Machine Learning, and all are part of the broader field of Artificial Intelligence."
+    },
+    {
+      "question": "In a voice‑controlled smart home assistant, which technology is most likely used to understand spoken commands?",
+      "options": [
+        "Generative AI",
+        "Deep Learning",
+        "Rule‑based AI",
+        "Reinforcement Learning"
+      ],
+      "answer": 1,
+      "explanation": "Speech recognition typically relies on deep learning models that can process audio waveforms and learn language patterns."
+    },
+    {
+      "question": "Which example best illustrates a Generative AI application?",
+      "options": [
+        "An email spam filter that blocks unwanted messages",
+        "A self‑driving car predicting traffic congestion",
+        "An AI text writer that creates a short story after reading many books",
+        "An image recognition system that labels photos as cat, dog, or car"
+      ],
+      "answer": 2,
+      "explanation": "Generating new text that resembles human writing is a classic use of Generative AI, which creates content rather than just classifying it."
+    },
+    {
+      "question": "What is the primary distinction between Machine Learning and Deep Learning?",
+      "options": [
+        "Machine Learning always uses decision trees, while Deep Learning uses support vector machines",
+        "Deep Learning employs many‑layered neural networks, whereas Machine Learning can use a variety of algorithms",
+        "Machine Learning requires no data, but Deep Learning does",
+        "Deep Learning can only process images, while Machine Learning handles all data types"
+      ],
+      "answer": 1,
+      "explanation": "Deep Learning is a subset of Machine Learning that specifically uses deep (many‑layered) neural networks to model complex patterns."
+    },
+    {
+      "question": "In the self‑driving car stack, which function relies on Deep Learning?",
+      "options": [
+        "Overall decision making for the vehicle",
+        "Predicting traffic patterns from historical data",
+        "Interpreting camera images to detect objects",
+        "Simulating possible routes for planning"
+      ],
+      "answer": 2,
+      "explanation": "Deep learning models process raw pixel data from cameras to recognize objects such as pedestrians, signs, and other vehicles."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
