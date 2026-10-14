@@ -1,0 +1,128 @@
+{
+  "day": 10,
+  "courseDate": "2026-10-14",
+  "publishAt": "2026-10-14T06:00:00+05:30",
+  "title": "Understanding Prediction, Classification, and Generation in AI",
+  "introduction": "This lesson explains three basic ways AI produces results: predicting numbers, classifying items, and generating new content. Knowing these helps you see how AI works in everyday tools.",
+  "sections": [
+    {
+      "heading": "What is Prediction?",
+      "subheading": "Estimating future values from data",
+      "paragraphs": [
+        "Prediction means using past information to guess a future number or outcome. The AI looks at patterns and gives the most likely result.",
+        "For example, a model can forecast tomorrow's temperature based on yesterday's weather records."
+      ],
+      "example": {
+        "title": "Weather Forecast Example",
+        "content": "A model looks at past temperature data and predicts tomorrow's high temperature."
+      }
+    },
+    {
+      "heading": "What is Classification?",
+      "subheading": "Sorting items into groups",
+      "paragraphs": [
+        "Classification is the task of assigning items to predefined categories. The AI examines features of the input and decides which group fits best.",
+        "It is useful whenever we need to label things automatically."
+      ],
+      "example": {
+        "title": "Email Spam Filter",
+        "content": "The AI examines email words and decides if the message is \"Spam\" or \"Not Spam\"."
+      }
+    },
+    {
+      "heading": "What is Generation?",
+      "subheading": "Creating new content from learned patterns",
+      "paragraphs": [
+        "Generation means the AI produces new text, images, or sounds that did not exist before. It learns the style from many examples and then creates its own.",
+        "This ability lets machines write stories, draw pictures, or compose music."
+      ],
+      "example": {
+        "title": "Story Writing Bot",
+        "content": "The AI uses patterns from many stories to write a brand‑new short story."
+      }
+    },
+    {
+      "heading": "Seeing These Tasks in Everyday Life",
+      "subheading": "Real‑world AI applications",
+      "paragraphs": [
+        "Many apps combine prediction, classification, and generation. Understanding each part helps you know what the AI is doing.",
+        "For instance, a voice assistant predicts the weather, classifies your spoken request, and generates a spoken answer."
+      ],
+      "example": {
+        "title": "Smartphone Voice Assistant",
+        "content": "When you ask your phone for the weather, it predicts the forecast, classifies your request, and generates a spoken answer."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the AI Task",
+    "instruction": "Look at three short scenarios below and write whether each one is a prediction, classification, or generation task."
+  },
+  "keyTakeaways": [
+    "Prediction uses past data to estimate future values.",
+    "Classification assigns inputs to predefined categories.",
+    "Generation creates new content based on learned patterns."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main difference between prediction and classification in AI?",
+      "options": [
+        "Prediction outputs a numeric value, while classification assigns a category.",
+        "Prediction uses future data, while classification uses past data.",
+        "Prediction creates new content, while classification sorts items.",
+        "Prediction is only used for weather forecasts."
+      ],
+      "answer": 0,
+      "explanation": "Prediction gives a likely numeric outcome, whereas classification chooses a predefined label for the input."
+    },
+    {
+      "question": "In the email spam filter example, which AI task is being performed?",
+      "options": [
+        "Prediction",
+        "Classification",
+        "Generation",
+        "Data collection"
+      ],
+      "answer": 1,
+      "explanation": "The spam filter examines email content and decides whether it belongs to the \"Spam\" or \"Not Spam\" category, which is classification."
+    },
+    {
+      "question": "Which of the following is an example of a generation task?",
+      "options": [
+        "Forecasting tomorrow's stock price",
+        "Sorting photos into albums",
+        "Writing a brand‑new short story",
+        "Detecting the language of a tweet"
+      ],
+      "answer": 2,
+      "explanation": "Generation creates new content; writing a new short story uses learned patterns to produce original text."
+    },
+    {
+      "question": "A voice assistant that tells you the weather after you ask combines which three AI tasks?",
+      "options": [
+        "Classification, Generation, Prediction",
+        "Prediction, Classification, Generation",
+        "Generation, Prediction, Translation",
+        "Classification, Translation, Prediction"
+      ],
+      "answer": 1,
+      "explanation": "The assistant predicts the forecast, classifies the spoken request, and generates a spoken answer."
+    },
+    {
+      "question": "If an AI model uses past temperature data to estimate tomorrow's high temperature, which key takeaway does this illustrate?",
+      "options": [
+        "Generation creates new content",
+        "Classification assigns inputs to categories",
+        "Prediction uses past data to estimate future values",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "This scenario shows prediction, where historical data is used to estimate a future numeric value."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
