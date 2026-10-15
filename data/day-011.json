@@ -1,0 +1,128 @@
+{
+  "day": 11,
+  "courseDate": "2026-10-15",
+  "publishAt": "2026-10-15T06:00:00+05:30",
+  "title": "Understanding Supervised, Unsupervised, and Reinforcement Learning",
+  "introduction": "This lesson introduces the three main ways machines can learn. Knowing the differences helps you choose the right method for real problems.",
+  "sections": [
+    {
+      "heading": "Supervised Learning",
+      "subheading": "Learning from labeled examples",
+      "paragraphs": [
+        "In supervised learning the model is given input data together with the correct answer, called a label. The model learns to map inputs to outputs by comparing its predictions with the labels.",
+        "After many examples, the model can predict labels for new, unseen data with similar patterns."
+      ],
+      "example": {
+        "title": "Spam Email Filter",
+        "content": "A system is trained with emails labeled as 'spam' or 'not spam'. It learns to classify new emails based on these labels."
+      }
+    },
+    {
+      "heading": "Unsupervised Learning",
+      "subheading": "Finding hidden patterns without labels",
+      "paragraphs": [
+        "Unsupervised learning works with data that has no labels. The goal is to discover structure, such as groups or relationships, inside the data.",
+        "The algorithm looks for similarities and differences to create clusters or reduce dimensions."
+      ],
+      "example": {
+        "title": "Customer Segmentation",
+        "content": "A retailer groups customers by purchase behavior without any pre‑defined categories, revealing natural segments."
+      }
+    },
+    {
+      "heading": "Reinforcement Learning",
+      "subheading": "Learning through actions, feedback, and rewards",
+      "paragraphs": [
+        "Reinforcement learning trains an agent to make a sequence of decisions. The agent receives rewards for good actions and penalties for bad ones.",
+        "Over many trials, the agent learns a policy that maximizes total reward."
+      ],
+      "example": {
+        "title": "Game‑Playing AI",
+        "content": "An AI plays a game, receives points for good moves and penalties for bad moves, and improves its strategy over many rounds."
+      }
+    },
+    {
+      "heading": "Comparing the Three Approaches",
+      "subheading": "When to use each type of learning",
+      "paragraphs": [
+        "Supervised learning is best when you have many labeled examples, such as medical diagnoses or image tags. Unsupervised learning is useful for exploring data, like finding customer groups or detecting anomalies. Reinforcement learning fits problems where an agent interacts with an environment, such as robotics or game playing."
+      ],
+      "example": {
+        "title": "Choosing the Right Method",
+        "content": "If you have labeled data like disease diagnoses, use supervised learning; if you want to discover groups in data, use unsupervised; if you need an agent to make sequential decisions, use reinforcement learning."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the Learning Type",
+    "instruction": "Read each short scenario and write whether it uses supervised, unsupervised, or reinforcement learning."
+  },
+  "keyTakeaways": [
+    "Supervised learning uses labeled data to predict outcomes.",
+    "Unsupervised learning discovers patterns without any labels.",
+    "Reinforcement learning learns by trial, error, and rewards.",
+    "Choosing the right approach depends on the data and the problem type."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main characteristic that distinguishes supervised learning from unsupervised learning?",
+      "options": [
+        "Supervised learning uses labeled data to train the model.",
+        "Supervised learning discovers hidden patterns without any labels.",
+        "Supervised learning learns by receiving rewards and penalties.",
+        "Supervised learning reduces the dimensionality of data."
+      ],
+      "answer": 0,
+      "explanation": "In supervised learning each training example includes a label, so the model learns the mapping from inputs to known outputs."
+    },
+    {
+      "question": "The spam email filter example in the lesson uses which type of learning?",
+      "options": [
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Supervised learning",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "The filter is trained with emails that are already labeled as 'spam' or 'not spam', which is a classic supervised learning setup."
+    },
+    {
+      "question": "Which scenario best illustrates reinforcement learning?",
+      "options": [
+        "A retailer groups customers by purchase behavior.",
+        "A robot learns to navigate a maze by receiving points for good moves and penalties for bad moves.",
+        "An email system classifies messages as spam or not spam.",
+        "A model predicts house prices from past sales data."
+      ],
+      "answer": 1,
+      "explanation": "Reinforcement learning involves an agent taking actions, receiving rewards or penalties, and improving its policy over many trials, as in the robot maze example."
+    },
+    {
+      "question": "When is unsupervised learning the most appropriate choice?",
+      "options": [
+        "When you have many labeled examples for training.",
+        "When you need an agent to receive rewards for actions.",
+        "When you want to predict future stock prices directly.",
+        "When you want to discover hidden groups or patterns in data without any labels."
+      ],
+      "answer": 3,
+      "explanation": "Unsupervised learning is used to find structure, such as clusters, in data that does not have pre‑assigned labels."
+    },
+    {
+      "question": "Which statement about reinforcement learning is true?",
+      "options": [
+        "It learns by maximizing total reward over many trials.",
+        "It requires a labeled output for every input example.",
+        "It clusters data into groups based on similarity.",
+        "It reduces the number of features in a dataset."
+      ],
+      "answer": 0,
+      "explanation": "Reinforcement learning focuses on learning a policy that yields the highest cumulative reward through trial and error."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
