@@ -1,0 +1,140 @@
+{
+  "day": 12,
+  "courseDate": "2026-10-16",
+  "publishAt": "2026-10-16T06:00:00+05:30",
+  "title": "Understanding Datasets, Data Points, Features, and Labels",
+  "introduction": "In machine learning, data is the foundation. Knowing how a dataset is organized helps you prepare the right information for a model to learn and make predictions.",
+  "sections": [
+    {
+      "heading": "What Is a Dataset?",
+      "subheading": "A collection of data used for learning",
+      "paragraphs": [
+        "A dataset is a group of related data that we use to train or test a machine‑learning model. It contains many examples that share the same structure.",
+        "Think of it as a spreadsheet that holds all the information the model needs to see."
+      ],
+      "example": {
+        "title": "Fruit Price Dataset",
+        "content": "A simple dataset might have columns for fruit name, weight, color, and price. Each row records one fruit sold at a market."
+      }
+    },
+    {
+      "heading": "Data Points and Records",
+      "subheading": "Each row represents one observation",
+      "paragraphs": [
+        "A data point, also called a record, is a single entry in the dataset. It holds the values for all columns for one example.",
+        "In the fruit dataset, one data point could be a single apple with its weight, color, and price."
+      ],
+      "example": {
+        "title": "One Record of a Fruit",
+        "content": "Row 3: Apple, 150 g, Red, $1.20 – this whole row is one data point."
+      }
+    },
+    {
+      "heading": "Rows and Columns",
+      "subheading": "Organizing data in a table",
+      "paragraphs": [
+        "Rows run horizontally and list individual data points. Columns run vertically and define the type of information stored, such as weight or price.",
+        "The table shape lets us easily see patterns across many rows and compare values in each column."
+      ],
+      "example": {
+        "title": "Table Layout",
+        "content": "| Fruit | Weight (g) | Color | Price ($) |\n|-------|------------|-------|-----------|\n| Apple | 150        | Red   | 1.20      |\n| Banana| 120        | Yellow| 0.80      |"
+      }
+    },
+    {
+      "heading": "Features (Input Variables)",
+      "subheading": "What the model looks at to make predictions",
+      "paragraphs": [
+        "Features are the columns that provide information to the model. They are the inputs the model uses to learn relationships.",
+        "In our example, weight and color are features because they help the model guess the price."
+      ],
+      "example": {
+        "title": "Features in Fruit Example",
+        "content": "Features: Weight (g) and Color. The model will read these values for each fruit."
+      }
+    },
+    {
+      "heading": "Labels and Targets (Output Variables)",
+      "subheading": "What the model tries to predict",
+      "paragraphs": [
+        "A label or target is the column the model aims to predict. It is the answer we want the model to learn.",
+        "In the fruit dataset, the price column is the label because we want the model to estimate the price from weight and color."
+      ],
+      "example": {
+        "title": "Label in Fruit Example",
+        "content": "Label: Price ($). The model learns to output a price based on the given features."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify Features and Labels",
+    "instruction": "Look at the small table below and write down which columns are features and which column is the label:\n| Fruit | Weight (g) | Color | Price ($) |\n|-------|------------|-------|-----------|\n| Apple | 150        | Red   | 1.20      |\n| Banana| 120        | Yellow| 0.80      |\nExplain your choice in one sentence for each."
+  },
+  "keyTakeaways": [
+    "A dataset is a structured collection of data points used for training models.",
+    "Features are input columns that help the model learn; labels are the output columns the model predicts.",
+    "Rows represent individual data points, while columns represent specific attributes like features or labels."
+  ],
+  "mcqs": [
+    {
+      "question": "What best describes a dataset in machine learning?",
+      "options": [
+        "A single numeric value used for calculation",
+        "A collection of related data used to train or test a model",
+        "A computer program that runs algorithms",
+        "A hardware component that stores memory"
+      ],
+      "answer": 1,
+      "explanation": "A dataset is defined as a structured group of data points that are used for training or testing a machine‑learning model."
+    },
+    {
+      "question": "In the fruit price dataset, which of the following is a data point?",
+      "options": [
+        "The column named \"Weight (g)\"",
+        "The entire table containing all fruits",
+        "The row \"Apple, 150 g, Red, $1.20\"",
+        "The label column \"Price ($)\""
+      ],
+      "answer": 2,
+      "explanation": "A data point (or record) is a single row that holds values for all columns, such as the apple example."
+    },
+    {
+      "question": "Which statement correctly distinguishes rows and columns in a table?",
+      "options": [
+        "Rows list attributes, while columns list individual observations",
+        "Rows run vertically and columns run horizontally",
+        "Rows run horizontally and represent data points; columns run vertically and define attributes",
+        "Rows and columns can be used interchangeably"
+      ],
+      "answer": 2,
+      "explanation": "Rows are horizontal entries that correspond to individual data points, and columns are vertical headings that define each attribute like weight or price."
+    },
+    {
+      "question": "Which columns are considered features in the fruit dataset?",
+      "options": [
+        "Fruit and Price",
+        "Weight and Color",
+        "Price only",
+        "Fruit only"
+      ],
+      "answer": 1,
+      "explanation": "Features are the input variables; in this example weight and color provide information for the model to predict price."
+    },
+    {
+      "question": "If a model is trained to predict the price of fruit, what is the label (target) column?",
+      "options": [
+        "Fruit",
+        "Weight (g)",
+        "Color",
+        "Price ($)"
+      ],
+      "answer": 3,
+      "explanation": "The label or target is the column the model aims to predict, which is the price column in this dataset."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
