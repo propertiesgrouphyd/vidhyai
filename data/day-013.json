@@ -1,0 +1,140 @@
+{
+  "day": 13,
+  "courseDate": "2026-10-17",
+  "publishAt": "2026-10-17T06:00:00+05:30",
+  "title": "Understanding Training, Validation, and Test Data",
+  "introduction": "In machine learning we split data into parts so the model can learn, be tuned, and finally be tested on new information. This helps us know if the model will work well in real life.",
+  "sections": [
+    {
+      "heading": "Purpose of Splitting Data",
+      "subheading": "Separating data helps build reliable models",
+      "paragraphs": [
+        "Machine learning models learn patterns from data. If we use the same data for learning and testing, we cannot tell if the model truly understands the problem or just memorizes the examples.",
+        "Dividing data into distinct sets lets us train the model, adjust it, and finally evaluate it on information it has never seen before. This mimics real‑world use where new data arrives constantly."
+      ],
+      "example": {
+        "title": "House Price Prediction Split",
+        "content": "A dataset of 1,000 house sales is divided: 700 records for training, 150 for validation, and 150 for testing. The model learns from the training set, the validation set helps choose the best model, and the test set shows how the model predicts prices for future houses."
+      }
+    },
+    {
+      "heading": "Training Data",
+      "subheading": "Data used to teach the model how to predict",
+      "paragraphs": [
+        "The training set contains input features and known outcomes. The model adjusts its internal parameters to reduce errors on this data.",
+        "During training the model sees many examples, learns relationships, and builds a mathematical representation of the problem."
+      ],
+      "example": {
+        "title": "Training a Sales Forecast Model",
+        "content": "A retailer provides last year’s daily sales numbers. The first 80% of days are used as training data. The model learns seasonal patterns and trends from these records."
+      }
+    },
+    {
+      "heading": "Validation Data",
+      "subheading": "Data for tuning and checking overfitting",
+      "paragraphs": [
+        "After each training round we test the model on the validation set. This set is not used for learning, so it shows how the model performs on unseen data during development.",
+        "If performance on validation data gets worse while training error improves, the model may be overfitting – memorizing training details instead of learning general patterns."
+      ],
+      "example": {
+        "title": "Choosing Tree Depth",
+        "content": "A decision‑tree model is trained with different depths. The depth that gives the lowest error on the validation set is selected, preventing the tree from becoming too complex."
+      }
+    },
+    {
+      "heading": "Test Data and Generalization",
+      "subheading": "Final check on completely unseen data",
+      "paragraphs": [
+        "The test set is kept separate until the model is fully built. It provides an unbiased estimate of how the model will work in the real world.",
+        "Good performance on the test set means the model has learned to generalize – it can apply learned patterns to new, unseen situations."
+      ],
+      "example": {
+        "title": "Evaluating a Spam Filter",
+        "content": "After training and validation, the spam filter is run on a test set of emails collected from a different month. Accuracy on this set tells us how well the filter will catch spam in future emails."
+      }
+    },
+    {
+      "heading": "Data Leakage",
+      "subheading": "When information from the future sneaks into training",
+      "paragraphs": [
+        "Data leakage happens if the training data contains clues about the target that would not be available in real use. This makes performance look better than it truly is.",
+        "Preventing leakage means carefully checking that no future or external information is mixed into the training set."
+      ],
+      "example": {
+        "title": "Leaking Future Sales",
+        "content": "If the training set includes a column for 'next month sales' while predicting current month sales, the model will cheat. Removing that column avoids leakage."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Simple Data Split Exercise",
+    "instruction": "Take a list of 30 numbers (1 to 30). Randomly assign the first 20 numbers to a training set, the next 5 to a validation set, and the last 5 to a test set. Write down the three sets and explain why you kept them separate."
+  },
+  "keyTakeaways": [
+    "Splitting data into training, validation, and test sets lets us build, tune, and fairly evaluate a model.",
+    "Validation data helps detect overfitting and choose the best model settings.",
+    "Test data measures how well a model generalizes to new, unseen information, and data leakage must be avoided to keep results honest."
+  ],
+  "mcqs": [
+    {
+      "question": "Why do we split a dataset into training, validation, and test sets?",
+      "options": [
+        "To increase the total amount of data available",
+        "To make the training process faster",
+        "To evaluate how well the model generalizes to unseen data",
+        "To reduce the memory needed for the model"
+      ],
+      "answer": 2,
+      "explanation": "Splitting lets us test the model on data it has never seen, giving a realistic measure of its ability to generalize."
+    },
+    {
+      "question": "In the house‑price example, which data set is used to choose the best model depth?",
+      "options": [
+        "Training set",
+        "Validation set",
+        "Test set",
+        "All three sets together"
+      ],
+      "answer": 1,
+      "explanation": "The validation set is used to compare different depths and pick the one with the lowest error, preventing the model from becoming too complex."
+    },
+    {
+      "question": "During training, which pattern of errors most strongly suggests overfitting?",
+      "options": [
+        "Training error keeps decreasing while validation error starts increasing",
+        "Both training and validation errors increase together",
+        "Both errors decrease at the same rate",
+        "Validation error is lower than training error"
+      ],
+      "answer": 0,
+      "explanation": "When the model learns the training data too well, its training error drops but it performs worse on unseen validation data, indicating overfitting."
+    },
+    {
+      "question": "Which of the following is an example of data leakage?",
+      "options": [
+        "Using only past sales data to predict current month sales",
+        "Including a column that contains next month’s sales while predicting the current month",
+        "Randomly assigning records to training, validation, and test sets",
+        "Applying cross‑validation during model development"
+      ],
+      "answer": 1,
+      "explanation": "A column that contains information from the future (next month’s sales) gives the model clues it would not have in real use, inflating performance."
+    },
+    {
+      "question": "What is the primary purpose of the test set after a model has been fully built?",
+      "options": [
+        "To provide an unbiased estimate of the model’s real‑world performance",
+        "To tune hyper‑parameters such as learning rate",
+        "To adjust the model’s internal weights",
+        "To check for data leakage in the training data"
+      ],
+      "answer": 0,
+      "explanation": "The test set is kept separate until the end so it can give a fair, unbiased measurement of how the model will work on new, unseen data."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
