@@ -1,0 +1,140 @@
+{
+  "day": 14,
+  "courseDate": "2026-10-18",
+  "publishAt": "2026-10-18T06:00:00+05:30",
+  "title": "How Does a Machine Learning Model Learn?",
+  "introduction": "In this lesson we explore how a machine learning model turns data into better predictions by repeatedly learning from its mistakes.",
+  "sections": [
+    {
+      "heading": "The Learning Loop Overview",
+      "subheading": "From raw data to improved predictions",
+      "paragraphs": [
+        "A machine learning model follows a simple cycle. First it receives input data, then it makes a prediction, compares that prediction with the known correct answer, measures the error, and finally adjusts its internal settings called parameters.",
+        "Repeating this cycle many times helps the model become more accurate."
+      ],
+      "example": {
+        "title": "Spam filter learning from emails",
+        "content": "The filter looks at features of each email (like words used), predicts if it is spam, checks the user’s label (spam or not), measures mistakes, and updates its rules."
+      }
+    },
+    {
+      "heading": "Making Predictions",
+      "subheading": "How the model uses inputs to guess an answer",
+      "paragraphs": [
+        "The model receives numbers or symbols called features. Using its current parameters, it combines these features to produce an output, called a prediction.",
+        "At the start, the parameters are random, so predictions may be far from correct."
+      ],
+      "example": {
+        "title": "Predicting house price",
+        "content": "Given a house size of 1500 sq ft and a location score of 8, the model predicts a price. Early predictions may be too high or low until the model learns."
+      }
+    },
+    {
+      "heading": "Comparing Predictions with True Answers",
+      "subheading": "Why the correct answer matters",
+      "paragraphs": [
+        "For each prediction, we have a known correct value called the label or ground truth. By comparing the prediction to this label, we see how far off the model was.",
+        "This comparison is essential; without it the model cannot know whether it is improving."
+      ],
+      "example": {
+        "title": "Student test score prediction",
+        "content": "The model predicts a student will score 78 on a math test. The actual score is 85. The difference tells the model it needs to adjust."
+      }
+    },
+    {
+      "heading": "Measuring Error and Adjusting Parameters",
+      "subheading": "Learning from mistakes",
+      "paragraphs": [
+        "Error is measured using simple formulas such as the difference between prediction and true answer. The model uses this error to change its parameters slightly in the direction that reduces future error.",
+        "This step is often called training or learning."
+      ],
+      "example": {
+        "title": "Updating a linear model",
+        "content": "If a line y = wx + b predicts 70 but the true value is 80, the model increases w or b a little so the next prediction is closer."
+      }
+    },
+    {
+      "heading": "Improving Over Time with Repeated Training",
+      "subheading": "The power of many learning cycles",
+      "paragraphs": [
+        "Each time the loop runs, the model’s parameters become a bit better. After many cycles, called epochs, the model can make accurate predictions on new data it has never seen.",
+        "Consistent training on diverse examples prevents the model from memorizing only the training data."
+      ],
+      "example": {
+        "title": "Handwriting recognizer",
+        "content": "The recognizer looks at thousands of handwritten digits, adjusts its parameters after each batch, and eventually can read new digits correctly."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Simple prediction error exercise",
+    "instruction": "Pick a simple rule, like y = 2x. Predict y for x = 3 using a guess of y = 5. Write down the true value (6), calculate the error (6‑5 = 1), and note how you would increase your guess to be closer next time."
+  },
+  "keyTakeaways": [
+    "A machine learning model learns by repeatedly comparing its predictions to known answers and adjusting its parameters.",
+    "Error measurement tells the model how far off it is and guides the parameter updates.",
+    "Training over many cycles gradually improves the model’s ability to make accurate predictions on new data."
+  ],
+  "mcqs": [
+    {
+      "question": "Which sequence correctly describes the four steps of the machine learning learning loop?",
+      "options": [
+        "Receive input data, make a prediction, compare with the true label, adjust parameters",
+        "Initialize parameters, evaluate loss, prune features, deploy model",
+        "Collect data, store in database, visualize results, write report",
+        "Select algorithm, tune hyperparameters, test on validation set, publish paper"
+      ],
+      "answer": 0,
+      "explanation": "The learning loop consists of receiving data, predicting, comparing with the known answer, and updating parameters."
+    },
+    {
+      "question": "Why are a model's first predictions usually far from the correct values?",
+      "options": [
+        "The model already knows the correct parameters",
+        "The loss function is already minimized",
+        "The parameters are initialized randomly",
+        "The training data is perfect"
+      ],
+      "answer": 2,
+      "explanation": "At the start, parameters are set at random, so predictions are unlikely to match the true labels."
+    },
+    {
+      "question": "How does a model use the error measured after a prediction?",
+      "options": [
+        "It discards the data point completely",
+        "It updates its parameters to reduce future error",
+        "It increases the learning rate dramatically",
+        "It changes the input features"
+      ],
+      "answer": 1,
+      "explanation": "The measured error guides a small adjustment of the parameters so that future predictions are closer to the true values."
+    },
+    {
+      "question": "What does the term \"epoch\" refer to in model training?",
+      "options": [
+        "A single weight update",
+        "The error after one prediction",
+        "The number of features in the data",
+        "One full pass over all training examples"
+      ],
+      "answer": 3,
+      "explanation": "An epoch is completed when the model has processed every example in the training set once."
+    },
+    {
+      "question": "What is the main purpose of measuring error after each prediction?",
+      "options": [
+        "To know how far the prediction is from the true label",
+        "To increase the size of the dataset",
+        "To change the input features",
+        "To stop training immediately"
+      ],
+      "answer": 0,
+      "explanation": "Error measurement tells the model the distance between its prediction and the ground truth, which is needed for learning."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
