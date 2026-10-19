@@ -1,0 +1,142 @@
+{
+  "day": 15,
+  "courseDate": "2026-10-19",
+  "publishAt": "2026-10-19T06:00:00+05:30",
+  "title": "What Is a Neural Network?",
+  "introduction": "Neural networks are computer models that learn patterns from data, inspired by how the brain works. Understanding their basic parts helps you see how they solve complex problems.",
+  "sections": [
+    {
+      "heading": "Artificial Neuron: The Building Block",
+      "subheading": "How a single neuron processes information",
+      "paragraphs": [
+        "An artificial neuron receives numbers called inputs, each multiplied by a value called a weight.",
+        "It adds these weighted inputs, adds a small bias, and then passes the sum through an activation function to produce an output."
+      ],
+      "example": {
+        "title": "Simple Neuron Example",
+        "content": "Imagine a neuron with two inputs: 3 and 5. If the weights are 0.2 and 0.4, the neuron computes (3×0.2)+(5×0.4)=0.6+2.0=2.6, adds bias 0.5 to get 3.1, and outputs 3.1 after a linear activation."
+      }
+    },
+    {
+      "heading": "Layers: Stacking Neurons",
+      "subheading": "Why neurons are organized in groups",
+      "paragraphs": [
+        "Neurons are arranged in layers: an input layer receives raw data, one or more hidden layers transform the data, and an output layer gives the final result.",
+        "Each layer only talks to the next layer, which keeps the network organized and makes learning easier."
+      ],
+      "example": {
+        "title": "Three‑Layer Network",
+        "content": "A network that reads a picture (input layer), processes features like edges in a hidden layer, and decides the picture’s label in the output layer."
+      }
+    },
+    {
+      "heading": "Connections and Weights: Learning Signals",
+      "subheading": "How links between neurons store knowledge",
+      "paragraphs": [
+        "A connection links one neuron to another and carries a weight. The weight tells the network how important that connection is.",
+        "During training, the network changes weights to reduce errors, so the connections gradually store the learned pattern."
+      ],
+      "example": {
+        "title": "Weight Adjustment Example",
+        "content": "If a network predicts 0.3 but the correct answer is 1, the weight on the responsible connection might be increased, making future predictions larger."
+      }
+    },
+    {
+      "heading": "Information Flow: From Input to Output",
+      "subheading": "The step‑by‑step path of data",
+      "paragraphs": [
+        "Data enters the input layer, moves forward through each hidden layer, and finally reaches the output layer. This forward pass creates a prediction.",
+        "The same data can travel backward during training to adjust weights, but the forward flow is what we see when the network makes a decision."
+      ],
+      "example": {
+        "title": "Predicting a Handwritten Digit",
+        "content": "When you show a picture of the digit ‘7’, the pixel values travel through the network’s layers, and the output layer produces a high score for the class ‘7’."
+      }
+    },
+    {
+      "heading": "Why Neural Networks Handle Complex Patterns",
+      "subheading": "Strength in learning from many examples",
+      "paragraphs": [
+        "Neural networks can capture non‑linear relationships that simple rules cannot, because many neurons work together.",
+        "With enough data, they can recognize speech, translate languages, and detect diseases, tasks that are hard for traditional programs."
+      ],
+      "example": {
+        "title": "Speech Recognition Example",
+        "content": "A network learns from thousands of audio clips; after training, it can turn spoken words into text by recognizing complex sound patterns."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Draw a Simple Neural Network",
+    "instruction": "On a blank sheet, draw two circles on the left labeled Input 1 and Input 2, one circle on the right labeled Output, and draw arrows from each input to the output. Write a small number on each arrow to represent a weight."
+  },
+  "keyTakeaways": [
+    "A neural network is made of artificial neurons that process weighted inputs.",
+    "Neurons are grouped into layers, allowing data to be transformed step by step.",
+    "Connections have weights that are adjusted during learning to store patterns.",
+    "The flow of information from input to output lets the network make predictions.",
+    "Neural networks can learn complex, non‑linear patterns from large amounts of data."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of the bias term in an artificial neuron?",
+      "options": [
+        "It scales each input value",
+        "It shifts the activation threshold",
+        "It determines the learning rate",
+        "It connects the neuron to the next layer"
+      ],
+      "answer": 1,
+      "explanation": "The bias adds a constant to the weighted sum, allowing the activation function to be shifted left or right."
+    },
+    {
+      "question": "In a three‑layer neural network (input, hidden, output), which statement best describes the communication between layers?",
+      "options": [
+        "The input layer receives data from the hidden layer",
+        "The hidden layer sends data directly to both input and output layers",
+        "Each layer only talks to the next layer",
+        "The output layer feeds back to the input layer during the forward pass"
+      ],
+      "answer": 2,
+      "explanation": "Neural networks are organized so that a layer sends its outputs only to the immediately following layer, keeping the flow orderly."
+    },
+    {
+      "question": "A neuron has inputs 2 and 4, weights 0.5 and -0.3, and a bias of 0.1. What is the weighted sum before activation?",
+      "options": [
+        "-0.1",
+        "0.1",
+        "1.1",
+        "-0.5"
+      ],
+      "answer": 0,
+      "explanation": "Weighted sum = (2×0.5) + (4×-0.3) + 0.1 = 1.0 - 1.2 + 0.1 = -0.1."
+    },
+    {
+      "question": "Why are the connection weights changed during the training of a neural network?",
+      "options": [
+        "To increase the size of the network",
+        "To reduce the prediction error",
+        "To change the activation function",
+        "To add more hidden layers"
+      ],
+      "answer": 1,
+      "explanation": "Training adjusts weights so that the network’s predictions become closer to the correct answers, minimizing error."
+    },
+    {
+      "question": "What key ability lets neural networks perform tasks like speech recognition better than simple rule‑based programs?",
+      "options": [
+        "They use only linear equations",
+        "They require no training data",
+        "They can learn non‑linear patterns from many examples",
+        "They run faster on traditional CPUs"
+      ],
+      "answer": 2,
+      "explanation": "Neural networks can capture complex, non‑linear relationships by learning from large datasets, which simple rules cannot handle."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
