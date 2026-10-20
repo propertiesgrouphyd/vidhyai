@@ -1,0 +1,128 @@
+{
+  "day": 16,
+  "courseDate": "2026-10-20",
+  "publishAt": "2026-10-20T06:00:00+05:30",
+  "title": "What Is Deep Learning?",
+  "introduction": "Deep learning is a powerful part of artificial intelligence that helps computers learn from data in a way similar to the human brain. Understanding it opens the door to many modern technologies.",
+  "sections": [
+    {
+      "heading": "Deep Learning Defined",
+      "subheading": "A simple description of deep learning",
+      "paragraphs": [
+        "Deep learning is a type of machine learning that uses artificial neural networks with many layers to learn patterns from data.",
+        "It lets computers automatically discover useful features without needing a human to program them explicitly."
+      ],
+      "example": {
+        "title": "Image recognition with deep learning",
+        "content": "A phone camera uses a deep learning model to identify faces in photos and suggest tags."
+      }
+    },
+    {
+      "heading": "Deep Learning vs. Traditional Machine Learning",
+      "subheading": "How deep learning fits inside machine learning",
+      "paragraphs": [
+        "Machine learning includes many techniques; deep learning is one of them, distinguished by its deep (many‑layered) neural networks.",
+        "Traditional methods often rely on hand‑crafted features, while deep learning learns features directly from raw data."
+      ],
+      "example": {
+        "title": "Spam detection comparison",
+        "content": "A classic spam filter uses a few keyword rules, whereas a deep learning filter learns patterns from thousands of emails to spot spam more accurately."
+      }
+    },
+    {
+      "heading": "Why Multiple Layers Matter",
+      "subheading": "Understanding the role of layers in learning",
+      "paragraphs": [
+        "Each layer in a neural network transforms the data slightly, building more abstract representations step by step.",
+        "Early layers may detect simple edges, middle layers combine edges into shapes, and deeper layers recognize whole objects."
+      ],
+      "example": {
+        "title": "Layered feature extraction",
+        "content": "In a picture, the first layer finds edges, the second forms corners, and the third identifies a cat."
+      }
+    },
+    {
+      "heading": "Common Applications of Deep Learning",
+      "subheading": "Everyday tools that use deep learning",
+      "paragraphs": [
+        "Deep learning powers voice assistants, image search, translation, and medical image analysis.",
+        "These applications work because deep networks can handle complex patterns that simpler models cannot."
+      ],
+      "example": {
+        "title": "Voice assistants",
+        "content": "Siri or Alexa use deep learning to convert spoken words into text and understand user intent."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify a Deep Learning Example",
+    "instruction": "Think of a device or service you use daily. Write one sentence describing how it might use deep learning."
+  },
+  "keyTakeaways": [
+    "Deep learning is a branch of machine learning that uses neural networks with many layers.",
+    "Multiple layers allow the network to learn simple to complex features automatically.",
+    "Deep learning is used in many everyday applications such as image recognition, speech assistants, and translation."
+  ],
+  "mcqs": [
+    {
+      "question": "What best describes deep learning?",
+      "options": [
+        "A type of machine learning that uses many‑layered neural networks to learn patterns from data.",
+        "A special kind of computer hardware for faster calculations.",
+        "A method for storing large amounts of data in the cloud.",
+        "A programming language designed for artificial intelligence."
+      ],
+      "answer": 0,
+      "explanation": "Deep learning is defined as a machine‑learning approach that employs artificial neural networks with many layers to automatically learn patterns from data."
+    },
+    {
+      "question": "Which statement best describes a key difference between deep learning and traditional machine learning?",
+      "options": [
+        "Deep learning relies on hand‑crafted features designed by experts.",
+        "Deep learning learns features directly from raw data without manual engineering.",
+        "Traditional machine learning always uses deep neural networks.",
+        "Both approaches need the same amount of labeled data."
+      ],
+      "answer": 1,
+      "explanation": "Traditional methods often depend on hand‑crafted features, while deep learning automatically discovers useful features from raw inputs."
+    },
+    {
+      "question": "In a typical convolutional neural network, what does the first layer usually detect?",
+      "options": [
+        "Whole objects such as cars or animals",
+        "Simple edges or basic color contrasts",
+        "User intent behind spoken commands",
+        "Translated text in another language"
+      ],
+      "answer": 1,
+      "explanation": "Early layers of a neural network capture low‑level patterns like edges; higher layers combine these into more complex shapes."
+    },
+    {
+      "question": "Which of the following is NOT an example of a deep‑learning application?",
+      "options": [
+        "Voice assistants like Siri or Alexa",
+        "Image search engines that find similar pictures",
+        "A spam filter that uses a few keyword rules",
+        "Medical image analysis that detects tumors"
+      ],
+      "answer": 2,
+      "explanation": "A spam filter based on a few keyword rules is a traditional approach; deep‑learning spam filters learn patterns from large email datasets."
+    },
+    {
+      "question": "How does adding more layers to a neural network affect its learning ability?",
+      "options": [
+        "It enables the network to learn more abstract and complex features step by step.",
+        "It makes the training process automatically faster.",
+        "It eliminates the need for any training data.",
+        "It guarantees the model will achieve 100% accuracy."
+      ],
+      "answer": 0,
+      "explanation": "Each additional layer transforms the data slightly, allowing the network to build higher‑level representations and capture complex patterns."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
