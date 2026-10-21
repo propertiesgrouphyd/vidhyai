@@ -1,0 +1,124 @@
+{
+  "day": 17,
+  "courseDate": "2026-10-21",
+  "publishAt": "2026-10-21T06:00:00+05:30",
+  "title": "What Is Natural Language Processing?",
+  "introduction": "Natural Language Processing, or NLP, lets computers understand and work with human language. It powers many tools we use every day, from translation apps to voice assistants.",
+  "sections": [
+    {
+      "heading": "Defining Natural Language Processing",
+      "subheading": "Understanding the core idea of NLP",
+      "paragraphs": [
+        "NLP is a field of artificial intelligence that focuses on the interaction between computers and human language. It aims to enable machines to read, hear, speak, and respond in ways that are natural for people."
+      ],
+      "example": {
+        "title": "Chatbot Understanding",
+        "content": "A chatbot reads a user’s message and decides how to reply based on the meaning of the text."
+      }
+    },
+    {
+      "heading": "Why Human Language Is Hard for Computers",
+      "subheading": "Challenges like ambiguity and context",
+      "paragraphs": [
+        "Human language is full of nuances, slang, and words that have multiple meanings. Computers must decide the correct meaning from limited clues."
+      ],
+      "example": {
+        "title": "Word with Multiple Meanings",
+        "content": "The word “bank” can refer to a river side or a place to keep money, and the computer must choose the right sense based on context."
+      }
+    },
+    {
+      "heading": "Common NLP Tasks",
+      "subheading": "Key functions that NLP can perform",
+      "paragraphs": [
+        "NLP includes many tasks such as text classification, translation, summarization, question answering, and text generation. Each task helps computers handle language in a specific way."
+      ],
+      "example": {
+        "title": "Email Summarization",
+        "content": "An NLP system reads a long email and creates a short summary that captures the main points."
+      }
+    },
+    {
+      "heading": "NLP in Everyday AI Assistants",
+      "subheading": "How language models use NLP",
+      "paragraphs": [
+        "Voice assistants like Siri or Alexa use NLP to turn spoken words into text, understand the intent, and produce a helpful response. This chain of steps relies on several NLP techniques."
+      ],
+      "example": {
+        "title": "Voice Assistant Command",
+        "content": "When you say “Set a reminder for 5 pm”, the assistant converts speech to text, identifies the reminder intent, and creates the reminder in your calendar."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify the NLP Task",
+    "instruction": "Read each sentence below and write down which NLP task (translation, summarization, classification, question answering, or text generation) would be used to handle it:\n1. \"Translate this paragraph into Spanish.\"\n2. \"Summarize the news article in two sentences.\"\n3. \"Classify this review as positive or negative.\"\n4. \"Answer: What is the capital of France?\"\n5. \"Generate a short story about a brave cat.\""
+  },
+  "keyTakeaways": [
+    "NLP enables computers to process and understand human language.",
+    "Language is ambiguous and context‑dependent, making it challenging for machines.",
+    "Common NLP tasks include classification, translation, summarization, question answering, and text generation."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main goal of Natural Language Processing (NLP)?",
+      "options": [
+        "To enable machines to read, hear, speak, and respond in ways that feel natural to people",
+        "To improve the resolution of computer monitors",
+        "To increase the storage capacity of hard drives",
+        "To create faster internet connections"
+      ],
+      "answer": 0,
+      "explanation": "NLP aims to let computers understand and use human language, allowing them to read, hear, speak, and respond naturally."
+    },
+    {
+      "question": "In the word‑sense example with “bank”, what must the computer decide?",
+      "options": [
+        "The font size of the word",
+        "The color used to display the word",
+        "The correct meaning of the word based on context",
+        "The number of letters in the word"
+      ],
+      "answer": 2,
+      "explanation": "Because “bank” has multiple meanings, the system must use context clues to pick the appropriate sense."
+    },
+    {
+      "question": "Which NLP task would be used to turn a long email into a short version?",
+      "options": [
+        "Translation",
+        "Classification",
+        "Question answering",
+        "Summarization"
+      ],
+      "answer": 3,
+      "explanation": "Summarization creates a concise version of a longer text while preserving the main ideas."
+    },
+    {
+      "question": "When you tell a voice assistant, “Set a reminder for 5 pm”, which NLP steps are performed?",
+      "options": [
+        "Image recognition, sentiment analysis, and translation",
+        "Speech‑to‑text conversion, intent identification, and response generation",
+        "Text summarization and document classification",
+        "Language detection only"
+      ],
+      "answer": 1,
+      "explanation": "The assistant first converts speech to text, then identifies the reminder intent, and finally creates the reminder."
+    },
+    {
+      "question": "Which of the following is NOT listed as a common NLP task in the lesson?",
+      "options": [
+        "Text generation",
+        "Translation",
+        "Speech synthesis",
+        "Summarization"
+      ],
+      "answer": 2,
+      "explanation": "The lesson mentions classification, translation, summarization, question answering, and text generation, but not speech synthesis."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
