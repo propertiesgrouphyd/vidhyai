@@ -1,0 +1,140 @@
+{
+  "day": 18,
+  "courseDate": "2026-10-22",
+  "publishAt": "2026-10-22T06:00:00+05:30",
+  "title": "What Is Computer Vision?",
+  "introduction": "Computer vision lets machines look at pictures and videos and understand what they see. It is the foundation for many everyday AI tools, from photo apps to self‑driving cars.",
+  "sections": [
+    {
+      "heading": "Defining Computer Vision",
+      "subheading": "Seeing the world through machines",
+      "paragraphs": [
+        "Computer vision is a field of artificial intelligence that enables computers to interpret visual information such as images and video.",
+        "It works by converting visual data into numbers that algorithms can analyze, just like our brain processes light into thoughts."
+      ],
+      "example": {
+        "title": "Smartphone Photo Tagging",
+        "content": "When you open a photo gallery, the app can suggest tags like \"beach\" or \"birthday\" by recognizing patterns in the picture."
+      }
+    },
+    {
+      "heading": "How AI Interprets Images",
+      "subheading": "Turning pixels into data",
+      "paragraphs": [
+        "An image is made of tiny dots called pixels, each with a color value. AI models read these values and look for patterns.",
+        "The model learns from many labeled examples, so it can later predict what new images contain."
+      ],
+      "example": {
+        "title": "Handwritten Digit Recognition",
+        "content": "A simple AI can look at a photo of a handwritten number and correctly say whether it is a 0, 1, 2, etc., by comparing pixel patterns to its training data."
+      }
+    },
+    {
+      "heading": "Image Classification",
+      "subheading": "Sorting pictures into categories",
+      "paragraphs": [
+        "Image classification assigns a single label to an entire picture, such as \"cat\" or \"car\".",
+        "The model examines the whole image and chooses the most likely category based on what it has learned."
+      ],
+      "example": {
+        "title": "Animal Photo Organizer",
+        "content": "A program can scan a folder of pet photos and automatically place all cat pictures in one album and dog pictures in another."
+      }
+    },
+    {
+      "heading": "Object Detection",
+      "subheading": "Finding and locating items in pictures",
+      "paragraphs": [
+        "Object detection not only labels what is in an image but also draws boxes around each item.",
+        "It tells the computer both the type of object and where it is located in the picture."
+      ],
+      "example": {
+        "title": "Self‑Driving Car Pedestrian Detection",
+        "content": "The car’s camera system spots pedestrians, draws a box around each person, and alerts the vehicle to stop or slow down."
+      }
+    },
+    {
+      "heading": "Real‑World Vision Applications",
+      "subheading": "Computer vision in daily life",
+      "paragraphs": [
+        "Retail stores use vision to track items on shelves and speed up checkout without scanning barcodes.",
+        "Healthcare uses vision to examine X‑rays and detect anomalies early."
+      ],
+      "example": {
+        "title": "Barcode‑Free Checkout",
+        "content": "A camera looks at the items you place on the counter, identifies each product, and totals the price automatically."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Simple Image Classification Exercise",
+    "instruction": "Pick three everyday objects (for example, an apple, a shoe, and a book). Take a photo of each or find pictures online. Write down the category you think each picture belongs to, then compare your list with how a phone’s photo app tags them."
+  },
+  "keyTakeaways": [
+    "Computer vision enables machines to understand images and video.",
+    "Image classification gives a single label to an entire picture, while object detection also finds the location of each object.",
+    "Computer vision powers many real‑world tools such as photo tagging, self‑driving cars, retail checkout, and medical imaging."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the primary purpose of computer vision?",
+      "options": [
+        "Enable computers to interpret visual information such as images and video",
+        "Allow computers to process audio signals",
+        "Help computers generate text",
+        "Improve battery life of devices"
+      ],
+      "answer": 0,
+      "explanation": "Computer vision is defined as the field that lets machines understand visual data like pictures and videos."
+    },
+    {
+      "question": "How many labels does image classification assign to a picture?",
+      "options": [
+        "Multiple labels",
+        "No label",
+        "One label",
+        "A numeric code only"
+      ],
+      "answer": 2,
+      "explanation": "Image classification gives a single, most likely category label to the whole image."
+    },
+    {
+      "question": "Which description matches object detection?",
+      "options": [
+        "Assigns a single label to the whole image",
+        "Draws bounding boxes around each identified object and labels them",
+        "Converts images to sound",
+        "Compresses image files"
+      ],
+      "answer": 1,
+      "explanation": "Object detection not only tells what objects are present but also shows where they are by drawing boxes."
+    },
+    {
+      "question": "How does an AI model learn to recognize handwritten digits?",
+      "options": [
+        "By reading a dictionary of words",
+        "By analyzing audio recordings of people speaking numbers",
+        "By random guessing",
+        "By being trained on many labeled examples of digit images"
+      ],
+      "answer": 3,
+      "explanation": "The model is trained on a large set of labeled digit images, allowing it to compare pixel patterns and make predictions."
+    },
+    {
+      "question": "Which real‑world application uses computer vision to identify products without scanning barcodes?",
+      "options": [
+        "Voice‑activated assistants",
+        "Barcode‑free checkout in retail stores",
+        "GPS navigation",
+        "Email spam filtering"
+      ],
+      "answer": 1,
+      "explanation": "Barcode‑free checkout relies on cameras to recognize items on the counter, a direct use of computer vision."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
