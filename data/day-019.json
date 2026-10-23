@@ -1,0 +1,129 @@
+{
+  "day": 19,
+  "courseDate": "2026-10-23",
+  "publishAt": "2026-10-23T06:00:00+05:30",
+  "title": "Understanding Speech AI: Turning Voice into Data and Back",
+  "introduction": "Speech AI lets computers listen to, understand, and speak like humans. It powers many tools we use every day, from voice assistants to automatic captions.",
+  "sections": [
+    {
+      "heading": "What is Speech AI?",
+      "subheading": "Connecting human voice with computers",
+      "paragraphs": [
+        "Speech AI refers to technologies that let computers listen to, understand, and generate human speech.",
+        "It bridges the gap between spoken language and digital information, enabling many everyday tools."
+      ],
+      "example": {
+        "title": "Voice Assistant Greeting",
+        "content": "When you say “Hey Siri”, the device captures your voice, converts it to text, processes the request, and may reply with spoken words."
+      }
+    },
+    {
+      "heading": "Speech Recognition (Speech-to-Text)",
+      "subheading": "How machines turn spoken words into written text",
+      "paragraphs": [
+        "Speech recognition listens to audio and matches sounds to words using trained models.",
+        "The output is a text version of what was spoken, useful for transcription and commands."
+      ],
+      "example": {
+        "title": "Transcribing a Meeting",
+        "content": "A recorder captures a meeting, and speech recognition software creates a written transcript automatically."
+      }
+    },
+    {
+      "heading": "Text-to-Speech (TTS)",
+      "subheading": "How computers speak written text",
+      "paragraphs": [
+        "Text-to-speech converts written words into natural‑sounding audio.",
+        "It uses voice models to generate speech that can be heard on phones, GPS devices, and more."
+      ],
+      "example": {
+        "title": "Reading an Article Aloud",
+        "content": "A news app uses TTS to read the article to you while you drive."
+      }
+    },
+    {
+      "heading": "Basic Audio Understanding",
+      "subheading": "Detecting sounds and speaker traits",
+      "paragraphs": [
+        "Beyond words, audio AI can identify sounds like music, alarms, or animal noises.",
+        "It can also recognize who is speaking, their emotion, or language."
+      ],
+      "example": {
+        "title": "Smart Home Noise Alerts",
+        "content": "A home system hears a baby cry and sends a notification to the parents' phone."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Try a Simple Speech-to-Text Test",
+    "instruction": "Use a free online speech-to-text tool (e.g., Google Docs voice typing). Speak a short sentence like “I love learning about AI” and see the text appear. Note any errors and think why they happened."
+  },
+  "keyTakeaways": [
+    "Speech AI lets computers listen to and understand human voice.",
+    "Speech recognition converts spoken words into written text.",
+    "Text-to-speech turns written text into natural sounding speech.",
+    "Audio AI can detect sounds, identify speakers, and power many everyday devices."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of speech recognition in Speech AI?",
+      "options": [
+        "To convert spoken audio into written text",
+        "To generate spoken audio from written text",
+        "To identify the language being spoken",
+        "To detect background noises"
+      ],
+      "answer": 0,
+      "explanation": "Speech recognition, also called speech-to-text, listens to audio and matches sounds to words, producing a text version of what was spoken."
+    },
+    {
+      "question": "In the voice‑assistant example, what happens after the device converts your spoken command to text?",
+      "options": [
+        "The device powers off automatically",
+        "The system processes the request and decides how to respond",
+        "The text is printed on a piece of paper",
+        "The audio is recorded again for verification"
+      ],
+      "answer": 1,
+      "explanation": "After converting speech to text, the assistant uses the text to understand the request and then processes it to generate an appropriate response."
+    },
+    {
+      "question": "Which technology allows a news app to read an article aloud while you drive?",
+      "options": [
+        "Speech recognition",
+        "Audio fingerprinting",
+        "Text-to-speech",
+        "Speaker identification"
+      ],
+      "answer": 2,
+      "explanation": "Text-to-speech (TTS) converts written words into natural‑sounding audio, enabling apps to read text aloud."
+    },
+    {
+      "question": "Basic audio understanding can identify which of the following?",
+      "options": [
+        "The speaker's name",
+        "The current weather forecast",
+        "Background music or alarms",
+        "The user's exact location"
+      ],
+      "answer": 2,
+      "explanation": "Beyond words, audio AI can detect sounds such as music, alarms, or animal noises, but it does not directly determine personal details like a name or location."
+    },
+    {
+      "question": "Why might a free online speech‑to‑text tool sometimes produce incorrect transcriptions?",
+      "options": [
+        "Because it also uses text‑to‑speech at the same time",
+        "Because background noise can interfere with sound recognition",
+        "Because it cannot store the audio file",
+        "Because it only works with handwritten text"
+      ],
+      "answer": 1,
+      "explanation": "Background noise can confuse the speech recognition model, leading to errors in the generated text."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
