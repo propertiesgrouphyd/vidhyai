@@ -1,0 +1,124 @@
+{
+  "day": 21,
+  "courseDate": "2026-10-25",
+  "publishAt": "2026-10-25T06:00:00+05:30",
+  "title": "Understanding Language Models",
+  "introduction": "Language models are AI systems that work with text. They help computers understand and create language, which is useful in many everyday tools.",
+  "sections": [
+    {
+      "heading": "What Is a Language Model?",
+      "subheading": "A simple definition of the AI tool",
+      "paragraphs": [
+        "A language model is a computer program that learns patterns in written language. It looks at lots of text and learns how words usually appear together."
+      ],
+      "example": {
+        "title": "Predicting the next word in a sentence",
+        "content": "If the model sees \"The cat sat on the\", it predicts the next word is likely \"mat\" because that phrase is common in English."
+      }
+    },
+    {
+      "heading": "How Language Models Use Text Sequences",
+      "subheading": "Working with words as ordered tokens",
+      "paragraphs": [
+        "Language models treat a sentence as a sequence of tokens, where each token can be a word or part of a word. The order of tokens matters because meaning changes with position."
+      ],
+      "example": {
+        "title": "Filling in a missing word",
+        "content": "Given the sequence \"She opened the ___ and saw a surprise\", the model guesses \"door\" because \"opened the door\" is a frequent pattern."
+      }
+    },
+    {
+      "heading": "Next‑Token Prediction Explained",
+      "subheading": "The core idea behind generating text",
+      "paragraphs": [
+        "The model predicts the next token by calculating which word is most likely to follow the previous ones. This process repeats to create longer sentences."
+      ],
+      "example": {
+        "title": "Completing a story line",
+        "content": "Starting with \"Once upon a time, a brave knight\", the model may continue \"ventured into the dark forest\" as the next phrase, based on story patterns."
+      }
+    },
+    {
+      "heading": "Language Models in Everyday Life",
+      "subheading": "Common applications you may have seen",
+      "paragraphs": [
+        "You interact with language models when you use chatbots, voice assistants, or auto‑complete on your phone. They help generate helpful responses quickly."
+      ],
+      "example": {
+        "title": "Chatbot answering a question",
+        "content": "When you ask a virtual assistant \"What is the weather today?\", the model processes your words and generates a short answer like \"It is sunny with a high of 75°F.\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Try Predicting the Next Word",
+    "instruction": "Write a short sentence, stop before the last word, and guess what comes next. Then check your guess by looking up the phrase online or using a free language model tool to see if your prediction matches."
+  },
+  "keyTakeaways": [
+    "A language model learns patterns in text to predict or generate words.",
+    "It works with sequences of tokens, where order influences meaning.",
+    "Next‑token prediction is the basic mechanism behind many AI applications like chatbots and auto‑complete."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main task of a language model?",
+      "options": [
+        "Predict the next word in a sequence",
+        "Translate images to text",
+        "Generate music notes",
+        "Detect objects in photos"
+      ],
+      "answer": 0,
+      "explanation": "A language model learns patterns in text and is used to predict the most likely next word or token."
+    },
+    {
+      "question": "Why does token order matter for a language model?",
+      "options": [
+        "Because tokens are colored",
+        "Because changing order can change meaning",
+        "Because order determines font size",
+        "Because order affects file size"
+      ],
+      "answer": 1,
+      "explanation": "The meaning of a sentence depends on the sequence of words; rearranging tokens can produce a different meaning."
+    },
+    {
+      "question": "Which of the following is an everyday example of a language model?",
+      "options": [
+        "A digital thermometer",
+        "A GPS navigation system",
+        "An auto‑complete feature on a phone keyboard",
+        "A digital camera"
+      ],
+      "answer": 2,
+      "explanation": "Auto‑complete suggests words as you type by predicting the next token, which is a direct use of a language model."
+    },
+    {
+      "question": "In the sentence \"She opened the ___ and saw a surprise\", what word is the model most likely to fill in?",
+      "options": [
+        "window",
+        "book",
+        "box",
+        "door"
+      ],
+      "answer": 3,
+      "explanation": "The phrase \"opened the door\" is a common pattern in English, so the model predicts \"door\" as the most likely word."
+    },
+    {
+      "question": "What is the term for the process where the model repeatedly predicts the next token to build longer text?",
+      "options": [
+        "Token clustering",
+        "Sequence pruning",
+        "Next‑token prediction",
+        "Token hashing"
+      ],
+      "answer": 2,
+      "explanation": "Generating longer sentences involves repeatedly applying next‑token prediction, the core mechanism described in the lesson."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
