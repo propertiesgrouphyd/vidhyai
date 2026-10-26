@@ -1,0 +1,140 @@
+{
+  "day": 22,
+  "courseDate": "2026-10-26",
+  "publishAt": "2026-10-26T06:00:00+05:30",
+  "title": "Understanding Foundation Models",
+  "introduction": "Foundation models are large AI systems that are trained on huge amounts of data. They can be reused for many different tasks, making AI development faster and more flexible.",
+  "sections": [
+    {
+      "heading": "What Is a Foundation Model?",
+      "subheading": "A broadly trained AI that knows many things",
+      "paragraphs": [
+        "A foundation model is an AI model that has been trained on a wide variety of data before it is used for any specific job. The training gives it general knowledge about language, images, or other data types.",
+        "Because it learns patterns from many sources, the same model can be applied to many downstream tasks without starting from scratch."
+      ],
+      "example": {
+        "title": "GPT‑4 as a foundation model",
+        "content": "GPT‑4 was trained on billions of words from the internet. After pretraining, it can write essays, answer questions, translate languages, and even generate code, all by using the same underlying model."
+      }
+    },
+    {
+      "heading": "Why Large‑Scale Pretraining Matters",
+      "subheading": "Learning from massive data gives general knowledge",
+      "paragraphs": [
+        "Training on a huge dataset lets the model see many examples of how words, images, or sounds are used. This broad exposure builds a strong base of understanding.",
+        "When the model has this base, it can adapt quickly to new tasks with only a small amount of additional data."
+      ],
+      "example": {
+        "title": "Language model trained on web text",
+        "content": "A model that reads billions of web pages learns grammar, facts, and common sense. Later, it can answer trivia questions even though it was never specifically taught those questions."
+      }
+    },
+    {
+      "heading": "Adapting a Foundation Model for Downstream Tasks",
+      "subheading": "Using the same model for many jobs",
+      "paragraphs": [
+        "After pretraining, we can fine‑tune the model on a smaller, task‑specific dataset. This process is called adaptation or transfer learning.",
+        "Fine‑tuning changes the model just enough to perform well on the new task while keeping its general knowledge."
+      ],
+      "example": {
+        "title": "Fine‑tuning for sentiment analysis",
+        "content": "A pre‑trained language model is given a few thousand product reviews labeled as positive or negative. After fine‑tuning, it can accurately classify new reviews."
+      }
+    },
+    {
+      "heading": "Foundation Models vs. Single‑Purpose AI Applications",
+      "subheading": "One versatile model versus many specialized tools",
+      "paragraphs": [
+        "A single‑purpose AI is built for one specific function, such as a face‑recognition system that only identifies faces.",
+        "A foundation model can handle many functions—text generation, translation, image captioning—by applying different prompts or light fine‑tuning."
+      ],
+      "example": {
+        "title": "Chatbot built on a foundation model",
+        "content": "A customer‑service chatbot uses a foundation model to understand queries, suggest solutions, and even draft polite responses, whereas a rule‑based bot can only answer pre‑programmed questions."
+      }
+    },
+    {
+      "heading": "Examples Across Language, Vision, and Multimodal AI",
+      "subheading": "Foundation models work with text, images, and both together",
+      "paragraphs": [
+        "In language, models like BERT and GPT are foundation models that support translation, summarization, and question answering.",
+        "In vision, models such as CLIP learn from both images and their captions, enabling tasks like image search and zero‑shot classification."
+      ],
+      "example": {
+        "title": "CLIP as a multimodal foundation model",
+        "content": "CLIP was trained on millions of image‑text pairs. It can match a picture to a description it has never seen before, showing how one model can handle both visual and textual information."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify a Foundation Model",
+    "instruction": "Visit a free AI website (e.g., ChatGPT, DALL·E, or an image‑search tool). Write down whether the service uses a foundation model or a single‑purpose model, and note one reason for your choice."
+  },
+  "keyTakeaways": [
+    "Foundation models are large, broadly trained AI systems that serve as a base for many tasks.",
+    "Large‑scale pretraining gives the model general knowledge that can be quickly adapted to specific problems.",
+    "One foundation model can replace many single‑purpose AI applications, saving time and resources."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main advantage of using a foundation model over a single‑purpose AI application?",
+      "options": [
+        "It can be reused for many different tasks",
+        "It always requires less computational power",
+        "It is trained on a single type of data",
+        "It never needs fine‑tuning"
+      ],
+      "answer": 0,
+      "explanation": "A foundation model is broadly trained, so the same model can be applied to many downstream tasks without building a new model for each."
+    },
+    {
+      "question": "Which process best describes adapting a pre‑trained foundation model to a specific downstream task?",
+      "options": [
+        "Pretraining on billions of words",
+        "Fine‑tuning on a small task‑specific dataset",
+        "Replacing the model’s architecture completely",
+        "Using only rule‑based prompts"
+      ],
+      "answer": 1,
+      "explanation": "Adaptation, also called fine‑tuning, involves training the pre‑trained model on a smaller, labeled dataset that is specific to the new task."
+    },
+    {
+      "question": "During CLIP's large‑scale pretraining, what type of data was primarily used?",
+      "options": [
+        "Only images",
+        "Only text captions",
+        "Pairs of images and their captions",
+        "Audio recordings"
+      ],
+      "answer": 2,
+      "explanation": "CLIP was trained on millions of image‑text pairs, allowing it to learn connections between visual content and language."
+    },
+    {
+      "question": "Why does large‑scale pretraining help a model perform well on zero‑shot tasks?",
+      "options": [
+        "It memorizes every possible answer in advance",
+        "It eliminates the need for any fine‑tuning",
+        "It provides broad general knowledge that can be applied to new tasks",
+        "It reduces the model’s size dramatically"
+      ],
+      "answer": 2,
+      "explanation": "Training on massive, diverse data gives the model a wide base of knowledge, enabling it to handle tasks it has never seen before without additional training."
+    },
+    {
+      "question": "Which of the following is NOT a typical capability of a foundation model?",
+      "options": [
+        "Generating natural‑language text",
+        "Captioning images",
+        "Translating between languages",
+        "Controlling a robot arm without any training data"
+      ],
+      "answer": 3,
+      "explanation": "Foundation models excel at language and vision tasks, but controlling a robot arm without any task‑specific data requires specialized reinforcement‑learning or robotics systems, not a generic foundation model."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
