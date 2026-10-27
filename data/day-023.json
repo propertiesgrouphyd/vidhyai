@@ -1,0 +1,135 @@
+{
+  "day": 23,
+  "courseDate": "2026-10-27",
+  "publishAt": "2026-10-27T06:00:00+05:30",
+  "title": "Understanding Multimodal AI",
+  "introduction": "Multimodal AI can understand and work with more than one type of information, such as text, pictures, sound, or video. Learning how these systems combine data helps us see why AI is becoming more useful in everyday life.",
+  "sections": [
+    {
+      "heading": "What Is Multimodal AI?",
+      "subheading": "Combining Different Types of Data",
+      "paragraphs": [
+        "Multimodal AI refers to models that can process two or more kinds of data at the same time. By handling text, images, audio, or video together, the AI can form a richer understanding of the world."
+      ],
+      "example": {
+        "title": "Smartphone Assistant",
+        "content": "When you ask a phone assistant to show a recipe, it reads the spoken request (audio), displays the text steps, and may also show pictures of the dish. The assistant uses both audio and visual information to help you."
+      }
+    },
+    {
+      "heading": "Data Modalities: Text, Image, Audio, Video",
+      "subheading": "Different Ways Information Is Represented",
+      "paragraphs": [
+        "Text is written language, images are visual pixels, audio captures sound, and video combines moving images with sound. Each modality carries unique clues about the same situation."
+      ],
+      "example": {
+        "title": "Reading a Captioned Photo",
+        "content": "A social media post may include a photo (image) and a short description (text). Together they tell a clearer story than either alone."
+      }
+    },
+    {
+      "heading": "Text‑Image Interaction",
+      "subheading": "Linking Words and Pictures",
+      "paragraphs": [
+        "Vision‑language models connect text and images by learning how words describe visual features. This lets the AI answer questions about a picture or generate a caption for it."
+      ],
+      "example": {
+        "title": "Image Search with Description",
+        "content": "You type \"sunset over mountains\" into a search engine. The AI matches the text query with images that contain those visual elements, returning relevant photos."
+      }
+    },
+    {
+      "heading": "Audio and Video as AI Inputs",
+      "subheading": "Listening and Watching for Understanding",
+      "paragraphs": [
+        "Audio data lets AI recognize speech, music, or environmental sounds. Video adds motion and temporal context, allowing the system to see actions over time."
+      ],
+      "example": {
+        "title": "Voice‑Controlled Home Device",
+        "content": "A smart speaker hears your spoken command (audio) and may also use a camera to see who is speaking (video). It then performs actions like turning on lights, combining both modalities."
+      }
+    },
+    {
+      "heading": "Real‑World Multimodal Applications",
+      "subheading": "Everyday Tools That Use Many Data Types",
+      "paragraphs": [
+        "Multimodal AI powers applications such as automatic captioning, visual search, and content moderation. By using several data types, these tools become more accurate and helpful."
+      ],
+      "example": {
+        "title": "Social Media Content Moderation",
+        "content": "The system scans a video (visual frames and audio) and reads accompanying text to detect harmful content. Combining modalities improves detection speed and reliability."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Identify a Multimodal Example",
+    "instruction": "Think of an app or service you use that works with at least two types of data (for example, text and image). Write one short sentence describing how it uses both."
+  },
+  "keyTakeaways": [
+    "Multimodal AI processes two or more kinds of data, such as text, images, audio, or video.",
+    "Combining modalities gives AI a richer, more human‑like understanding of information.",
+    "Many everyday tools—search, assistants, content moderation—use multimodal AI to work better."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the term \"multimodal AI\" refer to?",
+      "options": [
+        "AI that works only with text data",
+        "AI that can process two or more kinds of data at the same time",
+        "AI that generates only images",
+        "AI that operates without any data input"
+      ],
+      "answer": 1,
+      "explanation": "Multimodal AI is defined as models that handle two or more modalities such as text, image, audio, or video together."
+    },
+    {
+      "question": "In the smartphone assistant example, which data modalities are combined to help the user?",
+      "options": [
+        "Text only",
+        "Audio only",
+        "Audio and visual information (images)",
+        "Video only"
+      ],
+      "answer": 2,
+      "explanation": "The assistant listens to the spoken request (audio) and shows pictures of the dish (visual), using both modalities."
+    },
+    {
+      "question": "How does a vision‑language model improve image search based on a text query?",
+      "options": [
+        "It converts images into audio clips",
+        "It learns how words describe visual features and matches them to images",
+        "It removes all text from the image database",
+        "It processes only video frames, ignoring still images"
+      ],
+      "answer": 1,
+      "explanation": "Vision‑language models map textual descriptions to visual elements, allowing the AI to retrieve images that match the query."
+    },
+    {
+      "question": "What additional information does video provide that audio alone does not?",
+      "options": [
+        "Motion and temporal context",
+        "Higher sound fidelity",
+        "Smaller file size",
+        "Elimination of the need for speech recognition"
+      ],
+      "answer": 0,
+      "explanation": "Video adds moving images and time‑based cues, giving the AI a sense of actions over time that audio cannot convey."
+    },
+    {
+      "question": "Why does combining video frames, audio, and text improve social media content moderation?",
+      "options": [
+        "It slows down detection but makes it more thorough",
+        "It increases detection speed and reliability",
+        "It adds cost without any benefit",
+        "It only helps when the content is purely textual"
+      ],
+      "answer": 1,
+      "explanation": "Using multiple modalities lets the system cross‑check information, leading to faster and more accurate identification of harmful content."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
