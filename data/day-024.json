@@ -1,0 +1,129 @@
+{
+  "day": 24,
+  "courseDate": "2026-10-28",
+  "publishAt": "2026-10-28T06:00:00+05:30",
+  "title": "Understanding AI Agents: Goals, Tools, and Actions",
+  "introduction": "In this lesson you will learn what an AI agent is, how it uses goals, tools, memory, and actions, and how it differs from a simple chatbot.",
+  "sections": [
+    {
+      "heading": "What Is an AI Agent?",
+      "subheading": "A system that can act to achieve a goal",
+      "paragraphs": [
+        "An AI agent is a computer program that can sense its environment, think using a model, and take actions to reach a specific goal.",
+        "It is more than just answering questions; it can plan and act over time."
+      ],
+      "example": {
+        "title": "Smart Home Assistant",
+        "content": "A smart home assistant can turn lights on, adjust temperature, and order groceries automatically based on your preferences."
+      }
+    },
+    {
+      "heading": "Goals and Actions",
+      "subheading": "Defining what the agent wants to achieve",
+      "paragraphs": [
+        "The goal is the desired outcome the agent works toward, such as keeping a room clean.",
+        "Actions are the steps the agent can perform, like moving forward, picking up objects, or sending a command."
+      ],
+      "example": {
+        "title": "Robot Vacuum Cleaner",
+        "content": "The robot vacuum’s goal is a clean floor. Its actions include moving, detecting dirt, and returning to the charging dock."
+      }
+    },
+    {
+      "heading": "Tools and Memory",
+      "subheading": "Resources the agent uses to think and act",
+      "paragraphs": [
+        "Tools are external services or devices the agent can call, like a weather API or a camera.",
+        "Memory lets the agent store information from past interactions, helping it make better decisions later."
+      ],
+      "example": {
+        "title": "Travel Planning AI",
+        "content": "The AI uses a map service (tool) to find routes and remembers your past trips (memory) to suggest better itineraries."
+      }
+    },
+    {
+      "heading": "Agent Loop vs. Simple Chatbot",
+      "subheading": "Continuous decision making compared to single replies",
+      "paragraphs": [
+        "An agent runs an ongoing loop: observe, think, act, then observe again.",
+        "A chatbot typically receives a message, generates one reply, and stops until the next message.",
+        "The loop lets agents act autonomously without waiting for new user input each time."
+      ],
+      "example": {
+        "title": "Customer Support Bot vs. AI Agent",
+        "content": "A support chatbot answers one question at a time. An AI agent could monitor a system, detect issues, and automatically restart services without being asked."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Spot an AI Agent Around You",
+    "instruction": "Identify a device or service you use that can act on its own to meet a goal. Write down its goal, at least one tool it uses, and one action it performs."
+  },
+  "keyTakeaways": [
+    "An AI agent is a system that can perceive, think, and act to achieve a specific goal.",
+    "Agents use tools, memory, and actions, and they operate in a continuous loop.",
+    "Unlike a simple chatbot, an AI agent can act autonomously over time."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main difference between an AI agent and a simple chatbot?",
+      "options": [
+        "An AI agent can act autonomously over time without waiting for new input.",
+        "An AI agent can only answer one question at a time.",
+        "An AI agent cannot use external services.",
+        "An AI agent does not have any memory."
+      ],
+      "answer": 0,
+      "explanation": "AI agents run a continuous loop of observe‑think‑act, allowing them to take actions on their own, while chatbots reply once and wait for the next user message."
+    },
+    {
+      "question": "In the robot vacuum cleaner example, which of the following is an action the agent can perform?",
+      "options": [
+        "Adjusting the thermostat",
+        "Sending an email notification",
+        "Moving across the floor to clean",
+        "Ordering groceries online"
+      ],
+      "answer": 2,
+      "explanation": "Moving across the floor is a direct physical step the vacuum takes to achieve its goal of a clean floor."
+    },
+    {
+      "question": "Which component lets an AI agent store information from past interactions?",
+      "options": [
+        "Tools",
+        "Memory",
+        "Goals",
+        "Sensors"
+      ],
+      "answer": 1,
+      "explanation": "Memory is the part of an agent that records previous data, helping it make better decisions later."
+    },
+    {
+      "question": "What is the correct order of steps in the agent loop?",
+      "options": [
+        "Think, Observe, Act",
+        "Observe, Act, Think",
+        "Act, Think, Observe",
+        "Observe, Think, Act"
+      ],
+      "answer": 3,
+      "explanation": "The loop starts with observing the environment, then thinking (planning), and finally acting."
+    },
+    {
+      "question": "Which of the following is an example of a tool an AI agent might use?",
+      "options": [
+        "A goal",
+        "An action",
+        "A map service",
+        "A loop"
+      ],
+      "answer": 2,
+      "explanation": "A map service is an external resource that the agent can call to help it plan routes, fitting the definition of a tool."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
