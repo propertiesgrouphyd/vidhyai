@@ -1,0 +1,129 @@
+{
+  "day": 25,
+  "courseDate": "2026-10-29",
+  "publishAt": "2026-10-29T06:00:00+05:30",
+  "title": "Understanding AI Models, Tools, and Applications",
+  "introduction": "This lesson explains the difference between an AI model, an AI tool, and an AI application, and shows how a model becomes a useful product for everyday people.",
+  "sections": [
+    {
+      "heading": "AI Model",
+      "subheading": "The core algorithm that learns from data",
+      "paragraphs": [
+        "An AI model is a mathematical representation that has been trained on data to recognize patterns or make predictions.",
+        "It does not have a user interface; it is just the learned knowledge that can be used by other software."
+      ],
+      "example": {
+        "title": "Example: Language Model",
+        "content": "GPT‑4 is an AI model that has learned from billions of text examples. It can generate text when given a prompt, but by itself it cannot be used directly by a person."
+      }
+    },
+    {
+      "heading": "AI Tool",
+      "subheading": "Software that applies a model to a specific task",
+      "paragraphs": [
+        "An AI tool is a program that connects an AI model to a user‑friendly interface, allowing people to perform a task.",
+        "The tool handles input, sends it to the model, and shows the output in a useful way."
+      ],
+      "example": {
+        "title": "Example: Grammar Checker",
+        "content": "Grammarly uses a language model to check your writing and suggest corrections. The model does the analysis, while Grammarly provides the interface and workflow."
+      }
+    },
+    {
+      "heading": "AI Application",
+      "subheading": "A complete product built around tools and models",
+      "paragraphs": [
+        "An AI application combines one or more AI tools, data pipelines, and user interfaces into a full solution that solves a real problem.",
+        "It may include many features beyond the AI part, such as storage, security, and integration with other services."
+      ],
+      "example": {
+        "title": "Example: AI‑Powered Photo Editor",
+        "content": "Adobe Photoshop’s “Neural Filters” use image‑generation models, but the whole Photoshop program, menus, and file handling make it an AI application."
+      }
+    },
+    {
+      "heading": "From Model to Product",
+      "subheading": "Steps that turn a model into a usable application",
+      "paragraphs": [
+        "First, developers train or obtain a model. Next, they wrap it with code that handles inputs, outputs, and errors. Then they design a user interface or API so people can interact with it. Finally, they add data management, security, and deployment.",
+        "Each layer adds value, turning a raw model into a product that ordinary users can use without understanding the underlying math."
+      ],
+      "example": {
+        "title": "Example: Smartphone Face Unlock",
+        "content": "A face‑recognition model learns to identify faces. The phone’s operating system adds a camera interface, security checks, and settings, creating the complete face‑unlock feature that users tap to open."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Classify Real‑World Examples",
+    "instruction": "Look at the three items below and write whether each one is an AI model, an AI tool, or an AI application: 1) A speech‑to‑text engine that converts audio to text. 2) A mobile app that lets you translate spoken words using that engine. 3) The underlying neural network that powers the speech conversion."
+  },
+  "keyTakeaways": [
+    "An AI model is the trained algorithm; it has no user interface.",
+    "An AI tool connects a model to a specific task with a simple interface.",
+    "An AI application bundles tools, data, and interfaces into a complete product.",
+    "Understanding the layers helps avoid confusing a model with the whole product."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main difference between an AI model and an AI tool?",
+      "options": [
+        "An AI model includes a user interface, while an AI tool does not.",
+        "An AI model is a trained algorithm without a user interface; an AI tool connects that model to a user-friendly interface for a specific task.",
+        "An AI tool is the raw data used to train the model.",
+        "An AI model can be directly used by people without any software."
+      ],
+      "answer": 1,
+      "explanation": "The lesson states that a model is just the learned algorithm with no UI, whereas a tool adds an interface to let users perform a task."
+    },
+    {
+      "question": "Which of the following is an example of an AI application?",
+      "options": [
+        "GPT‑4 language model",
+        "Grammarly grammar checker",
+        "Adobe Photoshop with Neural Filters",
+        "A face‑recognition model used in a phone"
+      ],
+      "answer": 2,
+      "explanation": "Photoshop combines the Neural Filters model with menus, file handling, and other features, making it a complete AI application."
+    },
+    {
+      "question": "In the steps that turn a model into a usable product, what typically follows the step of wrapping the model with code that handles inputs and outputs?",
+      "options": [
+        "Training a new model",
+        "Designing a user interface or API",
+        "Adding data management and security layers",
+        "Deploying the model to a cloud server"
+      ],
+      "answer": 1,
+      "explanation": "After the model is wrapped with code, developers usually create a UI or API so users can interact with the system."
+    },
+    {
+      "question": "Which statement best describes an AI tool?",
+      "options": [
+        "A program that connects a model to a user‑friendly interface for a specific task.",
+        "The raw mathematical representation learned from data.",
+        "A complete product that includes storage, security, and integration features.",
+        "A dataset used for training the model."
+      ],
+      "answer": 0,
+      "explanation": "An AI tool is software that links a model to a simple interface, allowing people to perform a particular task."
+    },
+    {
+      "question": "According to the lesson, the speech‑to‑text engine is an AI ___, and the mobile app that translates spoken words using that engine is an AI ___.",
+      "options": [
+        "model, tool",
+        "tool, application",
+        "application, model",
+        "model, application"
+      ],
+      "answer": 3,
+      "explanation": "The engine itself is the trained model, while the mobile app that packages the engine with UI and extra features is an AI application."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
