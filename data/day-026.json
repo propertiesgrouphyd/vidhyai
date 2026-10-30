@@ -1,0 +1,140 @@
+{
+  "day": 26,
+  "courseDate": "2026-10-30",
+  "publishAt": "2026-10-30T06:00:00+05:30",
+  "title": "How Does an AI Application Work?",
+  "introduction": "In this lesson we look at the simple steps an AI application follows, from the moment a user provides input to the moment the answer appears. Knowing this flow helps you understand how AI tools are built.",
+  "sections": [
+    {
+      "heading": "User Input and Interface",
+      "subheading": "How users start the AI process",
+      "paragraphs": [
+        "The first step is the user giving information to the system. This can be typing a question, speaking a command, or selecting an option on a screen.",
+        "The application captures this input through a user interface such as a web form, a mobile app, or a voice assistant."
+      ],
+      "example": {
+        "title": "Chatbot receiving a question",
+        "content": "A user types \"What is the weather today?\" into a chat window. The app records the text as the user input."
+      }
+    },
+    {
+      "heading": "Application Logic and Pre‑processing",
+      "subheading": "Preparing data before sending to the AI model",
+      "paragraphs": [
+        "Before the AI model can work, the app often checks the input for errors, removes unnecessary characters, and formats it consistently.",
+        "These steps are called pre‑processing and they make the data easier for the model to understand."
+      ],
+      "example": {
+        "title": "Cleaning a text query",
+        "content": "The app trims extra spaces, converts the sentence to lower case, and removes punctuation, turning \"  What is the weather today?  \" into \"what is the weather today\"."
+      }
+    },
+    {
+      "heading": "Model or API Processing",
+      "subheading": "Where the AI does its thinking",
+      "paragraphs": [
+        "The cleaned input is sent to an AI model or an external API that performs the core computation, such as language understanding or image recognition.",
+        "The model processes the request and returns a raw result, often in a structured format like JSON."
+      ],
+      "example": {
+        "title": "Calling a language model API",
+        "content": "The app sends the cleaned text to the OpenAI API. The API returns a response like \"The weather today is sunny with a high of 25°C.\""
+      }
+    },
+    {
+      "heading": "Optional Tools, Databases, and Post‑processing",
+      "subheading": "Enhancing AI results with extra data",
+      "paragraphs": [
+        "After the model replies, the application may look up additional information from a database or use other tools to improve the answer.",
+        "Post‑processing can format the response, add citations, or combine multiple sources before showing it to the user."
+      ],
+      "example": {
+        "title": "Adding weather data from a database",
+        "content": "The app receives the model's answer and then queries a weather database to get the exact temperature, adding \"25°C\" to the final message."
+      }
+    },
+    {
+      "heading": "Final Output to the User",
+      "subheading": "Showing the answer in a friendly way",
+      "paragraphs": [
+        "The last step is to present the processed answer to the user through the same interface they used at the start.",
+        "The output can be text, speech, graphics, or a combination, depending on the application design."
+      ],
+      "example": {
+        "title": "Displaying the answer on screen",
+        "content": "The app shows a chat bubble that reads \"Today's weather is sunny with a high of 25°C.\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Map the AI Application Flow",
+    "instruction": "Take a simple example, like a calculator that adds two numbers. Write down each step the app follows: user input, any pre‑processing, the calculation (model/API), optional tools, and the final output shown to the user."
+  },
+  "keyTakeaways": [
+    "An AI application moves data from user input through logic, a model or API, optional tools, and finally to output.",
+    "Pre‑processing prepares raw input so the AI model can understand it correctly.",
+    "Post‑processing and databases can enrich the model's raw answer before it reaches the user."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of pre‑processing in an AI application?",
+      "options": [
+        "To train the AI model on new data",
+        "To clean and format the user input before it is sent to the model",
+        "To display the final answer to the user",
+        "To store the input in a database"
+      ],
+      "answer": 1,
+      "explanation": "Pre‑processing prepares raw user input by removing errors and standardising the format so the AI model can understand it correctly."
+    },
+    {
+      "question": "Which part of the system typically receives the cleaned input and performs the core AI computation?",
+      "options": [
+        "The user interface",
+        "The post‑processing module",
+        "An AI model or external API",
+        "A database lookup service"
+      ],
+      "answer": 2,
+      "explanation": "After pre‑processing, the cleaned data is sent to the AI model or an external API, which does the main reasoning or prediction."
+    },
+    {
+      "question": "In the example where the app adds exact temperature to the weather answer, which step is being illustrated?",
+      "options": [
+        "Optional tools and post‑processing",
+        "User input",
+        "Pre‑processing",
+        "Final output"
+      ],
+      "answer": 0,
+      "explanation": "The app queries a weather database and adds the temperature, which is an optional tool used during post‑processing to enrich the model's raw answer."
+    },
+    {
+      "question": "Which of the following is NOT a typical form of the final output shown to the user?",
+      "options": [
+        "Text on a screen",
+        "Spoken audio response",
+        "Graphics or images",
+        "A new entry stored in a database"
+      ],
+      "answer": 3,
+      "explanation": "Final output is presented to the user through the interface as text, speech, or graphics; storing data in a database is not a user‑facing output."
+    },
+    {
+      "question": "Which sequence correctly represents the usual flow of an AI application?",
+      "options": [
+        "User input → Model processing → Pre‑processing → Output",
+        "Pre‑processing → User input → Model processing → Output",
+        "User input → Pre‑processing → Model/API → Optional tools/post‑processing → Final output",
+        "Model processing → User input → Post‑processing → Output"
+      ],
+      "answer": 2,
+      "explanation": "The standard flow is: the user provides input, the app pre‑processes it, sends it to the model or API, optionally enriches the result, and finally presents the output."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
