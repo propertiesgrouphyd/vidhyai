@@ -1,0 +1,128 @@
+{
+  "day": 27,
+  "courseDate": "2026-10-31",
+  "publishAt": "2026-10-31T06:00:00+05:30",
+  "title": "Humans and AI: Who Does What?",
+  "introduction": "In this lesson we look at how people and artificial intelligence can work together. Understanding each side’s strengths helps us use AI wisely and keep human judgment where it matters most.",
+  "sections": [
+    {
+      "heading": "Human Strengths: Judgment and Creativity",
+      "subheading": "Why people excel at decisions and original ideas",
+      "paragraphs": [
+        "Humans can understand context, emotions, and values. This lets us make judgments that fit the real world.",
+        "Creativity lets us imagine new solutions, stories, or designs that have never existed before."
+      ],
+      "example": {
+        "title": "Choosing a family vacation",
+        "content": "A family decides where to travel by discussing preferences, budgets, and special needs. The parents use their judgment and creativity to pick a destination that fits everyone."
+      }
+    },
+    {
+      "heading": "AI Strengths: Pattern Recognition and Scale",
+      "subheading": "How machines handle large data quickly",
+      "paragraphs": [
+        "AI can examine millions of data points in seconds, finding patterns that are hard for people to see.",
+        "It works the same way every time, without fatigue, making it reliable for repetitive tasks."
+      ],
+      "example": {
+        "title": "Sorting millions of photos",
+        "content": "An AI program groups billions of images by faces, locations, and objects, helping a photo‑sharing service organize its library instantly."
+      }
+    },
+    {
+      "heading": "Combining Human and AI: Complementary Work",
+      "subheading": "Ways people and machines can help each other",
+      "paragraphs": [
+        "When AI provides fast analysis, humans add meaning, ethics, and creativity to the results.",
+        "Together they can solve problems faster and more responsibly than either could alone."
+      ],
+      "example": {
+        "title": "Medical diagnosis support",
+        "content": "An AI scans X‑rays to highlight possible issues. A doctor reviews the highlights, uses medical knowledge, and decides the final diagnosis."
+      }
+    },
+    {
+      "heading": "Human-in-the-Loop: Keeping Responsibility",
+      "subheading": "Why humans stay in control of AI decisions",
+      "paragraphs": [
+        "Human‑in‑the‑loop systems let people check AI outputs before they are used, ensuring safety and fairness.",
+        "This approach keeps accountability with people, not just with machines."
+      ],
+      "example": {
+        "title": "Content moderation on social media",
+        "content": "An AI flags potentially harmful posts. A human moderator reviews each flagged post and decides whether to remove it, keeping the final responsibility."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Find an AI‑assisted task",
+    "instruction": "Think of a daily activity where AI could help (like setting reminders or translating text). Write one short sentence describing the task and how you would still check the AI's result yourself."
+  },
+  "keyTakeaways": [
+    "Humans bring judgment, ethics, and creativity that AI cannot fully replicate.",
+    "AI excels at processing large amounts of data and finding patterns quickly.",
+    "Working together, humans and AI create safer, more effective solutions, especially when humans stay in control of final decisions."
+  ],
+  "mcqs": [
+    {
+      "question": "Which activity most clearly requires human judgment and creativity rather than AI alone?",
+      "options": [
+        "Sorting millions of photos by faces",
+        "Translating a document instantly",
+        "Choosing a family vacation destination",
+        "Detecting patterns in large data sets"
+      ],
+      "answer": 2,
+      "explanation": "The lesson explains that humans use judgment and creativity to consider preferences, budgets, and special needs when planning a vacation, a task AI cannot fully replicate."
+    },
+    {
+      "question": "What is a key advantage of AI over humans mentioned in the lesson?",
+      "options": [
+        "Examining millions of data points quickly",
+        "Understanding emotions and values",
+        "Applying ethical reasoning",
+        "Inventing completely new designs"
+      ],
+      "answer": 0,
+      "explanation": "AI can process huge amounts of data in seconds and find patterns that are difficult for people to see, which is highlighted as its main strength."
+    },
+    {
+      "question": "In a human‑in‑the‑loop content‑moderation system, the human moderator primarily:",
+      "options": [
+        "Writes new AI algorithms",
+        "Reviews flagged posts and decides whether to remove them",
+        "Generates hashtags for posts",
+        "Speeds up the AI's processing time"
+      ],
+      "answer": 1,
+      "explanation": "The lesson states that humans check AI‑flagged content and make the final decision, keeping responsibility with people."
+    },
+    {
+      "question": "Which example best shows the complementary strengths of humans and AI working together?",
+      "options": [
+        "An AI scans X‑rays and a doctor reviews the highlights to decide the final diagnosis",
+        "An AI decides legal sentences without any human review",
+        "A family plans a vacation without using any AI tools",
+        "An AI sorts photos while humans simply watch the process"
+      ],
+      "answer": 0,
+      "explanation": "The medical diagnosis support example illustrates AI providing fast analysis and the doctor adding expertise, ethics, and final judgment."
+    },
+    {
+      "question": "According to the lesson, how is responsibility handled when AI is used?",
+      "options": [
+        "AI should make all final decisions to avoid human bias",
+        "Humans remain accountable by reviewing AI outputs",
+        "Responsibility is shared equally between AI and machines",
+        "No one is responsible once AI is deployed"
+      ],
+      "answer": 1,
+      "explanation": "Human‑in‑the‑loop systems keep accountability with people, ensuring safety and fairness by having humans review AI results."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
