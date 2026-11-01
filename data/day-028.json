@@ -1,0 +1,140 @@
+{
+  "day": 28,
+  "courseDate": "2026-11-01",
+  "publishAt": "2026-11-01T06:00:00+05:30",
+  "title": "What AI Can and Cannot Do",
+  "introduction": "This lesson helps you see what artificial intelligence is good at and where it can make mistakes. Knowing the strengths and limits of AI lets you use it wisely and avoid false expectations.",
+  "sections": [
+    {
+      "heading": "Pattern Recognition",
+      "subheading": "How AI spots similarities in data",
+      "paragraphs": [
+        "AI can look at many examples and learn to notice patterns. It groups similar items together and can label new data based on those patterns.",
+        "This ability lets AI recognize faces, translate languages, and recommend movies by matching what you like with what others liked."
+      ],
+      "example": {
+        "title": "Image Tagging",
+        "content": "An AI system is trained on thousands of photos labeled with objects. When you upload a new picture, the AI compares it to the learned patterns and suggests tags like \"dog\" or \"beach\"."
+      }
+    },
+    {
+      "heading": "Content Generation",
+      "subheading": "AI creates text, images, and music",
+      "paragraphs": [
+        "Generation means the AI can produce new content that looks like it was made by a human. It uses the patterns it learned to write sentences, draw pictures, or compose melodies.",
+        "The output can be useful for drafting emails, creating art, or brainstorming ideas, but it does not guarantee correctness."
+      ],
+      "example": {
+        "title": "Chatbot Reply",
+        "content": "You ask a chatbot for a recipe. It assembles a step‑by‑step list by drawing on many cooking texts it has seen, producing a plausible answer."
+      }
+    },
+    {
+      "heading": "Reasoning and Decision Making",
+      "subheading": "Limits of AI logical steps",
+      "paragraphs": [
+        "AI can follow logical rules it has seen during training, but it does not truly understand the world. It may solve math problems or play games well, yet still miss hidden assumptions.",
+        "When a problem requires common‑sense judgment or real‑world experience, AI can give a plausible answer that is actually wrong."
+      ],
+      "example": {
+        "title": "Math Problem Solver",
+        "content": "An AI solves \"2 + 2 = ?\" correctly, but if you ask it to estimate the number of apples in a basket without a picture, it may guess based on patterns rather than seeing the basket."
+      }
+    },
+    {
+      "heading": "Uncertainty and Hallucinations",
+      "subheading": "Why AI sometimes makes up facts",
+      "paragraphs": [
+        "AI models assign a confidence score to their answers, but high confidence does not mean the answer is true. The model can generate statements that sound correct but have no basis in its training data.",
+        "These invented facts are called hallucinations. They happen because the model tries to fill gaps with plausible‑looking text."
+      ],
+      "example": {
+        "title": "Fake History Fact",
+        "content": "An AI writes, \"In 1923, the first moon landing occurred,\" even though the real first moon landing was in 1969. The sentence sounds confident but is false."
+      }
+    },
+    {
+      "heading": "Dependence on Data and Design",
+      "subheading": "How training data and system shape AI output",
+      "paragraphs": [
+        "AI learns only from the data it is given. If the data is biased, incomplete, or outdated, the AI's answers will reflect those issues.",
+        "The way developers design the system—what prompts are allowed, how the model is fine‑tuned—also influences what the AI can do and where it may fail."
+      ],
+      "example": {
+        "title": "Language Bias",
+        "content": "An AI trained mostly on English news articles may give better answers about Western topics and struggle with questions about cultures that were under‑represented in its data."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Spot the Hallucination",
+    "instruction": "Read the short paragraph below and write down any sentence that seems unlikely or false. Explain why you think it might be a hallucination.\n\"The Eiffel Tower was built in 1804 and was originally painted bright green. It was designed by Leonardo da Vinci, who also invented the first computer in 1901.\""
+  },
+  "keyTakeaways": [
+    "AI is strong at recognizing patterns and generating content, but it does not truly understand the material.",
+    "High confidence from an AI does not guarantee truth; hallucinations can appear as believable statements.",
+    "AI outputs depend heavily on the quality of training data and the design of the system, so its limitations reflect those sources."
+  ],
+  "mcqs": [
+    {
+      "question": "Which task best illustrates AI's ability to recognize patterns?",
+      "options": [
+        "Tagging images with objects like \"dog\" or \"beach\"",
+        "Writing a novel from scratch",
+        "Solving a complex calculus proof",
+        "Cooking a meal based on a recipe"
+      ],
+      "answer": 0,
+      "explanation": "Pattern recognition lets AI compare new data to learned examples, such as labeling pictures based on visual patterns."
+    },
+    {
+      "question": "Which statement about AI‑generated text is correct?",
+      "options": [
+        "AI always knows whether its answer is true",
+        "AI can produce fluent sentences that may be factually wrong",
+        "AI never repeats phrases it has seen before",
+        "AI can feel emotions while writing"
+      ],
+      "answer": 1,
+      "explanation": "AI uses learned patterns to create text, but it does not verify facts, so the output can be plausible yet incorrect."
+    },
+    {
+      "question": "If you ask an AI to estimate how many people can fit in a small room without giving dimensions, what will it most likely do?",
+      "options": [
+        "Provide an exact number based on physics",
+        "Ask you for the room's measurements",
+        "Guess using patterns from similar questions it has seen",
+        "Say it cannot answer the question"
+      ],
+      "answer": 2,
+      "explanation": "Without real‑world context, the AI relies on statistical patterns and may give a guess rather than a reasoned estimate."
+    },
+    {
+      "question": "Which of the following AI statements is an example of a hallucination?",
+      "options": [
+        "\"The first moon landing occurred in 1969.\"",
+        "\"Water freezes at 0°C.\"",
+        "\"Paris is the capital of France.\"",
+        "\"In 1923, the first moon landing occurred.\""
+      ],
+      "answer": 3,
+      "explanation": "The claim about a 1923 moon landing is false and was invented by the model, illustrating a hallucination."
+    },
+    {
+      "question": "An AI system trained mostly on English news articles is most likely to:",
+      "options": [
+        "Answer equally well about all cultures",
+        "Perform better on topics common in its training data",
+        "Refuse to answer questions about non‑English subjects",
+        "Generate random facts unrelated to the question"
+      ],
+      "answer": 1,
+      "explanation": "The AI's knowledge reflects the data it was trained on, so it will be stronger on Western or English‑centric topics."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
