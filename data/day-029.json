@@ -1,0 +1,142 @@
+{
+  "day": 29,
+  "courseDate": "2026-11-02",
+  "publishAt": "2026-11-02T06:00:00+05:30",
+  "title": "Understanding AI Myths, Mistakes, and Misunderstandings",
+  "introduction": "This lesson helps you see what AI can really do and where common ideas about it are wrong. Knowing the truth lets you use AI safely and wisely.",
+  "sections": [
+    {
+      "heading": "AI Is Not Always Correct",
+      "subheading": "Sources of errors in AI outputs",
+      "paragraphs": [
+        "AI models learn from data, and the data can contain mistakes or gaps. When the input is unclear, the model may give a wrong answer.",
+        "Even the best AI can misinterpret a question or miss subtle context, so its answers are not guaranteed to be right."
+      ],
+      "example": {
+        "title": "Spam filter misclassifying email",
+        "content": "A spam filter marked an important work email as junk because the wording was similar to typical spam. The user missed the email until they checked the junk folder."
+      }
+    },
+    {
+      "heading": "AI Does Not Think Like Humans",
+      "subheading": "Pattern matching versus reasoning",
+      "paragraphs": [
+        "AI finds patterns in large datasets, but it does not understand meaning the way people do. It cannot reason about new situations the way a human can.",
+        "When asked a question outside its training data, the AI may produce a plausible‑sounding but incorrect response."
+      ],
+      "example": {
+        "title": "Chatbot giving wrong advice",
+        "content": "A health chatbot suggested a medication dosage that was unsafe because it copied a phrase from a forum without checking medical guidelines."
+      }
+    },
+    {
+      "heading": "AI Is Not Fully Autonomous or Conscious",
+      "subheading": "Human control and lack of self‑awareness",
+      "paragraphs": [
+        "Current AI systems follow instructions given by programmers. They do not have goals, desires, or awareness of themselves.",
+        "Autonomous features, like driverless cars, still need human monitoring and can be stopped or overridden when needed."
+      ],
+      "example": {
+        "title": "Self‑driving car needing human override",
+        "content": "During a test, a self‑driving car hesitated at a construction zone and the safety driver took control to avoid a collision."
+      }
+    },
+    {
+      "heading": "AI Can Be Biased and Has Limits",
+      "subheading": "How data shapes AI behavior",
+      "paragraphs": [
+        "If the training data reflects social biases, the AI can repeat those biases in its predictions or recommendations.",
+        "AI works well for tasks it was trained on, but it cannot replace human judgment in areas requiring empathy or moral decisions."
+      ],
+      "example": {
+        "title": "Facial recognition errors for certain groups",
+        "content": "A facial‑recognition system misidentified people of a certain ethnicity more often because the training images included few examples of that group."
+      }
+    },
+    {
+      "heading": "Why Verification Is Essential",
+      "subheading": "Checking AI output before use",
+      "paragraphs": [
+        "Because AI can make mistakes, it is important to verify its results with trusted sources or human expertise.",
+        "Verification builds confidence and prevents costly errors in business, education, or daily life."
+      ],
+      "example": {
+        "title": "Fact‑checking AI‑generated news summary",
+        "content": "A student used an AI tool to summarize a news article, then cross‑checked the summary with the original article to correct a misquoted statistic."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Spot the AI Myth",
+    "instruction": "Read the three statements below. Write which one is a myth about AI and explain in one sentence why it is not true."
+  },
+  "keyTakeaways": [
+    "AI can make mistakes; its answers should be verified.",
+    "AI does not think or feel like a human; it only finds patterns in data.",
+    "AI systems are not fully autonomous or conscious and need human oversight.",
+    "Bias in training data can cause biased AI behavior.",
+    "Critical thinking helps you separate real AI capabilities from myths."
+  ],
+  "mcqs": [
+    {
+      "question": "Why might an AI model give a wrong answer?",
+      "options": [
+        "The data it learned from can contain mistakes or gaps.",
+        "The AI is conscious and decides to lie.",
+        "The computer hardware always fails.",
+        "The user is offline."
+      ],
+      "answer": 0,
+      "explanation": "AI learns from data, and if the data has errors or missing information, the model can produce incorrect results."
+    },
+    {
+      "question": "How does AI differ from human reasoning?",
+      "options": [
+        "AI understands meaning the way people do.",
+        "AI mainly matches patterns in large datasets.",
+        "AI can feel emotions like humans.",
+        "AI can create new concepts without any data."
+      ],
+      "answer": 1,
+      "explanation": "AI does not reason like humans; it finds statistical patterns in data rather than understanding meaning."
+    },
+    {
+      "question": "What is true about current self‑driving cars?",
+      "options": [
+        "They never need human monitoring.",
+        "They can make moral decisions on their own.",
+        "A human driver can stop or override them when needed.",
+        "They have their own desires and goals."
+      ],
+      "answer": 2,
+      "explanation": "Even autonomous vehicles require a human safety driver who can take control to prevent accidents."
+    },
+    {
+      "question": "Why might a facial‑recognition system misidentify people of a certain ethnicity?",
+      "options": [
+        "Because the training set had few images of that group.",
+        "Because the algorithm is conscious.",
+        "Because the hardware is faulty.",
+        "Because the system is designed to be biased on purpose."
+      ],
+      "answer": 0,
+      "explanation": "If the training data lacks sufficient examples of a group, the AI learns a biased model that performs poorly on that group."
+    },
+    {
+      "question": "What is the main reason to verify AI‑generated information before using it?",
+      "options": [
+        "To save time.",
+        "To ensure the output matches trusted sources or human expertise.",
+        "Because AI always produces perfect facts.",
+        "To avoid using AI altogether."
+      ],
+      "answer": 1,
+      "explanation": "Verification checks AI results against reliable sources, preventing errors that could cause costly mistakes."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
