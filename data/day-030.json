@@ -1,0 +1,137 @@
+{
+  "day": 30,
+  "courseDate": "2026-11-03",
+  "publishAt": "2026-11-03T06:00:00+05:30",
+  "title": "AI Foundations Review and Challenge",
+  "introduction": "This lesson helps you see how all the AI ideas you have learned fit together and gives you a quick challenge to check your understanding.",
+  "sections": [
+    {
+      "heading": "Connecting the AI Landscape",
+      "subheading": "How the main ideas fit together",
+      "paragraphs": [
+        "All the concepts from the first weeks form a single picture of AI. Think of AI as the big umbrella, with branches for data, models, training, and inference.",
+        "Seeing these branches together helps you remember where each piece belongs and how they interact."
+      ],
+      "example": {
+        "title": "Concept Map Example",
+        "content": "Imagine a diagram where AI sits at the center, branching to Machine Learning, Deep Learning, and Generative AI, each linked to data, models, training, and inference."
+      }
+    },
+    {
+      "heading": "Distinguishing AI, Machine Learning, Deep Learning, and Generative AI",
+      "subheading": "Clear differences in purpose and technique",
+      "paragraphs": [
+        "Artificial Intelligence (AI) is the overall goal of making machines act intelligently. Machine Learning (ML) is a way to achieve AI by letting computers learn from data. Deep Learning (DL) is a special kind of ML that uses many layered neural networks. Generative AI creates new content such as text, images, or music."
+      ],
+      "example": {
+        "title": "Real‑World Comparison",
+        "content": "A spam filter uses ML to classify emails, a face‑recognition app uses DL to identify faces, and a text‑to‑image tool uses Generative AI to draw pictures from prompts."
+      }
+    },
+    {
+      "heading": "From Data to Inference",
+      "subheading": "The step‑by‑step process of building an AI system",
+      "paragraphs": [
+        "First, you collect raw data like pictures or text. Next, you label or organize the data so the computer can understand it. Then you train a model on this data, adjusting its parameters. Finally, you use the trained model to make predictions, called inference."
+      ],
+      "example": {
+        "title": "Simple Model Walkthrough",
+        "content": "Collect images of cats, label each as \"cat\" or \"not cat,\" train a neural network on these images, and then let the network decide if a new picture contains a cat."
+      }
+    },
+    {
+      "heading": "AI Modalities: Language, Vision, Speech, Multimodal, Agents",
+      "subheading": "Different ways AI interacts with the world",
+      "paragraphs": [
+        "Language AI processes and generates text, like translation tools. Vision AI works with images and video, such as photo tagging. Speech AI handles spoken words, like voice assistants. Multimodal AI combines two or more types, for example a chatbot that can see images and talk. Agent AI makes decisions and takes actions, like game‑playing bots."
+      ],
+      "example": {
+        "title": "Everyday AI Examples",
+        "content": "Voice assistants (speech), translation apps (language), photo organization apps (vision), AI chatbots that can view pictures and reply (multimodal), and game bots that plan moves (agents)."
+      }
+    },
+    {
+      "heading": "Mini Challenge: Test Your Understanding",
+      "subheading": "Apply what you have reviewed",
+      "paragraphs": [
+        "Read each short scenario and decide which AI type fits best, then list the data needed, the training step, and the expected inference output.",
+        "This helps you connect concepts and see how they are used in real tasks."
+      ],
+      "example": {
+        "title": "Scenario Questions",
+        "content": "Task: Sort incoming emails into \"important\" and \"other.\" Choose the appropriate AI type (ML), describe the data (labeled emails), outline training (teach the model to recognize important features), and state the inference (the model labels new emails)."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Create Your Own AI Summary",
+    "instruction": "Write a short paragraph that links AI, Machine Learning, Deep Learning, and Generative AI, and mention data, model, training, inference, and at least two modalities such as language or vision."
+  },
+  "keyTakeaways": [
+    "All AI concepts connect through a flow: data → model → training → inference.",
+    "AI includes several types: ML, DL, and Generative AI, each with different strengths.",
+    "AI works in many modalities—language, vision, speech, multimodal, and agents—and choosing the right one depends on the task."
+  ],
+  "mcqs": [
+    {
+      "question": "Which statement best describes Deep Learning (DL) as presented in the lesson?",
+      "options": [
+        "DL is the overall goal of making machines act intelligently.",
+        "DL is a way to achieve AI by letting computers learn from data.",
+        "DL is a special kind of Machine Learning that uses many layered neural networks.",
+        "DL creates new content such as text, images, or music."
+      ],
+      "answer": 2,
+      "explanation": "The lesson defines Deep Learning as a special type of Machine Learning that uses many layered neural networks."
+    },
+    {
+      "question": "A spam filter that decides whether an email is spam or not is an example of which AI type?",
+      "options": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Deep Learning (DL)",
+        "Generative AI"
+      ],
+      "answer": 1,
+      "explanation": "The lesson’s real‑world comparison lists a spam filter as an example of Machine Learning."
+    },
+    {
+      "question": "What is the correct order of steps when building an AI system, from raw data to making predictions?",
+      "options": [
+        "Labeling → Collecting → Training → Inference",
+        "Collecting → Labeling → Training → Inference",
+        "Training → Collecting → Labeling → Inference",
+        "Inference → Training → Labeling → Collecting"
+      ],
+      "answer": 1,
+      "explanation": "The lesson describes the flow as: first collect raw data, then label it, then train a model, and finally perform inference."
+    },
+    {
+      "question": "Which AI modality is described as combining two or more types of data, such as seeing images and talking?",
+      "options": [
+        "Language AI",
+        "Vision AI",
+        "Speech AI",
+        "Multimodal AI"
+      ],
+      "answer": 3,
+      "explanation": "Multimodal AI is defined in the lesson as combining two or more modalities, like a chatbot that can see images and talk."
+    },
+    {
+      "question": "For a text‑to‑image Generative AI tool, what primary data is needed during the training phase?",
+      "options": [
+        "Labeled images of cats only",
+        "Pairs of text prompts and corresponding images",
+        "Audio recordings of spoken descriptions",
+        "Short video clips without text"
+      ],
+      "answer": 1,
+      "explanation": "Generative AI that creates images from text requires training data that pairs textual prompts with the images they describe."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
