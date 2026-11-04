@@ -1,0 +1,128 @@
+{
+  "day": 31,
+  "courseDate": "2026-11-04",
+  "publishAt": "2026-11-04T06:00:00+05:30",
+  "title": "How to Talk to AI Effectively",
+  "introduction": "Learning how to give clear instructions to AI helps you get useful and reliable answers. Good prompting is a skill that anyone can develop.",
+  "sections": [
+    {
+      "heading": "Understanding Prompting",
+      "subheading": "The basic idea of talking to an AI",
+      "paragraphs": [
+        "Prompting means writing a short instruction that tells an AI what you want it to do. It is similar to asking a person a question, but the AI follows the exact words you give.",
+        "A good prompt includes the task, any needed details, and the desired format of the answer."
+      ],
+      "example": {
+        "title": "Simple Prompt Example",
+        "content": "Prompt: \"Summarize the story of Little Red Riding Hood in three sentences.\""
+      }
+    },
+    {
+      "heading": "Clarity Improves Results",
+      "subheading": "Why vague instructions lead to confusion",
+      "paragraphs": [
+        "When a prompt is vague, the AI does not know which direction to take, so the answer may be off‑topic or incomplete.",
+        "Clear language reduces ambiguity and guides the AI toward the exact information you need."
+      ],
+      "example": {
+        "title": "Vague vs. Clear Prompt",
+        "content": "Vague: \"Tell me about cats.\" Clear: \"List three common health problems in indoor cats and how to prevent them.\""
+      }
+    },
+    {
+      "heading": "Stating a Clear Goal",
+      "subheading": "Defining what you want to achieve",
+      "paragraphs": [
+        "Before writing a prompt, think about the end result you expect. Are you looking for a summary, a list, or step‑by‑step instructions?",
+        "Mentioning the goal helps the AI format the response correctly."
+      ],
+      "example": {
+        "title": "Goal‑Focused Prompt",
+        "content": "Goal: Create a shopping list. Prompt: \"Create a grocery list for a family of four for a week of meals, including breakfast, lunch, and dinner.\""
+      }
+    },
+    {
+      "heading": "Providing Relevant Context",
+      "subheading": "Adding necessary background information",
+      "paragraphs": [
+        "Context gives the AI the background it needs to tailor the answer. Without it, the AI may make assumptions that are wrong for your situation.",
+        "Include details such as audience, constraints, or prior steps that affect the answer."
+      ],
+      "example": {
+        "title": "Context‑Rich Prompt",
+        "content": "Prompt: \"Explain photosynthesis to a 10‑year‑old using a garden analogy, and include why sunlight is essential.\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Write Your Own Prompt",
+    "instruction": "Think of a simple task you need help with, like planning a birthday party or finding a recipe. Write a clear, goal‑focused prompt that includes any important details or constraints."
+  },
+  "keyTakeaways": [
+    "A prompt is a clear instruction that tells the AI what you want.",
+    "Vague prompts produce vague answers; be specific about the task and format.",
+    "State a clear goal and give relevant context to guide the AI’s response."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the term \"prompt\" refer to when interacting with an AI?",
+      "options": [
+        "The AI's response to a question",
+        "A short instruction that tells the AI what to do",
+        "The hardware used to run the AI model",
+        "The dataset used to train the AI"
+      ],
+      "answer": 1,
+      "explanation": "A prompt is a brief instruction that specifies the task for the AI, as described in the lesson."
+    },
+    {
+      "question": "Which element is essential for a good prompt according to the lesson?",
+      "options": [
+        "Stating the desired answer format",
+        "Including unrelated personal anecdotes",
+        "Leaving out any details",
+        "Using ambiguous language"
+      ],
+      "answer": 0,
+      "explanation": "The lesson says a good prompt should include the task, needed details, and the desired format of the answer."
+    },
+    {
+      "question": "In the \"Vague vs. Clear Prompt\" example, what does the clear prompt specifically ask for?",
+      "options": [
+        "General information about cats",
+        "Three common health problems in indoor cats and how to prevent them",
+        "Tips on training cats to use a litter box",
+        "The history of different cat breeds"
+      ],
+      "answer": 1,
+      "explanation": "The clear prompt requests a list of three health problems for indoor cats and prevention methods, showing specificity."
+    },
+    {
+      "question": "Why is providing relevant context important when writing a prompt?",
+      "options": [
+        "It makes the prompt longer",
+        "It guarantees a faster response",
+        "It helps the AI avoid wrong assumptions",
+        "It reduces the length of the answer"
+      ],
+      "answer": 2,
+      "explanation": "Context gives the AI background information, preventing it from making incorrect assumptions about the situation."
+    },
+    {
+      "question": "If you need a step‑by‑step guide for baking a cake for eight people, which part of the prompt should you state explicitly?",
+      "options": [
+        "The AI's favorite flavor",
+        "The goal of providing a step‑by‑step guide",
+        "The color of your kitchen walls",
+        "The brand of oven you will use"
+      ],
+      "answer": 1,
+      "explanation": "Stating the clear goal (a step‑by‑step guide) helps the AI format the response correctly, as emphasized in the lesson."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
