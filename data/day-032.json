@@ -1,0 +1,140 @@
+{
+  "day": 32,
+  "courseDate": "2026-11-05",
+  "publishAt": "2026-11-05T06:00:00+05:30",
+  "title": "Understanding Prompts: Task, Context, Requirements, and Output",
+  "introduction": "A prompt is the way we tell an AI what we need. Learning how to write clear prompts helps the AI give useful answers, no matter who you are.",
+  "sections": [
+    {
+      "heading": "What Is a Prompt?",
+      "subheading": "A simple instruction for an AI system",
+      "paragraphs": [
+        "A prompt is a short piece of text that tells an AI what to do. It works like a question or a command you give to a person.",
+        "When the prompt is clear, the AI can respond accurately and quickly."
+      ],
+      "example": {
+        "title": "Simple Story Prompt",
+        "content": "Write a short story about a friendly cat who finds a hidden garden."
+      }
+    },
+    {
+      "heading": "Task: The Main Goal",
+      "subheading": "What you want the AI to accomplish",
+      "paragraphs": [
+        "The task describes the core action you expect from the AI, such as writing, summarizing, or translating.",
+        "Identify the exact activity before adding any extra details."
+      ],
+      "example": {
+        "title": "Poetry Task",
+        "content": "Compose a four‑line poem about summer evenings."
+      }
+    },
+    {
+      "heading": "Context: Giving Background",
+      "subheading": "Information that helps the AI understand the situation",
+      "paragraphs": [
+        "Context provides the setting, audience, or background knowledge needed for a good answer.",
+        "Without context, the AI may give a response that is too general or off‑target."
+      ],
+      "example": {
+        "title": "Science Explanation Context",
+        "content": "Explain photosynthesis to a 10‑year‑old using everyday examples like sunlight and leaves."
+      }
+    },
+    {
+      "heading": "Requirements and Desired Output",
+      "subheading": "Specific rules and the format you expect",
+      "paragraphs": [
+        "Requirements are the rules the AI must follow, such as length, style, or language level.",
+        "Desired output tells the AI how you want the answer presented, like a list, a paragraph, or a table."
+      ],
+      "example": {
+        "title": "Health Tips List",
+        "content": "Create a bullet‑point list of three simple tips for staying healthy, each tip no longer than 10 words."
+      }
+    },
+    {
+      "heading": "Improving a Vague Prompt",
+      "subheading": "Adding task, context, and requirements for clarity",
+      "paragraphs": [
+        "A vague prompt like \"Help me with math\" leaves the AI unsure what you need.",
+        "Add a clear task, context, and any requirements to make the request specific."
+      ],
+      "example": {
+        "title": "Clear Math Prompt",
+        "content": "Explain how to solve a two‑digit multiplication problem for a 12‑year‑old, using step‑by‑step numbered instructions."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Create Your Own Prompt",
+    "instruction": "Write a prompt for the AI to generate a short story about a brave robot. Include the task, context, any requirements, and specify that you want the story in three paragraphs."
+  },
+  "keyTakeaways": [
+    "A prompt is a clear instruction that guides the AI’s response.",
+    "Include task, context, requirements, and desired output to make a prompt effective.",
+    "Turning a vague request into a detailed prompt improves the quality of the AI’s answer."
+  ],
+  "mcqs": [
+    {
+      "question": "What is a prompt in the context of interacting with an AI?",
+      "options": [
+        "A short piece of text that tells an AI what to do",
+        "A long essay that describes a problem in detail",
+        "A hardware component that stores data",
+        "A type of database query language"
+      ],
+      "answer": 0,
+      "explanation": "A prompt is a brief instruction or question that guides the AI to produce a specific response."
+    },
+    {
+      "question": "Which part of a prompt describes the exact activity you want the AI to perform?",
+      "options": [
+        "Context",
+        "Task",
+        "Requirements",
+        "Desired output"
+      ],
+      "answer": 1,
+      "explanation": "The task states the core action, such as writing, summarizing, or translating."
+    },
+    {
+      "question": "In the example \"Explain photosynthesis to a 10‑year‑old using everyday examples like sunlight and leaves,\" what element of the prompt is being provided?",
+      "options": [
+        "Task",
+        "Context",
+        "Requirements",
+        "Desired output"
+      ],
+      "answer": 1,
+      "explanation": "The sentence gives background information (audience and setting), which is the context."
+    },
+    {
+      "question": "Which component of a prompt tells the AI how the answer should be presented?",
+      "options": [
+        "Task",
+        "Context",
+        "Desired output",
+        "Requirements"
+      ],
+      "answer": 2,
+      "explanation": "Desired output specifies the format, such as a list, paragraph, or table."
+    },
+    {
+      "question": "How can a vague request like \"Help me with math\" be improved?",
+      "options": [
+        "Add a clear task, context, and any requirements",
+        "Insert more technical jargon to sound professional",
+        "Make the sentence shorter without adding details",
+        "Ask the AI to guess what you need"
+      ],
+      "answer": 0,
+      "explanation": "Providing a specific task, relevant context, and clear requirements turns a vague prompt into a useful one."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
