@@ -1,0 +1,129 @@
+{
+  "day": 33,
+  "courseDate": "2026-11-06",
+  "publishAt": "2026-11-06T06:00:00+05:30",
+  "title": "Writing Clear and Specific AI Instructions",
+  "introduction": "Clear instructions help AI understand exactly what you need, giving you useful and accurate results every time.",
+  "sections": [
+    {
+      "heading": "Understanding the Need for Clear Instructions",
+      "subheading": "How precision affects AI responses",
+      "paragraphs": [
+        "When you give an AI a vague request, it may guess what you want. This can lead to irrelevant or confusing answers.",
+        "Clear instructions tell the AI exactly what to do, so the output matches your expectations."
+      ],
+      "example": {
+        "title": "Vague vs. Clear Prompt",
+        "content": "Vague: 'Tell me about cats.' Clear: 'Write a 150-word summary about the domestic cat's diet, suitable for a 5th‑grade science class.'"
+      }
+    },
+    {
+      "heading": "Identifying Ambiguity in Prompts",
+      "subheading": "Common sources of unclear language",
+      "paragraphs": [
+        "Words like 'some', 'many', or 'best' can be interpreted in many ways.",
+        "Missing details such as format, length, or tone also create uncertainty."
+      ],
+      "example": {
+        "title": "Ambiguous Prompt Example",
+        "content": "Prompt: 'Create a report on climate change.' This does not specify length, audience, or format, leaving the AI unsure."
+      }
+    },
+    {
+      "heading": "Adding Useful Constraints",
+      "subheading": "Using limits to guide the AI",
+      "paragraphs": [
+        "Constraints such as word count, style, or bullet points give the AI clear boundaries.",
+        "Specifying required sections or data points ensures the answer includes what you need."
+      ],
+      "example": {
+        "title": "Constraint‑Rich Prompt",
+        "content": "Prompt: 'Write a 200‑word persuasive paragraph for adults about recycling, using three bullet points and ending with a call to action.'"
+      }
+    },
+    {
+      "heading": "Specifying Audience and Purpose",
+      "subheading": "Tailoring output to the right readers",
+      "paragraphs": [
+        "Mention who will read the response (students, professionals, children) and why they need it.",
+        "The AI can adjust language complexity, tone, and examples when you provide this context."
+      ],
+      "example": {
+        "title": "Audience‑Focused Prompt",
+        "content": "Prompt: 'Explain photosynthesis in simple terms for a 10‑year‑old, using a garden analogy.'"
+      }
+    }
+  ],
+  "practice": {
+    "title": "Prompt Revision Exercise",
+    "instruction": "Take the vague prompt 'Give me information about healthy eating.' Rewrite it to be clear, adding audience, length, format, and any constraints."
+  },
+  "keyTakeaways": [
+    "Clear instructions reduce ambiguity and lead to better AI results.",
+    "Identify vague words and missing details to improve prompts.",
+    "Use constraints like length, format, and audience to guide the AI.",
+    "Specifying purpose helps the AI choose the right tone and detail level."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the most likely result when you give an AI a vague prompt?",
+      "options": [
+        "The AI provides a concise answer that matches your needs.",
+        "The AI guesses and may give an irrelevant or confusing answer.",
+        "The AI refuses to answer any question.",
+        "The AI always asks for clarification before responding."
+      ],
+      "answer": 1,
+      "explanation": "A vague prompt leaves the AI uncertain, so it often guesses the intent, which can lead to irrelevant or confusing output."
+    },
+    {
+      "question": "Which word in a prompt is an example of ambiguous language that can be interpreted in many ways?",
+      "options": [
+        "some",
+        "exact",
+        "specific",
+        "clear"
+      ],
+      "answer": 0,
+      "explanation": "\"Some\" is vague because it does not define a precise amount, making it open to multiple interpretations."
+    },
+    {
+      "question": "Which constraint directly controls the length of the AI's response?",
+      "options": [
+        "tone of the text",
+        "use of bullet points",
+        "word count limit",
+        "desired writing style"
+      ],
+      "answer": 2,
+      "explanation": "Specifying a word count tells the AI exactly how many words to use, which directly limits the length of the output."
+    },
+    {
+      "question": "When writing a prompt for a 10‑year‑old audience, which adjustment is most appropriate?",
+      "options": [
+        "Include technical jargon and scientific terms.",
+        "Add complex statistical data and charts.",
+        "Use simple language and relatable analogies.",
+        "Write in a formal academic style."
+      ],
+      "answer": 2,
+      "explanation": "Simple language and relatable analogies match the comprehension level of a 10‑year‑old, making the content understandable."
+    },
+    {
+      "question": "Which revised prompt best follows the practice instruction to add audience, length, format, and constraints?",
+      "options": [
+        "Give me information about healthy eating.",
+        "Write a 150‑word article on healthy eating for high school students, presented as a list of three tips.",
+        "Explain healthy eating.",
+        "Create a poem about healthy eating for adults."
+      ],
+      "answer": 1,
+      "explanation": "The chosen prompt specifies the audience (high school students), length (150 words), format (list of three tips), and thus removes ambiguity."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
