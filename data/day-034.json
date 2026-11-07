@@ -1,0 +1,142 @@
+{
+  "day": 34,
+  "courseDate": "2026-11-07",
+  "publishAt": "2026-11-07T06:00:00+05:30",
+  "title": "Giving Context to AI: How to Write Better Prompts",
+  "introduction": "Providing the right background, audience, and constraints helps an AI give useful and accurate answers. This lesson shows how to add just the right context to your prompts.",
+  "sections": [
+    {
+      "heading": "Why Context Matters",
+      "subheading": "How background information improves AI responses",
+      "paragraphs": [
+        "AI models generate answers based on the information you give them. When you add relevant context, the model can focus on what matters most.",
+        "Without context, the response may be vague or miss key details that you need."
+      ],
+      "example": {
+        "title": "Chatbot answering a travel question",
+        "content": "Without context: \"Tell me about Paris.\" With context: \"I am planning a 3‑day family trip to Paris in June. We like museums and kid‑friendly activities. Suggest an itinerary that fits our budget of $1500.\""
+      }
+    },
+    {
+      "heading": "Choosing Relevant Background",
+      "subheading": "Picking details that help the AI understand the task",
+      "paragraphs": [
+        "Identify the facts that directly affect the answer, such as dates, locations, or specific subjects. These are the pieces of background the AI needs.",
+        "Leave out unrelated history or personal stories that do not change the result."
+      ],
+      "example": {
+        "title": "Summarizing a news article",
+        "content": "Relevant context: \"Summarize the Reuters article published on 12 Oct 2023 about the new electric car policy in Germany. Highlight the main goals and expected impact.\""
+      }
+    },
+    {
+      "heading": "Separating Useful from Irrelevant",
+      "subheading": "Avoiding extra details that confuse the AI",
+      "paragraphs": [
+        "Extra information can distract the model and lead to longer or off‑topic replies. Keep the prompt focused on what will influence the answer.",
+        "If a detail does not change the outcome, it is better left out."
+      ],
+      "example": {
+        "title": "Writing a recipe prompt",
+        "content": "Useful context: \"Give me a gluten‑free chocolate cake recipe for 8 people, using only ingredients I have: flour, cocoa powder, eggs, butter, sugar.\" Irrelevant detail: \"I love baking on rainy Sundays.\""
+      }
+    },
+    {
+      "heading": "Specifying Audience and Situation",
+      "subheading": "Tailoring responses for who will read them",
+      "paragraphs": [
+        "State who will use the answer – a child, a manager, a teacher – so the AI can adjust tone and complexity.",
+        "Mention the situation, such as a presentation, a report, or a casual chat, to guide the style."
+      ],
+      "example": {
+        "title": "Explaining a concept to different audiences",
+        "content": "For a child: \"Explain photosynthesis in simple words with a fun example.\" For a scientist: \"Provide a detailed biochemical pathway of photosynthesis, including electron transport chain specifics.\""
+      }
+    },
+    {
+      "heading": "Building a Context‑Rich Prompt",
+      "subheading": "Putting all pieces together in a clear format",
+      "paragraphs": [
+        "Combine background, audience, goal, and constraints in a logical order. Use short sentences and bullet‑like structure if helpful.",
+        "A well‑structured prompt saves time and produces the answer you expect."
+      ],
+      "example": {
+        "title": "Prompt for a marketing plan",
+        "content": "\"I run a small online store selling handmade candles. My target audience is eco‑conscious adults aged 25‑40. Create a 3‑month marketing plan that includes social media ideas, email campaigns, and a budget not exceeding $2000.\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Create Your Own Context Prompt",
+    "instruction": "Write a short prompt for an AI to help you plan a weekend trip. Include the destination, who you are traveling with, your budget, and any special interests such as hiking or museums."
+  },
+  "keyTakeaways": [
+    "Relevant background guides the AI to give precise answers.",
+    "Only include details that affect the result; omit unrelated information.",
+    "State the audience and situation so the AI can match tone and style.",
+    "Combine background, goal, audience, and constraints in a clear order.",
+    "A concise, context‑rich prompt leads to faster and more useful responses."
+  ],
+  "mcqs": [
+    {
+      "question": "What is most likely to happen when a prompt does not include relevant background information?",
+      "options": [
+        "The AI will generate a highly detailed response covering many topics.",
+        "The AI may produce a vague or incomplete answer that misses key details.",
+        "The AI will refuse to answer the question.",
+        "The AI will ask for more information before responding."
+      ],
+      "answer": 1,
+      "explanation": "Without context, the model lacks guidance and often returns a vague or incomplete answer, as described in the lesson."
+    },
+    {
+      "question": "When asking the AI to summarize a news article about a new electric car policy in Germany, which detail is most essential?",
+      "options": [
+        "The publication date of the article.",
+        "The author's favorite car brand.",
+        "The weather on the day the article was published.",
+        "The length of the article in words."
+      ],
+      "answer": 0,
+      "explanation": "The lesson emphasizes that dates are relevant background facts that directly affect the summary."
+    },
+    {
+      "question": "In the recipe prompt example, which piece of information is considered irrelevant?",
+      "options": [
+        "The list of ingredients needed.",
+        "The number of servings (8 people).",
+        "The requirement for a gluten‑free cake.",
+        "\"I love baking on rainy Sundays.\""
+      ],
+      "answer": 3,
+      "explanation": "Personal preferences that do not affect the recipe outcome are irrelevant and should be omitted."
+    },
+    {
+      "question": "To get an explanation of photosynthesis suitable for a child, which instruction should be included in the prompt?",
+      "options": [
+        "Provide a detailed biochemical pathway of photosynthesis.",
+        "Include statistical data and citations.",
+        "Explain photosynthesis in simple words with a fun example.",
+        "Use technical jargon appropriate for researchers."
+      ],
+      "answer": 2,
+      "explanation": "Specifying the audience (a child) tells the AI to use simple language and a fun example, matching the lesson on audience tailoring."
+    },
+    {
+      "question": "Which ordering best follows the recommended structure for a context‑rich prompt?",
+      "options": [
+        "Goal, background, audience, constraints.",
+        "Audience, constraints, background, goal.",
+        "Constraints, goal, audience, background.",
+        "Background, audience, goal, constraints."
+      ],
+      "answer": 3,
+      "explanation": "The lesson advises combining background, audience, goal, and constraints in that logical order."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
