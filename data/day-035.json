@@ -1,0 +1,129 @@
+{
+  "day": 35,
+  "courseDate": "2026-11-08",
+  "publishAt": "2026-11-08T06:00:00+05:30",
+  "title": "Giving AI a Role and Perspective",
+  "introduction": "In this lesson you will learn how to ask an AI to answer from a specific professional or audience viewpoint. Using roles helps organize answers, but it does not make the AI an expert.",
+  "sections": [
+    {
+      "heading": "What is Role Prompting?",
+      "subheading": "Defining the concept of AI personas",
+      "paragraphs": [
+        "Role prompting means telling the AI to speak as if it has a certain job or identity, such as a teacher or a chef.",
+        "It is a way to give the AI a clear perspective for the response."
+      ],
+      "example": {
+        "title": "Chatbot as a Teacher",
+        "content": "Prompt: \"You are a high school math teacher. Explain the Pythagorean theorem to a student.\" The AI replies with a lesson style explanation, using teacher‑like language."
+      }
+    },
+    {
+      "heading": "Why Use a Role?",
+      "subheading": "How a role shapes the answer",
+      "paragraphs": [
+        "A role guides the tone, detail level, and examples the AI chooses.",
+        "It helps the answer match the expectations of the reader."
+      ],
+      "example": {
+        "title": "Travel Guide Perspective",
+        "content": "Prompt: \"You are a travel guide for families. Describe a day in Paris suitable for children.\" The AI includes kid‑friendly attractions and safety tips."
+      }
+    },
+    {
+      "heading": "Choosing the Right Audience",
+      "subheading": "Specifying who will read the answer",
+      "paragraphs": [
+        "Mentioning the audience tells the AI how simple or technical the language should be.",
+        "It also influences which examples are most relevant."
+      ],
+      "example": {
+        "title": "Explaining to Kids",
+        "content": "Prompt: \"You are a scientist speaking to 10‑year‑olds. Explain why the sky is blue.\" The AI uses simple words and a fun analogy."
+      }
+    },
+    {
+      "heading": "Limits of Role Prompting",
+      "subheading": "Understanding that a role is not expertise",
+      "paragraphs": [
+        "The AI does not become a real expert just because you assign a role.",
+        "Always verify facts, especially for health, legal, or financial advice."
+      ],
+      "example": {
+        "title": "Medical Advice Role",
+        "content": "Prompt: \"You are a doctor. Give advice on treating a headache.\" The AI can give general tips, but it should include a disclaimer to see a real doctor."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Write Your Own Role Prompt",
+    "instruction": "Choose a profession (e.g., chef, gardener) and an audience (e.g., beginners, seniors). Write a short prompt that asks the AI to answer a question from that role and for that audience."
+  },
+  "keyTakeaways": [
+    "Role prompting tells the AI to adopt a specific perspective.",
+    "Specifying the audience helps the AI choose appropriate language and examples.",
+    "A role does not guarantee the AI is an expert; always check important information.",
+    "Clear role and audience instructions make answers more useful and focused."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of role prompting?",
+      "options": [
+        "To make the AI an expert in the chosen field",
+        "To give the AI a clear perspective for its response",
+        "To change the AI's underlying knowledge base",
+        "To increase the speed of the AI's processing"
+      ],
+      "answer": 1,
+      "explanation": "Role prompting tells the AI to adopt a specific viewpoint, helping it shape the answer, but it does not change its knowledge or expertise."
+    },
+    {
+      "question": "How does specifying an audience influence the AI's answer?",
+      "options": [
+        "It changes the AI's hardware configuration",
+        "It determines the language complexity and relevant examples",
+        "It forces the AI to give legal advice",
+        "It removes the need to verify the information"
+      ],
+      "answer": 1,
+      "explanation": "Mentioning the audience guides the AI to use appropriate language level and choose examples that are meaningful for that group."
+    },
+    {
+      "question": "Which statement about the limits of role prompting is correct?",
+      "options": [
+        "Assigning a doctor role makes the AI a qualified medical professional",
+        "The AI can give medical advice without any disclaimer",
+        "The AI should still have its facts verified",
+        "Role prompting eliminates the need for audience specification"
+      ],
+      "answer": 2,
+      "explanation": "Even when a role is assigned, the AI is not a real expert; important information must always be checked for accuracy."
+    },
+    {
+      "question": "In the travel guide example, which feature shows how the role shapes the answer?",
+      "options": [
+        "Inclusion of kid‑friendly attractions and safety tips",
+        "Use of scientific terminology about transportation",
+        "Detailed financial analysis of travel costs",
+        "Legal citations about travel regulations"
+      ],
+      "answer": 0,
+      "explanation": "The role of a family travel guide leads the AI to suggest attractions suitable for children and add safety advice."
+    },
+    {
+      "question": "Which key takeaway stresses the need for verification after using role prompting?",
+      "options": [
+        "Role prompting tells the AI to adopt a specific perspective",
+        "Specifying the audience helps the AI choose appropriate language",
+        "A role does not guarantee the AI is an expert; always check important information",
+        "Clear role and audience instructions make answers more useful and focused"
+      ],
+      "answer": 2,
+      "explanation": "One of the main takeaways is that assigning a role does not make the AI an expert, so facts, especially critical ones, must be verified."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
