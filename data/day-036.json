@@ -1,0 +1,128 @@
+{
+  "day": 36,
+  "courseDate": "2026-11-09",
+  "publishAt": "2026-11-09T06:00:00+05:30",
+  "title": "Controlling AI Output Format",
+  "introduction": "Learning how to tell an AI the exact way you want the answer helps you get clear, useful results quickly. This lesson shows simple ways to ask for lists, tables, summaries, and even JSON.",
+  "sections": [
+    {
+      "heading": "What is an Output Format?",
+      "subheading": "Why specifying the shape of the answer matters",
+      "paragraphs": [
+        "An output format is the structure of the answer, such as a list, a table, or a code block. By naming the format, you guide the AI to organize information the way you need it.",
+        "Clear formats make it easier to read, copy, or use the result in other tools."
+      ],
+      "example": {
+        "title": "Requesting a short summary",
+        "content": "Prompt: \"Give me a 2‑sentence summary of photosynthesis as a paragraph.\""
+      }
+    },
+    {
+      "heading": "Using Lists Effectively",
+      "subheading": "How to get bullet or numbered points",
+      "paragraphs": [
+        "Lists break information into easy‑to‑scan items. Ask for a bullet list with \"-\" or a numbered list with \"1., 2.,\" etc.",
+        "The AI will follow the pattern you specify, keeping each point separate."
+      ],
+      "example": {
+        "title": "Getting a grocery list",
+        "content": "Prompt: \"List three fruits I can buy, each on a new line with a dash before it.\""
+      }
+    },
+    {
+      "heading": "Creating Simple Tables",
+      "subheading": "Presenting data in rows and columns",
+      "paragraphs": [
+        "Tables show relationships between items, like names and values. Ask for a plain‑text table using pipes \"|\" and hyphens \"-\" to separate columns.",
+        "The AI will align the columns so the table is readable in any text editor."
+      ],
+      "example": {
+        "title": "Fruit calorie table",
+        "content": "Prompt: \"Show a table of apple, banana, and orange with their average calories per 100g. Use a markdown style table.\""
+      }
+    },
+    {
+      "heading": "Requesting JSON Format",
+      "subheading": "Basic machine‑readable output",
+      "paragraphs": [
+        "JSON is a lightweight data format that computers can read easily. You can ask the AI to wrap information in JSON keys and values.",
+        "Even beginners can use simple JSON to store data for later use in apps or spreadsheets."
+      ],
+      "example": {
+        "title": "Student scores in JSON",
+        "content": "Prompt: \"Give the scores of Alice (85), Bob (92), and Carol (78) in JSON format with keys 'name' and 'score'.\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Format a Quick List",
+    "instruction": "Ask an AI to list three ways to stay healthy, using a numbered list. Write down the exact prompt you would use."
+  },
+  "keyTakeaways": [
+    "Specifying the desired format makes AI answers clearer and easier to use.",
+    "Lists and tables are simple ways to organize information for people and programs.",
+    "JSON provides a structured format that computers can read directly."
+  ],
+  "mcqs": [
+    {
+      "question": "Why is it useful to specify the desired output format when prompting an AI?",
+      "options": [
+        "It makes the AI generate longer answers.",
+        "It makes the answer clearer and easier to use.",
+        "It teaches the AI new facts.",
+        "It reduces the number of tokens used."
+      ],
+      "answer": 1,
+      "explanation": "Naming a format (list, table, JSON, etc.) guides the AI to organize the response, resulting in clearer and more usable output."
+    },
+    {
+      "question": "Which prompt correctly asks the AI to give a bullet list of three fruits, each preceded by a dash?",
+      "options": [
+        "Prompt: \"List three fruits I can buy, each on a new line with a dash before it.\"",
+        "Prompt: \"Give me three fruits separated by commas.\"",
+        "Prompt: \"Show three fruits in a numbered list using 1., 2., 3..\"",
+        "Prompt: \"Create a table of three fruits and their colors.\""
+      ],
+      "answer": 0,
+      "explanation": "The lesson shows that using a dash before each item tells the AI to produce a bullet list."
+    },
+    {
+      "question": "In a plain‑text markdown table, which character is used to separate columns?",
+      "options": [
+        ",",
+        "|",
+        ";",
+        ":"
+      ],
+      "answer": 1,
+      "explanation": "Markdown tables use the pipe character \"|\" to divide columns, as described in the lesson."
+    },
+    {
+      "question": "Which of the following is a correctly formatted JSON key‑value pair for a student's score?",
+      "options": [
+        "name: Alice, score: 85",
+        "\"name\": \"Alice\", \"score\": 85",
+        "name = Alice; score = 85",
+        "Alice - 85"
+      ],
+      "answer": 1,
+      "explanation": "JSON requires keys and string values to be quoted and separated by a colon, as shown in the example."
+    },
+    {
+      "question": "According to the lesson, which statement about using lists is true?",
+      "options": [
+        "Lists cannot be numbered.",
+        "Each list item must be on the same line.",
+        "Placing a dash before each item creates a bullet list.",
+        "Lists are only useful for programming code."
+      ],
+      "answer": 2,
+      "explanation": "The lesson explains that a dash \"-\" before each line tells the AI to produce a bullet list."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
