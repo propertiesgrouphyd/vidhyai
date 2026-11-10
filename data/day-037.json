@@ -1,0 +1,145 @@
+{
+  "day": 37,
+  "courseDate": "2026-11-10",
+  "publishAt": "2026-11-10T06:00:00+05:30",
+  "title": "Few-Shot Prompting: Teaching by Examples",
+  "introduction": "In this lesson you will learn how to show an AI model examples of the desired answer before asking it to solve a new problem. Using examples can make the model’s responses more reliable and consistent.",
+  "sections": [
+    {
+      "heading": "Understanding Prompting",
+      "subheading": "How we give instructions to AI",
+      "paragraphs": [
+        "Prompting is the way we talk to a language model. We write a short text that tells the model what we want it to do.",
+        "A good prompt is clear, concise, and matches the task we need."
+      ],
+      "example": {
+        "title": "Simple summary request",
+        "content": "Prompt: \"Summarize the following paragraph: The sun rises in the east and sets in the west.\""
+      }
+    },
+    {
+      "heading": "Zero-Shot Prompting",
+      "subheading": "Asking without any examples",
+      "paragraphs": [
+        "Zero-shot prompting means we give the model a task with no prior examples. The model must rely only on its training knowledge.",
+        "It works well for common tasks, but the answer may vary in style or detail.",
+        "We use zero-shot when we do not have a clear pattern to demonstrate."
+      ],
+      "example": {
+        "title": "Zero-shot translation",
+        "content": "Prompt: \"Translate to French: I love coffee.\""
+      }
+    },
+    {
+      "heading": "One-Shot Prompting",
+      "subheading": "Providing a single example before the task",
+      "paragraphs": [
+        "One-shot prompting adds one example of the input and the expected output before the new question.",
+        "The single example helps the model see the format we expect.",
+        "It is useful when the task has a specific structure that the model might not guess on its own."
+      ],
+      "example": {
+        "title": "One-shot math problem",
+        "content": "Prompt: \"Q: 2 + 2? A: 4. Q: 5 + 3? A:\""
+      }
+    },
+    {
+      "heading": "Few-Shot Prompting",
+      "subheading": "Showing several examples to guide the model",
+      "paragraphs": [
+        "Few-shot prompting gives two or more examples, letting the model learn the pattern more clearly.",
+        "With several examples, the model’s responses become more consistent and follow the style we demonstrated.",
+        "This approach is helpful for tasks like classification, formatting, or creative writing."
+      ],
+      "example": {
+        "title": "Few-shot email classification",
+        "content": "Prompt: \"Email: 'Your package has shipped.' => Label: Shipping. Email: 'Your bill is due.' => Label: Billing. Email: 'We have a new offer for you.' => Label:\""
+      }
+    },
+    {
+      "heading": "Creating Your Own Few-Shot Prompt",
+      "subheading": "Step‑by‑step guide to building a prompt",
+      "paragraphs": [
+        "1. Choose a clear task (e.g., generate jokes).",
+        "2. Write 2‑3 short examples that show the input and the desired output.",
+        "3. Add a new question that follows the same pattern, leaving the answer blank for the model.",
+        "4. Keep the examples simple and consistent in style."
+      ],
+      "example": {
+        "title": "Few-shot joke generator",
+        "content": "Prompt: \"Q: Why did the chicken cross the road? A: To get to the other side. Q: Why is the math book sad? A: Because it has too many problems. Q: Why do programmers prefer dark mode? A:\""
+      }
+    }
+  ],
+  "practice": {
+    "title": "Write a Few-Shot Prompt",
+    "instruction": "Create a prompt that asks the model to list three healthy snacks. First give two example snack‑name pairs, then add the new question for the model to answer."
+  },
+  "keyTakeaways": [
+    "Zero-shot prompting asks the model to perform a task without any examples.",
+    "One-shot prompting adds a single example to show the expected format.",
+    "Few-shot prompting provides several examples, making the model’s output more reliable and consistent."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the term 'prompting' refer to in the context of language models?",
+      "options": [
+        "Giving clear instructions to the model about the desired task",
+        "Training the model from scratch with new data",
+        "Debugging the model's internal code",
+        "Storing user data for later use"
+      ],
+      "answer": 0,
+      "explanation": "Prompting is the way we talk to a language model by writing a short text that tells it what we want it to do."
+    },
+    {
+      "question": "Which statement best describes zero-shot prompting?",
+      "options": [
+        "It provides two or more examples before the new question",
+        "It gives the model a task with no prior examples",
+        "It includes exactly one example to show the format",
+        "It uses only negative examples to guide the model"
+      ],
+      "answer": 1,
+      "explanation": "Zero-shot prompting means we ask the model to perform a task without showing any examples, relying only on its existing knowledge."
+    },
+    {
+      "question": "In the one-shot math example, what should the model answer after \"Q: 5 + 3? A:\"?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "The example shows the pattern \"Q: 2 + 2? A: 4\"; following the same format, 5 + 3 equals 8."
+    },
+    {
+      "question": "According to the step‑by‑step guide, what is the first step when creating your own few-shot prompt?",
+      "options": [
+        "Write 2‑3 short examples",
+        "Choose a clear task",
+        "Add a new question that follows the pattern",
+        "Keep the examples simple and consistent"
+      ],
+      "answer": 1,
+      "explanation": "The guide lists the first step as choosing a clear task, such as generating jokes or listing snacks."
+    },
+    {
+      "question": "Why does few-shot prompting often produce more reliable and consistent outputs?",
+      "options": [
+        "It provides several examples that clarify the pattern we expect",
+        "It reduces the size of the language model",
+        "It removes the need for any training data",
+        "It forces the model to ignore its prior knowledge"
+      ],
+      "answer": 0,
+      "explanation": "By showing two or more examples, few-shot prompting lets the model learn the desired format and style, leading to more consistent answers."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
