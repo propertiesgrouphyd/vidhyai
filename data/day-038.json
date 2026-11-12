@@ -1,0 +1,128 @@
+{
+  "day": 38,
+  "courseDate": "2026-11-11",
+  "publishAt": "2026-11-11T06:00:00+05:30",
+  "title": "Breaking a Large Task into Smaller Tasks",
+  "introduction": "Learning to split a big request into smaller steps helps AI give more accurate and complete answers. This lesson shows why and how to do it.",
+  "sections": [
+    {
+      "heading": "What is Task Decomposition?",
+      "subheading": "Dividing a big request into manageable parts",
+      "paragraphs": [
+        "Task decomposition means breaking a complex goal into several simple, logical steps. Each step can be asked separately, making it easier for the AI to understand and answer.",
+        "When the AI handles one small step at a time, the overall result is clearer and more reliable."
+      ],
+      "example": {
+        "title": "Travel Plan Example",
+        "content": "Instead of asking for a full 7‑day itinerary for Japan in one prompt, you first ask for a list of cities to visit, then ask for activities in each city, and finally ask for a day‑by‑day schedule."
+      }
+    },
+    {
+      "heading": "Why One Big Prompt Can Fail",
+      "subheading": "Limits of AI response length and focus",
+      "paragraphs": [
+        "A single large prompt may exceed the AI's token limit, causing it to cut off important details. It can also confuse the model, leading to vague or incomplete answers.",
+        "Smaller prompts keep the focus narrow, so the AI can give precise information for each part."
+      ],
+      "example": {
+        "title": "Business Plan Pitfall",
+        "content": "If you request a complete business plan for a new cafe in one prompt, the AI might skip market analysis or financial projections. Splitting the request into sections—market research, menu design, cost estimate—produces a fuller plan."
+      }
+    },
+    {
+      "heading": "Steps to Break Down a Task",
+      "subheading": "Identify logical stages and write them as separate prompts",
+      "paragraphs": [
+        "1. Write down the final goal. 2. List the major stages needed to reach that goal. 3. Turn each stage into a clear, short question for the AI. 4. Connect the answers in the order they are needed.",
+        "This method creates a clear roadmap that the AI can follow step by step."
+      ],
+      "example": {
+        "title": "Recipe Creation",
+        "content": "Goal: Make a chocolate cake. Steps: (a) Ask for a list of ingredients, (b) Ask for the mixing instructions, (c) Ask for baking time and temperature, (d) Ask for frosting ideas."
+      }
+    },
+    {
+      "heading": "Building Simple Multi‑Step Workflows",
+      "subheading": "Connecting prompts to form a chain",
+      "paragraphs": [
+        "Prompt chaining links the output of one prompt to the input of the next. This builds a workflow where each answer builds on the previous one.",
+        "You can keep the chain short—usually 2 to 4 steps—for beginner tasks, ensuring each step is easy to check."
+      ],
+      "example": {
+        "title": "Research Outline Workflow",
+        "content": "Step 1: Ask the AI to list three recent articles on renewable energy. Step 2: Ask for a short summary of each article. Step 3: Ask the AI to combine the summaries into a 5‑point outline for a presentation."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Create a Two‑Step Prompt",
+    "instruction": "Pick a simple goal (for example, planning a birthday party). Write the first prompt to gather basic information (like guest list), then write a second prompt that uses that information to create a schedule."
+  },
+  "keyTakeaways": [
+    "Breaking a large task into smaller steps makes AI responses clearer and more complete.",
+    "One big prompt can exceed token limits and lose focus, while short prompts stay on target.",
+    "Prompt chaining lets you build a workflow where each answer feeds into the next, improving reliability."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the term 'task decomposition' mean in the context of prompting AI?",
+      "options": [
+        "Combining many tasks into a single request",
+        "Breaking a complex goal into several simple, logical steps",
+        "Skipping sub‑tasks to save time",
+        "Asking the AI to guess the missing information"
+      ],
+      "answer": 1,
+      "explanation": "Task decomposition is defined as splitting a complex goal into smaller, manageable steps that can be asked separately."
+    },
+    {
+      "question": "Why might a single large prompt cause the AI to give an incomplete answer?",
+      "options": [
+        "Because the AI's token limit can cut off important details",
+        "Because large prompts make the AI answer faster",
+        "Because the AI prefers short prompts for better creativity",
+        "Because a big prompt always improves focus"
+      ],
+      "answer": 0,
+      "explanation": "If a prompt exceeds the model's token limit, the response may be truncated, leading to missing or vague information."
+    },
+    {
+      "question": "Which of the following lists the correct order for breaking down a task according to the lesson?",
+      "options": [
+        "List major stages, write final goal, turn each stage into a question, connect answers",
+        "Write final goal, list major stages, turn each stage into a clear short question, connect answers",
+        "Turn each stage into a question, write final goal, list major stages, connect answers",
+        "Connect answers, write final goal, list major stages, turn each stage into a question"
+      ],
+      "answer": 1,
+      "explanation": "The lesson outlines the steps as: write the final goal, list major stages, turn each stage into a clear short question, then connect the answers."
+    },
+    {
+      "question": "What is the main advantage of using prompt chaining?",
+      "options": [
+        "It reduces the total number of tokens needed for the whole task",
+        "It allows the AI to ignore previous answers and start fresh each time",
+        "Each answer builds on the previous one, creating a clear workflow",
+        "It makes the AI generate responses more quickly"
+      ],
+      "answer": 2,
+      "explanation": "Prompt chaining links the output of one prompt to the input of the next, so each step builds on the prior answer, forming a reliable workflow."
+    },
+    {
+      "question": "In the travel plan example, which sequence of prompts follows the recommended decomposition method?",
+      "options": [
+        "Ask for a day‑by‑day schedule, then list cities, then activities",
+        "Ask for a list of cities to visit, then ask for activities in each city, then ask for a day‑by‑day schedule",
+        "Ask for the travel budget, then list cities, then ask for activities",
+        "Ask for flight options, then hotel choices, then the schedule"
+      ],
+      "answer": 1,
+      "explanation": "The example shows first asking for cities, then activities per city, and finally a detailed day‑by‑day itinerary, matching the decomposition approach."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
