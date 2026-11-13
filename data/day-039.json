@@ -1,0 +1,129 @@
+{
+  "day": 39,
+  "courseDate": "2026-11-12",
+  "publishAt": "2026-11-12T06:00:00+05:30",
+  "title": "Iterative Prompting: Asking AI to Improve Its Own Output",
+  "introduction": "In this lesson you will learn how to work with an AI step by step, review its first answer, point out problems, and ask for a better version. This skill helps you get clearer, more useful results.",
+  "sections": [
+    {
+      "heading": "Understanding Iterative Prompting",
+      "subheading": "Why a single prompt may not be enough",
+      "paragraphs": [
+        "Iterative prompting means you talk to the AI more than once. First you ask a question, then you look at the answer, and you ask again to fix any issues.",
+        "Each round lets you guide the AI toward the exact result you need."
+      ],
+      "example": {
+        "title": "First Prompt and Follow‑up",
+        "content": "You ask: “Write a short story about a cat.” The AI replies. You then say: “Add a surprise ending where the cat solves a mystery.” The AI gives a revised story."
+      }
+    },
+    {
+      "heading": "Spotting Weaknesses in the AI’s First Output",
+      "subheading": "How to notice missing details or errors",
+      "paragraphs": [
+        "Read the AI’s reply carefully. Look for unclear parts, missing information, or facts that don’t make sense.",
+        "Mark the exact spots that need change before you ask for a revision."
+      ],
+      "example": {
+        "title": "Missing Detail Example",
+        "content": "The AI writes a recipe for pancakes but forgets to mention cooking time. You note: “The recipe does not say how long to cook each side.”"
+      }
+    },
+    {
+      "heading": "Giving Clear, Targeted Feedback",
+      "subheading": "Specific instructions lead to better revisions",
+      "paragraphs": [
+        "Instead of saying “make it better,” tell the AI exactly what to change: add, remove, shorten, or re‑phrase.",
+        "Use phrases like “please include …”, “make the tone more friendly”, or “reduce the length to three sentences.”"
+      ],
+      "example": {
+        "title": "Specific Feedback Example",
+        "content": "You say: “Please add a line that explains why the cat loves fish, and keep the story under 150 words.” The AI updates the story accordingly."
+      }
+    },
+    {
+      "heading": "Comparing Versions and Trusting Your Judgment",
+      "subheading": "Choose the best result and remember AI can err",
+      "paragraphs": [
+        "After each revision, compare the new answer with the previous one. Keep the version that best meets your goal.",
+        "Even when the AI critiques its own work, its assessment may be wrong. Always verify facts yourself."
+      ],
+      "example": {
+        "title": "Version Comparison Example",
+        "content": "Version 1 describes the cat’s mystery in detail. Version 2 shortens the mystery but adds an inaccurate fact about cats being nocturnal. You select Version 1 and correct the mistake yourself."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Try an Iterative Prompt",
+    "instruction": "Write a short prompt asking the AI to list three benefits of walking. Read the answer, then write one sentence telling the AI to add a short example for each benefit. Imagine the AI’s revised list."
+  },
+  "keyTakeaways": [
+    "Iterative prompting lets you improve AI answers by reviewing and asking again.",
+    "Identify exact weaknesses before giving feedback.",
+    "Clear, specific instructions produce better revisions.",
+    "Always compare versions and double‑check AI’s self‑critique."
+  ],
+  "mcqs": [
+    {
+      "question": "What does the term \"iterative prompting\" mean in the lesson?",
+      "options": [
+        "Giving a single instruction and stopping.",
+        "Talking to the AI in multiple rounds, reviewing and revising.",
+        "Providing the AI with a list of unrelated topics.",
+        "Letting the AI generate answers without any user input."
+      ],
+      "answer": 1,
+      "explanation": "Iterative prompting involves asking the AI, checking its answer, and then asking again to improve the result."
+    },
+    {
+      "question": "Before you ask the AI for a revision, the lesson advises you to:",
+      "options": [
+        "Guess what might be wrong.",
+        "Read the AI’s reply carefully and note the exact spots that need change.",
+        "Immediately ask for a longer answer.",
+        "Change the topic entirely."
+      ],
+      "answer": 1,
+      "explanation": "You should examine the first output, identify missing details or errors, and mark where changes are needed."
+    },
+    {
+      "question": "Which of the following is an example of clear, targeted feedback?",
+      "options": [
+        "Make it better.",
+        "Add more details.",
+        "Please include a line explaining why the cat loves fish, and keep the story under 150 words.",
+        "Rewrite everything."
+      ],
+      "answer": 2,
+      "explanation": "Specific instructions like adding a line and setting a word limit give the AI precise guidance."
+    },
+    {
+      "question": "When comparing two revised versions, what is an essential practice?",
+      "options": [
+        "Choose the longer version automatically.",
+        "Trust the AI’s self‑critique without checking.",
+        "Verify facts yourself and select the version that best meets your goal.",
+        "Ignore any differences and pick randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson stresses that you must double‑check facts and decide which version best satisfies your requirements."
+    },
+    {
+      "question": "In the practice activity, after receiving a list of three benefits of walking, the next step is to:",
+      "options": [
+        "Ask the AI to add a short example for each benefit.",
+        "Delete the list and start over.",
+        "Request a poem about running instead.",
+        "Ask for the benefits in a different language."
+      ],
+      "answer": 0,
+      "explanation": "The exercise tells you to write a sentence telling the AI to add a short example for each benefit."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
