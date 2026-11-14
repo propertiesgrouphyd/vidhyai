@@ -1,0 +1,142 @@
+{
+  "day": 40,
+  "courseDate": "2026-11-13",
+  "publishAt": "2026-11-13T06:00:00+05:30",
+  "title": "Building a Complete Beginner Prompt Framework",
+  "introduction": "This lesson shows how to combine basic prompting ideas into a simple, reusable framework. By following the steps you can write clear, structured prompts for education, business, personal tasks, and creative work.",
+  "sections": [
+    {
+      "heading": "Start with a Clear Goal",
+      "subheading": "What you want the AI to achieve",
+      "paragraphs": [
+        "Begin every prompt by stating the exact purpose. A clear goal tells the AI the main task it should focus on.",
+        "A well‑defined goal reduces ambiguity and leads to more useful answers."
+      ],
+      "example": {
+        "title": "Goal Example: Summarize a news article",
+        "content": "Prompt: \"Summarize the main points of the article about climate change in three sentences.\""
+      }
+    },
+    {
+      "heading": "Provide Context and Choose a Role",
+      "subheading": "Give background and tell the AI how to act",
+      "paragraphs": [
+        "Context supplies the necessary background information so the AI understands the situation.",
+        "Assigning a role (like teacher, marketer, or friend) guides the tone and style of the response."
+      ],
+      "example": {
+        "title": "Context and Role Example: Teacher explaining a concept",
+        "content": "Prompt: \"You are a friendly middle school teacher. Explain photosynthesis in simple terms for 12‑year‑olds.\""
+      }
+    },
+    {
+      "heading": "List Inputs, Constraints, and Process Steps",
+      "subheading": "Specify data, limits, and how the AI should work",
+      "paragraphs": [
+        "Inputs are the pieces of information the AI needs to use, such as dates, numbers, or text snippets.",
+        "Constraints set limits (time, length, format) and process steps tell the AI how to think through the task."
+      ],
+      "example": {
+        "title": "Inputs and Constraints Example: Creating a study schedule",
+        "content": "Prompt: \"Create a weekly study schedule for a college student who has classes on Monday, Wednesday, Friday from 9 am‑12 pm, and wants to study 10 hours total. Limit each study block to 2 hours and include short breaks.\""
+      }
+    },
+    {
+      "heading": "Define the Desired Output Format",
+      "subheading": "Tell the AI exactly how the answer should look",
+      "paragraphs": [
+        "Specify whether you need a list, a table, bullet points, or a paragraph. This makes the result ready to use.",
+        "Clear formatting instructions avoid extra editing after the AI responds."
+      ],
+      "example": {
+        "title": "Output Format Example: Bullet list of marketing ideas",
+        "content": "Prompt: \"List five creative social media campaign ideas for a new coffee shop. Present each idea as a bullet point with a short description.\""
+      }
+    },
+    {
+      "heading": "Create a Reusable Prompt Template",
+      "subheading": "Combine all parts into one flexible structure",
+      "paragraphs": [
+        "Use the same headings—Goal, Context, Role, Inputs, Constraints, Process, Output format—to build a template you can fill in for any task.",
+        "Having a template saves time and ensures consistency across different prompts."
+      ],
+      "example": {
+        "title": "Template Example: Personal productivity prompt",
+        "content": "Template:\nGoal: ...\nContext: ...\nRole: ...\nInputs: ...\nConstraints: ...\nProcess: ...\nOutput format: ...\nFill in each section for the specific task you need."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Build Your Own Prompt Template",
+    "instruction": "Choose a simple daily task (for example, planning a grocery list). Write a prompt using the framework: state the goal, give context, assign a role if helpful, list inputs, add any constraints, describe the process, and specify the output format. Keep it short and imagine the AI’s response."
+  },
+  "keyTakeaways": [
+    "A good prompt starts with a clear goal that tells the AI what to do.",
+    "Adding context and a role helps the AI produce answers that match the intended style.",
+    "Specifying inputs, constraints, and process steps guides the AI’s reasoning and limits.",
+    "Defining the output format ensures the answer is ready to use.",
+    "A reusable template lets you quickly create structured prompts for many tasks."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the first step when creating a prompt according to the lesson?",
+      "options": [
+        "Define the output format",
+        "State a clear goal",
+        "List inputs",
+        "Assign a role"
+      ],
+      "answer": 1,
+      "explanation": "The lesson says every prompt should begin by stating the exact purpose, which is the clear goal."
+    },
+    {
+      "question": "Why is assigning a role to the AI useful?",
+      "options": [
+        "It reduces token usage",
+        "It speeds up processing",
+        "It guides tone and style",
+        "It changes the AI's underlying model"
+      ],
+      "answer": 2,
+      "explanation": "A role tells the AI how to act, influencing the tone and style of the response."
+    },
+    {
+      "question": "Which part of the framework is used to limit the number of items in a list or the length of the answer?",
+      "options": [
+        "Constraints",
+        "Goal",
+        "Process steps",
+        "Context"
+      ],
+      "answer": 0,
+      "explanation": "Constraints set limits such as time, length, or number of items."
+    },
+    {
+      "question": "In the reusable prompt template, which heading follows \"Inputs\"?",
+      "options": [
+        "Constraints",
+        "Process",
+        "Output format",
+        "Role"
+      ],
+      "answer": 0,
+      "explanation": "The template order is Goal, Context, Role, Inputs, Constraints, Process, Output format; so Constraints comes after Inputs."
+    },
+    {
+      "question": "What is the main purpose of defining the desired output format?",
+      "options": [
+        "To make the AI think faster",
+        "To ensure the answer is ready to use",
+        "To limit the AI's knowledge",
+        "To define the AI's personality"
+      ],
+      "answer": 1,
+      "explanation": "Specifying the format (list, table, bullet points, etc.) makes the result usable without extra editing."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
