@@ -1,0 +1,130 @@
+{
+  "day": 42,
+  "courseDate": "2026-11-15",
+  "publishAt": "2026-11-15T06:00:00+05:30",
+  "title": "Using AI for Research and Information Discovery",
+  "introduction": "This lesson shows how AI can help you plan research, create questions, organize data, and check facts. Learning these skills makes your information search faster and more reliable.",
+  "sections": [
+    {
+      "heading": "Planning Your Research with AI",
+      "subheading": "How AI helps you start a study",
+      "paragraphs": [
+        "AI can suggest a step‑by‑step plan for any topic. It asks you what you need to know and proposes a timeline.",
+        "You can ask the AI to list the main areas to explore, saving time on brainstorming."
+      ],
+      "example": {
+        "title": "AI‑assisted research plan",
+        "content": "You type: \"Help me plan a project on renewable energy.\" The AI replies with a list: 1) Define scope, 2) Find key sources, 3) Outline sections, 4) Set milestones."
+      }
+    },
+    {
+      "heading": "Creating Good Research Questions",
+      "subheading": "Using AI to refine what you want to learn",
+      "paragraphs": [
+        "A clear question guides the whole research process. AI can turn a broad topic into specific, answerable questions.",
+        "You can ask the AI to suggest variations and then pick the most interesting ones."
+      ],
+      "example": {
+        "title": "Generating questions about climate change",
+        "content": "Prompt: \"Give me five research questions about the impact of climate change on agriculture.\" The AI returns questions such as \"How does rising temperature affect wheat yields in India?\""
+      }
+    },
+    {
+      "heading": "Organizing and Comparing Information",
+      "subheading": "AI tools for sorting data and finding patterns",
+      "paragraphs": [
+        "After gathering data, AI can group similar facts and highlight differences. This makes comparison easy.",
+        "You can ask the AI to create a simple table that lists each source, its main claim, and its relevance."
+      ],
+      "example": {
+        "title": "AI‑driven summary table",
+        "content": "You provide three articles about electric cars. The AI outputs a table with columns: Source, Key Finding, Strength of Evidence, and notes any contradictions."
+      }
+    },
+    {
+      "heading": "Verifying Sources and Fact‑Checking",
+      "subheading": "Checking AI claims against trusted evidence",
+      "paragraphs": [
+        "AI may generate statements that sound correct but need verification. Always compare AI output with reputable sources.",
+        "Look for citations, publication dates, and author credentials to decide if a claim is trustworthy."
+      ],
+      "example": {
+        "title": "Fact‑checking a health claim",
+        "content": "AI says \"Drinking green tea reduces heart disease risk by 30%.\" You search PubMed, find a peer‑reviewed study that reports a 10% reduction, and note the difference."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Mini Research Exercise",
+    "instruction": "Pick a simple topic (e.g., \"home gardening\"). Ask an AI to list three specific research questions, then use a reliable website to find an answer for one question and write down the source."
+  },
+  "keyTakeaways": [
+    "AI can help you create a clear research plan quickly.",
+    "Ask AI to turn broad topics into focused research questions.",
+    "Use AI to organize findings into tables or lists for easy comparison.",
+    "Always verify AI‑generated facts with trustworthy sources.",
+    "Distinguish between AI suggestions and evidence that is backed by reliable references."
+  ],
+  "mcqs": [
+    {
+      "question": "Which of the following is NOT a typical step that an AI might suggest when planning a research project on renewable energy?",
+      "options": [
+        "Define the scope of the study",
+        "Find key sources and references",
+        "Outline the main sections of the report",
+        "Conduct a final peer review"
+      ],
+      "answer": 3,
+      "explanation": "AI planning usually includes defining scope, finding sources, outlining sections, and setting milestones; a peer review is done later, not as an initial AI‑suggested step."
+    },
+    {
+      "question": "When using AI to create research questions, what is the main advantage of turning a broad topic into specific questions?",
+      "options": [
+        "It reduces the amount of data you need to collect",
+        "It makes the research easier to focus and manage",
+        "It eliminates the need for a literature review",
+        "It guarantees that the answers will be correct"
+      ],
+      "answer": 1,
+      "explanation": "Specific questions give a clear direction, helping you stay focused and plan the steps needed to answer them."
+    },
+    {
+      "question": "Which AI‑generated output would best help you compare three articles about electric cars?",
+      "options": [
+        "A paragraph summarizing each article",
+        "A table with columns for Source, Key Finding, Strength of Evidence, and contradictions",
+        "A simple list of the article URLs",
+        "A line chart showing sales trends of electric cars"
+      ],
+      "answer": 1,
+      "explanation": "A table that lists each source, its main claim, and evidence strength lets you see similarities and differences at a glance."
+    },
+    {
+      "question": "In fact‑checking, which piece of information is least useful for judging the trustworthiness of an AI‑generated claim?",
+      "options": [
+        "The publication date of the cited source",
+        "The credentials of the author of the source",
+        "The length of the AI’s response",
+        "Whether the claim includes citations"
+      ],
+      "answer": 2,
+      "explanation": "The length of the AI’s response does not indicate reliability; publication date, author credentials, and citations are more relevant."
+    },
+    {
+      "question": "According to the key takeaways, what should you do after receiving an AI suggestion?",
+      "options": [
+        "Accept it as fact without further checks",
+        "Verify it with reliable references",
+        "Ignore the suggestion completely",
+        "Publish the suggestion immediately"
+      ],
+      "answer": 1,
+      "explanation": "The lesson emphasizes that AI‑generated facts must always be checked against trustworthy sources before being used."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
