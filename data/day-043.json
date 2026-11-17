@@ -1,0 +1,140 @@
+{
+  "day": 43,
+  "courseDate": "2026-11-16",
+  "publishAt": "2026-11-16T06:00:00+05:30",
+  "title": "AI-Assisted Writing and Communication",
+  "introduction": "In today’s world, writing clear and effective messages is essential. AI tools can help you draft, edit, and improve any kind of text, but you still need to review the output to keep it authentic.",
+  "sections": [
+    {
+      "heading": "Drafting Content with AI",
+      "subheading": "How AI can help you start a message or article",
+      "paragraphs": [
+        "AI writing assistants can turn a few keywords into a full paragraph. You simply give the main idea, and the model expands it into a coherent draft.",
+        "This saves time, especially when you need to create emails, reports, or social posts quickly."
+      ],
+      "example": {
+        "title": "Drafting an Email",
+        "content": "You type: 'Meeting request for project update.' The AI expands it into a polite email with greeting, purpose, suggested times, and closing."
+      }
+    },
+    {
+      "heading": "Improving Clarity and Grammar",
+      "subheading": "Using AI to polish your sentences",
+      "paragraphs": [
+        "AI can spot grammar mistakes, awkward phrasing, and unclear statements. It suggests simpler words and better sentence flow.",
+        "After the AI suggestions, you can accept, modify, or reject each change to keep your voice."
+      ],
+      "example": {
+        "title": "Grammar Check for a Report",
+        "content": "Paste a paragraph about sales figures. The AI highlights a missing article, suggests replacing 'utilize' with 'use', and reorders a long sentence for clarity."
+      }
+    },
+    {
+      "heading": "Adjusting Tone and Audience",
+      "subheading": "Changing formality and style with AI",
+      "paragraphs": [
+        "Different readers need different tones. AI can rewrite the same content to sound formal, friendly, or persuasive.",
+        "You tell the AI the target audience—students, executives, or customers—and it adapts the language accordingly."
+      ],
+      "example": {
+        "title": "From Formal to Friendly",
+        "content": "Original: 'We regret to inform you of the policy change.' AI rewrites to: 'Hey there! Just wanted to let you know about a new policy we’re rolling out.'"
+      }
+    },
+    {
+      "heading": "Summarizing and Rewriting",
+      "subheading": "Condensing long text and creating new versions",
+      "paragraphs": [
+        "When you have a long article, AI can create a short summary that captures the main points. It can also rewrite the same idea in a different style."
+      ],
+      "example": {
+        "title": "Summarizing a News Article",
+        "content": "An 800‑word news story is reduced to a 100‑word summary that still includes the who, what, when, where, and why."
+      }
+    },
+    {
+      "heading": "Reviewing AI-Generated Writing",
+      "subheading": "Why human check is still needed",
+      "paragraphs": [
+        "AI may introduce factual errors or miss cultural nuances. A quick human review ensures the content is accurate and appropriate."
+      ],
+      "example": {
+        "title": "Final Check Before Sending",
+        "content": "After AI drafts a project proposal, you read it to verify data, adjust the tone for your client, and add any missing personal touches."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Practice: Write and Refine a Short Message",
+    "instruction": "Think of a short message you need to send (for example, a reminder to a friend). Write a one‑sentence outline, use an AI tool to expand it into a full paragraph, then edit the result to improve tone and fix any errors."
+  },
+  "keyTakeaways": [
+    "AI can quickly generate drafts for many types of writing.",
+    "AI helps improve grammar, clarity, and readability.",
+    "You can change the tone of the same text to suit different audiences.",
+    "AI can summarize long content into short, useful versions.",
+    "Always review AI‑generated text to ensure accuracy and authenticity."
+  ],
+  "mcqs": [
+    {
+      "question": "How does an AI writing assistant help when you only provide a few keywords?",
+      "options": [
+        "It expands the keywords into a full, coherent paragraph.",
+        "It translates the keywords into another language.",
+        "It checks only the spelling of the keywords.",
+        "It creates a visual diagram based on the keywords."
+      ],
+      "answer": 0,
+      "explanation": "The AI takes the brief prompt and generates a complete draft, saving time for the writer."
+    },
+    {
+      "question": "Why might an AI suggest replacing the word \"utilize\" with \"use\" in a report?",
+      "options": [
+        "To increase the word count of the sentence.",
+        "To simplify the language and improve readability.",
+        "To make the text sound more formal.",
+        "To add technical jargon to the document."
+      ],
+      "answer": 1,
+      "explanation": "Simpler words like \"use\" make sentences clearer and easier for readers to understand."
+    },
+    {
+      "question": "You need to inform customers about a policy change in a friendly tone. Which AI feature should you use?",
+      "options": [
+        "Summarize the policy details.",
+        "Generate a formal report.",
+        "Rewrite the text to a friendly tone.",
+        "Translate the policy into another language."
+      ],
+      "answer": 2,
+      "explanation": "AI can adjust tone and audience, turning a formal statement into a friendly message when instructed."
+    },
+    {
+      "question": "What is a major risk of publishing AI‑generated text without a human check?",
+      "options": [
+        "The content will be delivered faster.",
+        "The cost of production will be lower.",
+        "The formatting will be improved automatically.",
+        "The text may contain factual errors or cultural insensitivity."
+      ],
+      "answer": 3,
+      "explanation": "AI can miss factual mistakes or overlook cultural nuances, so human review is essential."
+    },
+    {
+      "question": "Which key takeaway stresses the importance of keeping the writer’s authentic voice when using AI tools?",
+      "options": [
+        "AI can quickly generate drafts for many types of writing.",
+        "AI helps improve grammar, clarity, and readability.",
+        "AI can summarize long content into short versions.",
+        "Always review AI‑generated text to ensure accuracy and authenticity."
+      ],
+      "answer": 3,
+      "explanation": "Reviewing AI output guarantees the final text is accurate, appropriate, and reflects the writer’s personal style."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
