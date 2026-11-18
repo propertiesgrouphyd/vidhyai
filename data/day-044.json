@@ -1,0 +1,141 @@
+{
+  "day": 44,
+  "courseDate": "2026-11-17",
+  "publishAt": "2026-11-17T06:00:00+05:30",
+  "title": "Using AI for Translation and Multilingual Communication",
+  "introduction": "This lesson shows how AI can help translate text between languages, keep the right meaning and tone, handle special terms, and when a human should check the result.",
+  "sections": [
+    {
+      "heading": "What AI Translation Is",
+      "subheading": "Understanding the basic idea of machine translation",
+      "paragraphs": [
+        "AI translation uses computer models to change words from one language to another automatically.",
+        "It works by learning patterns from large amounts of bilingual text, so it can suggest translations quickly."
+      ],
+      "example": {
+        "title": "Online AI Translator",
+        "content": "You type a sentence in English and the tool returns it in Spanish within seconds."
+      }
+    },
+    {
+      "heading": "Preserving Meaning and Tone",
+      "subheading": "How AI keeps the original intent and style",
+      "paragraphs": [
+        "Good AI translators try to keep the speaker's tone, whether formal, casual, or friendly.",
+        "They look at surrounding words to decide the best word choice in the target language."
+      ],
+      "example": {
+        "title": "Formal vs Casual Tone",
+        "content": "When translating a business email, the AI chooses formal words to match the tone, unlike a casual chat message."
+      }
+    },
+    {
+      "heading": "Handling Terminology and Context",
+      "subheading": "Dealing with specific words and cultural references",
+      "paragraphs": [
+        "Special terms like medical or technical words need a glossary so the AI uses the correct translation.",
+        "Context helps the AI decide which meaning of a word is right, such as \"bank\" meaning a river side or a financial institution."
+      ],
+      "example": {
+        "title": "Medical Terms Translation",
+        "content": "An AI system uses a medical glossary to translate \"blood pressure\" correctly into French as \"pression artérielle\" rather than a literal word‑by‑word translation."
+      }
+    },
+    {
+      "heading": "Common Translation Errors",
+      "subheading": "Typical mistakes AI can make",
+      "paragraphs": [
+        "AI may confuse words that look similar in two languages but have different meanings, called false friends.",
+        "It can also miss cultural nuances, leading to awkward or inaccurate sentences."
+      ],
+      "example": {
+        "title": "False Friends",
+        "content": "The AI may translate the Spanish word \"embarazada\" as \"embarrassed\", but it actually means \"pregnant\"."
+      }
+    },
+    {
+      "heading": "When to Use Human Review",
+      "subheading": "Importance of checking AI output for sensitive content",
+      "paragraphs": [
+        "Legal, medical, or marketing texts often need a human expert to verify accuracy.",
+        "Human reviewers can correct subtle errors and ensure the translation respects cultural norms."
+      ],
+      "example": {
+        "title": "Legal Document Translation",
+        "content": "A lawyer checks the AI‑generated translation of a contract to ensure legal terms are accurate."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Try a Simple AI Translation",
+    "instruction": "Choose a short English sentence, use a free online AI translator, and compare the result with your own understanding. Note any differences in meaning or tone."
+  },
+  "keyTakeaways": [
+    "AI can translate quickly but may miss subtle meanings or cultural details.",
+    "Preserving tone and using proper terminology improve translation quality.",
+    "Common errors include false friends and literal translations of idioms.",
+    "Human verification is essential for important or high‑stakes translations."
+  ],
+  "mcqs": [
+    {
+      "question": "Which statement best describes AI translation?",
+      "options": [
+        "It uses human translators to check each sentence.",
+        "It uses computer models trained on large bilingual texts.",
+        "It works only for spoken language, not written text.",
+        "It requires manual word‑by‑word entry by the user."
+      ],
+      "answer": 1,
+      "explanation": "AI translation relies on computer models that learn patterns from bilingual data, allowing automatic conversion of text."
+    },
+    {
+      "question": "How does an AI translator decide which word to use in the target language?",
+      "options": [
+        "It selects a word at random.",
+        "It uses only a fixed dictionary without context.",
+        "It looks at surrounding words to understand context.",
+        "It always chooses the longest possible word."
+      ],
+      "answer": 2,
+      "explanation": "AI translators examine the surrounding words (context) to choose the most appropriate translation for a given term."
+    },
+    {
+      "question": "Which of the following is an example of a \"false friend\" error?",
+      "options": [
+        "Translating \"bank\" as \"river bank\" in a financial document.",
+        "Translating the Spanish word \"embarazada\" as \"embarrassed\".",
+        "Translating \"pressure\" as \"pression\" in French.",
+        "Translating \"hello\" as \"hola\"."
+      ],
+      "answer": 1,
+      "explanation": "\"Embarazada\" means \"pregnant\" in Spanish, but it looks similar to the English word \"embarrassed\"; translating it as \"embarrassed\" is a false friend mistake."
+    },
+    {
+      "question": "For which type of text is human review most critical?",
+      "options": [
+        "A casual chat message.",
+        "A recipe for pancakes.",
+        "A legal contract.",
+        "A weather forecast."
+      ],
+      "answer": 2,
+      "explanation": "Legal documents contain precise terminology and obligations, so a human expert must verify AI translations to avoid costly errors."
+    },
+    {
+      "question": "What is the main purpose of using a glossary in AI translation of technical terms?",
+      "options": [
+        "To ensure correct terminology.",
+        "To make translation faster.",
+        "To reduce the need for contextual analysis.",
+        "To avoid any human involvement."
+      ],
+      "answer": 0,
+      "explanation": "A glossary provides the exact translations for specialized words, helping the AI use the right terms rather than literal or incorrect equivalents."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
