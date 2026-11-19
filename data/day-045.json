@@ -1,0 +1,131 @@
+{
+  "day": 45,
+  "courseDate": "2026-11-18",
+  "publishAt": "2026-11-18T06:00:00+05:30",
+  "title": "AI‑Assisted Summarization and Information Compression",
+  "introduction": "Summarizing long text helps us save time and focus on the most important ideas. AI can create clear, short versions of articles, reports, and meeting notes, making information easier to use.",
+  "sections": [
+    {
+      "heading": "Understanding AI Summarization",
+      "subheading": "How machines turn long text into short summaries",
+      "paragraphs": [
+        "AI summarization uses language models to read a large piece of text and pick out the most important sentences.",
+        "The model then rewrites those ideas in a shorter form while keeping the original meaning."
+      ],
+      "example": {
+        "title": "Summarizing a news article",
+        "content": "A 1,500‑word news story about climate change is fed into an AI tool. The tool outputs three concise sentences that capture the cause, impact, and proposed solutions."
+      }
+    },
+    {
+      "heading": "Different Summary Styles",
+      "subheading": "Choosing the right format for the audience",
+      "paragraphs": [
+        "An executive summary gives a high‑level overview for decision‑makers, usually in a paragraph or two.",
+        "A bullet summary lists key points as short bullet items, ideal for quick scanning.",
+        "An action‑item summary extracts decisions and next steps, useful after meetings."
+      ],
+      "example": {
+        "title": "Executive vs. Bullet Summary for a Project Report",
+        "content": "The same project report is turned into an executive summary of two paragraphs for the manager, and into a bullet list of five points for the team members."
+      }
+    },
+    {
+      "heading": "Using AI Tools for Summarization",
+      "subheading": "Step‑by‑step process with a simple web tool",
+      "paragraphs": [
+        "Copy the text you want to shorten and paste it into the AI summarizer.",
+        "Select the desired summary style – executive, bullet, or action‑item – and click Generate.",
+        "Review the output and edit any missing details."
+      ],
+      "example": {
+        "title": "Summarizing Meeting Notes",
+        "content": "After a 30‑minute meeting, the notes are pasted into an AI tool set to \"action‑item\" mode. The tool returns a list of decisions made and tasks assigned to each participant."
+      }
+    },
+    {
+      "heading": "Avoiding Missing Important Context",
+      "subheading": "How to check AI summaries for completeness",
+      "paragraphs": [
+        "AI may omit details that are critical for understanding the full picture.",
+        "Always compare the summary with the original text to ensure key facts are present.",
+        "Combine AI output with a quick human review for best results."
+      ],
+      "example": {
+        "title": "Reviewing an Executive Summary",
+        "content": "An AI‑generated executive summary of a financial report is read side‑by‑side with the report. The reviewer adds a missing note about a recent market shift that the AI missed."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Practice: Write a Bullet Summary",
+    "instruction": "Read the short paragraph below and write a three‑bullet summary that captures the main points. Then compare your bullets with an AI‑generated version to see any differences."
+  },
+  "keyTakeaways": [
+    "AI can quickly turn long text into short, useful summaries.",
+    "Choose the summary style (executive, bullet, action‑item) that fits your audience.",
+    "Always verify AI summaries to avoid losing important context."
+  ],
+  "mcqs": [
+    {
+      "question": "What does an AI summarization tool primarily do with a long piece of text?",
+      "options": [
+        "It translates the text into another language.",
+        "It expands the text into a longer article.",
+        "It selects important sentences and rewrites them in a shorter form while keeping the meaning.",
+        "It creates visual diagrams from the text."
+      ],
+      "answer": 2,
+      "explanation": "AI summarization reads the original text, picks the most important ideas, and rewrites them concisely, preserving the original meaning."
+    },
+    {
+      "question": "Which summary style is most suitable for senior managers who need a high‑level overview?",
+      "options": [
+        "Executive summary",
+        "Bullet summary",
+        "Action‑item summary",
+        "Full transcript"
+      ],
+      "answer": 0,
+      "explanation": "An executive summary provides a brief, high‑level overview, which is ideal for decision‑makers like senior managers."
+    },
+    {
+      "question": "In the step‑by‑step process for using a web AI summarizer, what is the first action a user should take?",
+      "options": [
+        "Select the desired summary style.",
+        "Copy the text you want to shorten and paste it into the tool.",
+        "Click the Generate button.",
+        "Review and edit the output."
+      ],
+      "answer": 1,
+      "explanation": "The first step is to copy the original text and paste it into the AI summarizer before choosing a style."
+    },
+    {
+      "question": "Why is a quick human review recommended after an AI generates a summary?",
+      "options": [
+        "Because AI always makes spelling mistakes.",
+        "Because AI may omit details that are critical for full understanding.",
+        "Because AI cannot produce any summary without human input.",
+        "Because AI summaries are always longer than the original text."
+      ],
+      "answer": 1,
+      "explanation": "AI can miss important context or facts, so a human check ensures that key information is not left out."
+    },
+    {
+      "question": "Which of the following is NOT a step in the typical AI summarization workflow described in the lesson?",
+      "options": [
+        "Copy the original text into the tool.",
+        "Select the summary style (executive, bullet, or action‑item).",
+        "Click the Generate button.",
+        "Upload a video file for summarization."
+      ],
+      "answer": 3,
+      "explanation": "The lesson outlines copying text, selecting a style, and generating the summary; uploading a video is not part of that workflow."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
