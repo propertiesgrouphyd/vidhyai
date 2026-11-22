@@ -1,0 +1,140 @@
+{
+  "day": 48,
+  "courseDate": "2026-11-21",
+  "publishAt": "2026-11-21T06:00:00+05:30",
+  "title": "AI for Business and Office Work",
+  "introduction": "This lesson shows how simple AI tools can help with everyday business tasks such as writing documents, summarizing meetings, communicating with customers, creating reports, and preparing presentations.",
+  "sections": [
+    {
+      "heading": "AI for Drafting Documents",
+      "subheading": "How AI can create first drafts quickly",
+      "paragraphs": [
+        "AI writing assistants can generate a basic version of letters, proposals, or contracts based on a short prompt.",
+        "You only need to add specific details and review the text for accuracy."
+      ],
+      "example": {
+        "title": "Drafting a Project Proposal",
+        "content": "You type: “Write a one‑page project proposal for a new marketing campaign targeting young adults.” The AI returns a structured draft that you can edit and finalize."
+      }
+    },
+    {
+      "heading": "AI for Meeting Summaries",
+      "subheading": "Turning spoken notes into clear minutes",
+      "paragraphs": [
+        "After a meeting, you can upload the audio or paste the transcript into an AI tool.",
+        "The AI extracts key points, decisions, and action items into a concise summary."
+      ],
+      "example": {
+        "title": "Summarizing a Team Call",
+        "content": "You paste the meeting transcript and the AI produces a bullet‑point list of decisions, responsible persons, and deadlines."
+      }
+    },
+    {
+      "heading": "AI in Customer Communication",
+      "subheading": "Writing polite and consistent replies",
+      "paragraphs": [
+        "AI can suggest replies to common customer questions, keeping the tone professional.",
+        "It helps maintain quick response times without sacrificing quality."
+      ],
+      "example": {
+        "title": "Responding to a Support Query",
+        "content": "A customer asks about a delayed shipment. You give the AI the query and key details; it drafts a courteous response explaining the delay and next steps."
+      }
+    },
+    {
+      "heading": "AI for Data Analysis and Reporting",
+      "subheading": "Turning raw numbers into simple insights",
+      "paragraphs": [
+        "You can feed sales data or survey results into an AI model.",
+        "The AI highlights trends, creates short explanations, and suggests visual charts."
+      ],
+      "example": {
+        "title": "Weekly Sales Report",
+        "content": "You upload a CSV of sales figures. The AI writes a brief report noting the top‑selling product, a dip in region X, and recommends a promotion."
+      }
+    },
+    {
+      "heading": "AI for Presentations and Workflow",
+      "subheading": "Building slides and automating tasks",
+      "paragraphs": [
+        "AI can generate slide outlines from a topic and suggest bullet points.",
+        "It can also suggest next steps for a workflow, such as reminders or task assignments."
+      ],
+      "example": {
+        "title": "Creating a Pitch Deck",
+        "content": "You ask the AI to outline a 5‑slide pitch for a new app. It provides slide titles, key points, and a short speaker note for each slide."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Practice: Draft an Email with AI Help",
+    "instruction": "Use a free AI writing tool to compose a short professional email requesting a meeting with a client. Review the AI’s suggestions and make any needed changes."
+  },
+  "keyTakeaways": [
+    "AI can quickly create first drafts of business documents, saving time.",
+    "AI tools turn meeting recordings into clear, actionable summaries.",
+    "AI helps write consistent customer replies, generate simple reports, and build presentation outlines."
+  ],
+  "mcqs": [
+    {
+      "question": "After an AI writing assistant creates a first draft of a project proposal, what should you do next?",
+      "options": [
+        "Send the draft directly to the client",
+        "Add specific details and review the text for accuracy",
+        "Translate the draft into another language",
+        "Delete the draft and start over"
+      ],
+      "answer": 1,
+      "explanation": "The lesson says you need to add specific details and check the draft for correctness before finalizing."
+    },
+    {
+      "question": "Which item is NOT typically produced by an AI tool when summarizing a meeting transcript?",
+      "options": [
+        "A bullet‑point list of decisions",
+        "Action items with assigned persons",
+        "A full verbatim transcript of the meeting",
+        "Deadlines for each action item"
+      ],
+      "answer": 2,
+      "explanation": "AI extracts key points, decisions, and action items, not the complete verbatim transcript."
+    },
+    {
+      "question": "How does AI assist in customer communication according to the lesson?",
+      "options": [
+        "By generating polite, consistent replies quickly",
+        "By automating product shipments",
+        "By analyzing competitor pricing",
+        "By designing marketing logos"
+      ],
+      "answer": 0,
+      "explanation": "The lesson highlights that AI suggests courteous replies, keeping tone professional and response time fast."
+    },
+    {
+      "question": "When you feed sales data into an AI model for reporting, which of the following can you expect the AI to produce?",
+      "options": [
+        "Detailed raw data tables",
+        "Identification of trends and suggested visual charts",
+        "Personal email drafts to customers",
+        "Source code for a mobile application"
+      ],
+      "answer": 1,
+      "explanation": "The AI highlights trends, writes short explanations, and recommends visual charts for the data."
+    },
+    {
+      "question": "In the example of creating a pitch deck, what does the AI provide?",
+      "options": [
+        "Complete slide designs with animations",
+        "Financial statements for investors",
+        "Legal contract templates",
+        "Slide titles, key points, and short speaker notes"
+      ],
+      "answer": 3,
+      "explanation": "The AI outlines a 5‑slide pitch by giving titles, bullet points, and brief speaker notes for each slide."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
