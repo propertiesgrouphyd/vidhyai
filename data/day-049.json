@@ -1,0 +1,140 @@
+{
+  "day": 49,
+  "courseDate": "2026-11-22",
+  "publishAt": "2026-11-22T06:00:00+05:30",
+  "title": "Using AI in Small Businesses and Entrepreneurship",
+  "introduction": "Artificial Intelligence can help small businesses work faster, understand customers better, and create new ideas without big budgets. This lesson shows simple ways to use AI responsibly.",
+  "sections": [
+    {
+      "heading": "Spotting AI Opportunities",
+      "subheading": "How to see where AI can help your business",
+      "paragraphs": [
+        "Look at daily tasks that take time or need decisions. AI works well for repetitive work and for analyzing data.",
+        "Ask yourself: Can a computer suggest ideas, answer questions, or sort information for me? If yes, AI may be useful."
+      ],
+      "example": {
+        "title": "Local bakery using AI for demand forecasting",
+        "content": "The bakery enters last month’s sales into a free AI tool. The tool predicts which pastries will be popular next week, helping the baker bake the right amount and reduce waste."
+      }
+    },
+    {
+      "heading": "AI for Market Research and Idea Generation",
+      "subheading": "Getting customer insights and new product ideas with AI",
+      "paragraphs": [
+        "AI can scan online reviews, social media, and search trends to show what customers want. This saves time compared to reading each comment manually.",
+        "You can also ask AI to suggest product ideas based on the trends it finds, giving you a quick list of possibilities."
+      ],
+      "example": {
+        "title": "Coffee shop discovering new flavors",
+        "content": "The shop owner types a prompt: \"What coffee flavors are trending in 2024?\" The AI returns ideas like oat‑milk latte, turmeric espresso, and cold brew with citrus. The owner tests the top two."
+      }
+    },
+    {
+      "heading": "AI‑Powered Customer Support",
+      "subheading": "Using chatbots and AI assistants to answer customers",
+      "paragraphs": [
+        "A simple chatbot can answer common questions such as opening hours, return policies, or order status. This frees up your time for more complex tasks.",
+        "Choose a free AI chatbot platform, train it with your FAQ, and embed it on your website or messaging app."
+      ],
+      "example": {
+        "title": "Online boutique chatbot",
+        "content": "The boutique adds a chatbot that replies instantly to questions like \"Do you ship internationally?\" and \"What is the size chart?\" Customers receive answers 24/7, and the owner handles fewer repetitive emails."
+      }
+    },
+    {
+      "heading": "Creating Content and Documents with AI",
+      "subheading": "Writing posts, emails, and manuals quickly",
+      "paragraphs": [
+        "AI writing tools can draft social media posts, newsletters, and product descriptions from a short prompt. You edit the output to match your voice.",
+        "For internal documents, AI can turn bullet points into a polished guide or policy, saving hours of typing."
+      ],
+      "example": {
+        "title": "Fitness trainer generating weekly newsletters",
+        "content": "The trainer asks an AI: \"Write a friendly 150‑word newsletter about home workouts for beginners.\" The AI produces a ready‑to‑send email, which the trainer tweaks slightly."
+      }
+    },
+    {
+      "heading": "Simple Automation and Basic Data Analysis",
+      "subheading": "Automating repetitive tasks and getting quick insights",
+      "paragraphs": [
+        "You can connect AI to spreadsheets to clean data, fill missing values, or create simple charts. This helps you see trends without learning complex software.",
+        "Automation can also send reminders, schedule posts, or generate invoices based on templates, reducing manual effort."
+      ],
+      "example": {
+        "title": "Handyman tracking job orders with AI spreadsheet",
+        "content": "The handyman uses a free AI add‑on for Google Sheets. He inputs job details, and the AI sorts them by date, highlights overdue jobs, and suggests the next day's schedule."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Prompt Writing Exercise",
+    "instruction": "Write a short prompt (under 30 words) you could give an AI tool to create a social media post for your product or service."
+  },
+  "keyTakeaways": [
+    "AI can handle repetitive tasks, giving you more time for creative work.",
+    "Use AI to gather customer insights and generate new product ideas quickly.",
+    "Start with simple, free AI tools and test the output before using it with customers."
+  ],
+  "mcqs": [
+    {
+      "question": "Which type of daily tasks are most suitable for AI assistance in a small business?",
+      "options": [
+        "Repetitive or data‑heavy tasks",
+        "Creative storytelling",
+        "Physical product assembly",
+        "Legal courtroom representation"
+      ],
+      "answer": 0,
+      "explanation": "AI works best on tasks that are repetitive or require quick data analysis, as described in the lesson."
+    },
+    {
+      "question": "Which example shows AI helping a small business generate new product ideas?",
+      "options": [
+        "AI scans social media for trends",
+        "AI suggests coffee flavors based on 2024 trends",
+        "AI calculates payroll taxes",
+        "AI translates documents into multiple languages"
+      ],
+      "answer": 1,
+      "explanation": "The coffee shop example demonstrates AI providing flavor ideas after scanning current trends."
+    },
+    {
+      "question": "What is a primary benefit of adding an AI chatbot to a small business website?",
+      "options": [
+        "It reduces website loading speed",
+        "It writes blog posts automatically",
+        "It provides instant answers to frequently asked questions",
+        "It manages physical inventory in the store"
+      ],
+      "answer": 2,
+      "explanation": "Chatbots can answer common customer queries instantly, freeing the owner to handle more complex work."
+    },
+    {
+      "question": "How can AI help a small business create internal documents quickly?",
+      "options": [
+        "By creating animated videos",
+        "By translating documents into foreign languages",
+        "By designing brand logos",
+        "By turning bullet points into a polished guide or policy"
+      ],
+      "answer": 3,
+      "explanation": "The lesson explains that AI can expand simple bullet points into well‑written guides, saving typing time."
+    },
+    {
+      "question": "Which task illustrates simple AI automation with a spreadsheet?",
+      "options": [
+        "Predicting future stock market prices",
+        "Cleaning data, highlighting overdue jobs, and suggesting schedules",
+        "Writing legal contracts from scratch",
+        "Generating three‑dimensional product models"
+      ],
+      "answer": 1,
+      "explanation": "The handyman example shows AI sorting job details, flagging overdue items, and planning the next day’s work."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
