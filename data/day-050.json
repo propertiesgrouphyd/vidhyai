@@ -1,0 +1,140 @@
+{
+  "day": 50,
+  "courseDate": "2026-11-23",
+  "publishAt": "2026-11-23T06:00:00+05:30",
+  "title": "Designing an AI-Assisted Workflow for a Real-World Problem",
+  "introduction": "In this lesson you will learn how to turn a real problem into a step‑by‑step AI workflow. By the end you can choose the right AI tools, write effective prompts, and check the results for usefulness and safety.",
+  "sections": [
+    {
+      "heading": "Understanding the Problem",
+      "subheading": "Define the goal and scope clearly",
+      "paragraphs": [
+        "Start by writing down what you want to achieve. A clear goal helps you pick the right AI actions.",
+        "Identify any constraints such as time, budget, or data availability. This keeps the workflow realistic."
+      ],
+      "example": {
+        "title": "Example: Improving a Study Schedule",
+        "content": "A high‑school student wants a weekly study plan that balances math, science, and language practice while leaving time for hobbies."
+      }
+    },
+    {
+      "heading": "Choosing the Right AI Tools",
+      "subheading": "Match each task with an appropriate AI capability",
+      "paragraphs": [
+        "Look at the list of AI abilities you have learned: text generation, summarisation, image creation, data analysis, etc. Choose the one that fits each sub‑task.",
+        "Consider cost, speed, and accuracy. For a simple text summary, a free language model may be enough, while data analysis might need a specialised tool."
+      ],
+      "example": {
+        "title": "Example: Using a Language Model for Summaries",
+        "content": "To create a short summary of a long article, the learner selects a text‑summarisation model and writes a prompt asking for a 3‑sentence overview."
+      }
+    },
+    {
+      "heading": "Creating Prompt Sequences",
+      "subheading": "Break the workflow into small, ordered steps",
+      "paragraphs": [
+        "Write each step as a separate prompt. This makes it easier to test and improve each part.",
+        "Use clear instructions and give examples in the prompt so the AI knows the expected format."
+      ],
+      "example": {
+        "title": "Example: Step‑by‑Step Prompt Chain",
+        "content": "Step 1: Ask the AI to list key topics from the article. Step 2: Prompt it to write a brief explanation for each topic. Step 3: Request a final summary that combines the explanations."
+      }
+    },
+    {
+      "heading": "Testing and Evaluating Results",
+      "subheading": "Check accuracy, relevance, and usefulness",
+      "paragraphs": [
+        "Run the prompts and review the output. Look for missing information, errors, or unclear language.",
+        "If the result is not satisfactory, adjust the prompt wording or add more context, then test again."
+      ],
+      "example": {
+        "title": "Example: Reviewing Generated Study Plan",
+        "content": "The student checks the AI‑created schedule for balanced subject time, realistic study hours, and inclusion of breaks. Any gaps are corrected by refining the prompts."
+      }
+    },
+    {
+      "heading": "Managing Risks and Human Oversight",
+      "subheading": "Identify where human verification is needed",
+      "paragraphs": [
+        "AI can make mistakes or produce biased content. Decide which steps require a human to double‑check the output.",
+        "Document the verification points so you can consistently apply the same safety checks each time you use the workflow."
+      ],
+      "example": {
+        "title": "Example: Verifying Financial Advice",
+        "content": "When using AI to suggest a small business budget, the owner reviews each expense suggestion against actual invoices before finalising the plan."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Build a Mini AI Workflow",
+    "instruction": "Choose a simple everyday problem (e.g., planning a grocery list). Write two short prompts: one to gather needed items and another to organise them by store sections. Run the prompts and note if the list meets your needs."
+  },
+  "keyTakeaways": [
+    "Clear problem definition guides the whole AI workflow.",
+    "Select AI tools that match each specific sub‑task for better results.",
+    "Break the process into small prompts, test, and refine each step."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the first step when designing an AI‑assisted workflow for a real‑world problem?",
+      "options": [
+        "Define the goal and scope clearly",
+        "Choose the AI model to use",
+        "Write the code for the workflow",
+        "Deploy the solution to production"
+      ],
+      "answer": 0,
+      "explanation": "The lesson states that you should start by writing down what you want to achieve; a clear goal guides tool selection and later steps."
+    },
+    {
+      "question": "Which factor is most important when selecting an AI tool for a sub‑task?",
+      "options": [
+        "The color of the user interface",
+        "Cost, speed, and accuracy of the tool",
+        "The number of users who have tried it",
+        "The brand popularity of the provider"
+      ],
+      "answer": 1,
+      "explanation": "The lesson advises considering cost, speed, and accuracy to match the tool to the specific sub‑task."
+    },
+    {
+      "question": "In a prompt chain, why is it recommended to give examples in each prompt?",
+      "options": [
+        "To make the prompts longer and more detailed",
+        "To help the AI understand the expected format",
+        "To reduce the number of tokens used",
+        "To hide the real task from the AI"
+      ],
+      "answer": 1,
+      "explanation": "Providing examples shows the AI the desired output style, making the response more reliable."
+    },
+    {
+      "question": "During testing, a student finds that the AI‑generated study schedule lacks breaks. What is the best next action?",
+      "options": [
+        "Accept the schedule as it is",
+        "Adjust the prompt to request breaks and retest",
+        "Delete the AI output and create the schedule manually",
+        "Increase the model temperature to get more varied output"
+      ],
+      "answer": 1,
+      "explanation": "The lesson recommends refining the prompt wording or adding more context when the result is unsatisfactory."
+    },
+    {
+      "question": "Which step most likely requires human verification according to the lesson?",
+      "options": [
+        "Generating a list of grocery items",
+        "Summarising an article",
+        "Verifying financial advice suggestions",
+        "Formatting the final report"
+      ],
+      "answer": 2,
+      "explanation": "The lesson’s risk‑management section highlights that steps like financial advice need a human to double‑check the AI output."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
