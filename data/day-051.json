@@ -1,0 +1,127 @@
+{
+  "day": 51,
+  "courseDate": "2026-11-24",
+  "publishAt": "2026-11-24T06:00:00+05:30",
+  "title": "Prompt Engineering: From Simple Prompts to Reliable Instructions",
+  "introduction": "Prompt engineering is the skill of designing clear, repeatable instructions for AI. Good prompts make AI work reliably and save time for many tasks.",
+  "sections": [
+    {
+      "heading": "Understanding Prompt Engineering",
+      "subheading": "Why designing prompts matters",
+      "paragraphs": [
+        "Prompt engineering means thinking about how to ask an AI a question so it gives the right answer every time.",
+        "It goes beyond casual wording and treats prompts like small programs that can be tested and improved."
+      ],
+      "example": {
+        "title": "Simple vs Engineered Prompt",
+        "content": "Casual: \"Tell me about cats.\" Engineered: \"Provide a 3‑sentence summary of the domestic cat's typical behavior, focusing on diet, sleep patterns, and social habits.\""
+      }
+    },
+    {
+      "heading": "Key Components of a Reliable Prompt",
+      "subheading": "Elements that make a prompt clear and repeatable",
+      "paragraphs": [
+        "A reliable prompt includes a clear task description, any required input format, constraints, and the desired output format.",
+        "Each part helps the AI understand exactly what you need and reduces ambiguous answers."
+      ],
+      "example": {
+        "title": "Prompt Template for Summarizing Text",
+        "content": "Task: Summarize the following paragraph in 2 sentences.\nInput: {paragraph}\nConstraints: Use simple language, no more than 30 words.\nOutput: A concise summary."
+      }
+    },
+    {
+      "heading": "Testing and Refining Prompts",
+      "subheading": "Improving prompts through trial runs",
+      "paragraphs": [
+        "Start with an initial prompt and run it with the AI. Check if the answer meets your expectations.",
+        "If the output is off, adjust wording, add constraints, or clarify the task, then test again."
+      ],
+      "example": {
+        "title": "Testing a Math Prompt",
+        "content": "Initial: \"Solve 12 × 8.\" Result: \"96\" (correct but no explanation).\nRefined: \"Solve 12 × 8 and show each step of the multiplication.\" Result: Detailed step‑by‑step solution."
+      }
+    },
+    {
+      "heading": "Creating Reusable Prompts",
+      "subheading": "Building prompts you can apply many times",
+      "paragraphs": [
+        "Use placeholders like {topic} or {date} so the same prompt works for different inputs.\nDocument the prompt structure so others can reuse it without guessing."
+      ],
+      "example": {
+        "title": "Reusable Prompt for Email Draft",
+        "content": "Task: Write a polite email requesting a meeting.\nSubject: {meeting purpose}\nRecipient: {person name}\nPreferred date: {date}\nOutput: A complete email body using the given details."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Write a Simple Prompt",
+    "instruction": "Create a prompt that asks an AI to list three healthy breakfast ideas. Imagine the AI's response and note if it matches what you expected."
+  },
+  "keyTakeaways": [
+    "Prompt engineering turns casual questions into clear, testable instructions for AI.",
+    "A reliable prompt includes task, input format, constraints, and output format.",
+    "Testing and refining prompts helps achieve consistent and accurate AI results."
+  ],
+  "mcqs": [
+    {
+      "question": "What does prompt engineering primarily involve?",
+      "options": [
+        "Designing clear, repeatable instructions for an AI",
+        "Training AI models on large datasets",
+        "Debugging computer code",
+        "Writing creative poetry for AI"
+      ],
+      "answer": 0,
+      "explanation": "Prompt engineering is about creating precise instructions so the AI consistently produces the desired output."
+    },
+    {
+      "question": "Which of the following pairs shows a casual prompt and its engineered version?",
+      "options": [
+        "\"Tell me about cats.\" and \"Give me a cat picture.\"",
+        "\"Provide a 3‑sentence summary of the domestic cat's typical behavior, focusing on diet, sleep patterns, and social habits.\" and \"Tell me about cats.\"",
+        "\"Tell me about cats.\" and \"Provide a 3‑sentence summary of the domestic cat's typical behavior, focusing on diet, sleep patterns, and social habits.\"",
+        "\"Explain cats.\" and \"Give me a cat picture.\""
+      ],
+      "answer": 2,
+      "explanation": "The engineered prompt adds task detail, constraints, and output format, unlike the casual \"Tell me about cats.\""
+    },
+    {
+      "question": "Which element is NOT listed as part of a reliable prompt in the lesson?",
+      "options": [
+        "Clear task description",
+        "Required input format",
+        "Constraints on the answer",
+        "Color of the user interface"
+      ],
+      "answer": 3,
+      "explanation": "The lesson mentions task, input format, constraints, and output format, but not UI color."
+    },
+    {
+      "question": "In the math example, what change was made to the refined prompt to improve the result?",
+      "options": [
+        "It asked for a step‑by‑step explanation of the multiplication",
+        "It changed the numbers from 12 × 8 to 15 × 7",
+        "It requested only the final answer without explanation",
+        "It added a request for a graphical representation"
+      ],
+      "answer": 0,
+      "explanation": "The refined prompt explicitly asked the AI to show each step, producing a detailed solution."
+    },
+    {
+      "question": "Why are placeholders like {topic} used in reusable prompts?",
+      "options": [
+        "To hide the task from the AI",
+        "To increase token usage",
+        "To allow the same prompt to work with different inputs",
+        "To make the prompt harder to read"
+      ],
+      "answer": 2,
+      "explanation": "Placeholders let you substitute different values, making a single prompt template usable for many situations."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
