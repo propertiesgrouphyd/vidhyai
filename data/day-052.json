@@ -1,0 +1,129 @@
+{
+  "day": 52,
+  "courseDate": "2026-11-25",
+  "publishAt": "2026-11-25T06:00:00+05:30",
+  "title": "Building Effective Prompts: Roles, Goals, Context, and Constraints",
+  "introduction": "A well‑structured prompt helps AI understand what you need and gives better results. This lesson shows how to use roles, clear goals, useful context, and constraints without adding unnecessary detail.",
+  "sections": [
+    {
+      "heading": "Choose a Prompt Role",
+      "subheading": "Give the AI a perspective to guide its thinking",
+      "paragraphs": [
+        "A role tells the model who it should act as, such as a teacher, a chef, or a travel guide. This shapes the tone and style of the answer.",
+        "Use a role only when the perspective matters for the task. If the question is factual, a role may be unnecessary."
+      ],
+      "example": {
+        "title": "Role Example",
+        "content": "\"You are a friendly tutor. Explain photosynthesis in simple terms.\""
+      }
+    },
+    {
+      "heading": "Define Precise Goals",
+      "subheading": "State exactly what you want the output to be",
+      "paragraphs": [
+        "A clear goal tells the model the expected result, like a summary, a list, or a step‑by‑step guide. Vague goals lead to vague answers.",
+        "Keep the goal short and specific; avoid adding extra wishes that are not needed."
+      ],
+      "example": {
+        "title": "Goal Example",
+        "content": "Goal: Provide a three‑sentence summary of the article about renewable energy."
+      }
+    },
+    {
+      "heading": "Add Relevant Context",
+      "subheading": "Supply information that the model needs to answer correctly",
+      "paragraphs": [
+        "Context includes background facts, data, or previous conversation that the model should consider. Only include what directly helps the task.",
+        "Too much unrelated context can confuse the model and waste token space."
+      ],
+      "example": {
+        "title": "Context Example",
+        "content": "Context: The user is a high school student preparing for a biology exam. Provide the explanation at a grade‑10 level."
+      }
+    },
+    {
+      "heading": "Set Useful Constraints and Output Requirements",
+      "subheading": "Limit the answer format and specify any rules",
+      "paragraphs": [
+        "Constraints tell the model what to avoid or follow, such as word limits, bullet points, or tone. Output requirements describe the exact format you need, like a table or JSON.",
+        "Add constraints only when they improve clarity. Unnecessary limits can restrict useful information."
+      ],
+      "example": {
+        "title": "Constraints Example",
+        "content": "Constraints: Answer in no more than 100 words, use bullet points, and keep the tone professional."
+      }
+    }
+  ],
+  "practice": {
+    "title": "Create Your Own Prompt Using the Framework",
+    "instruction": "Write a short prompt that includes a role, a clear goal, relevant context, and at most one constraint. Keep it under 50 words."
+  },
+  "keyTakeaways": [
+    "A role gives the AI a perspective and shapes its response style.",
+    "Clear goals tell the model exactly what output you expect.",
+    "Provide only the context that helps the task and avoid extra details.",
+    "Constraints and output requirements guide format but should be used sparingly."
+  ],
+  "mcqs": [
+    {
+      "question": "What is the main purpose of assigning a role in a prompt?",
+      "options": [
+        "To set a word limit for the answer",
+        "To guide the tone and perspective of the response",
+        "To provide the factual data needed",
+        "To list the steps the model must follow"
+      ],
+      "answer": 1,
+      "explanation": "A role tells the model who to act as, shaping the tone and style of its answer."
+    },
+    {
+      "question": "Which of the following is an example of a precise goal?",
+      "options": [
+        "Provide a three‑sentence summary of the article about renewable energy.",
+        "Give a brief overview of the topic.",
+        "Explain the topic in detail without any length limit.",
+        "Write a long paragraph about the subject."
+      ],
+      "answer": 0,
+      "explanation": "A precise goal states exactly what output is expected, such as a three‑sentence summary."
+    },
+    {
+      "question": "When adding context to a prompt, which practice helps the model most?",
+      "options": [
+        "Include all background information you can think of",
+        "Add unrelated facts to make the prompt longer",
+        "Provide only information directly needed for the task",
+        "Omit any context to keep it short"
+      ],
+      "answer": 2,
+      "explanation": "Relevant context should be limited to facts that directly assist the task, avoiding extra details."
+    },
+    {
+      "question": "Which constraint would be most appropriate if you need the answer in a table format?",
+      "options": [
+        "Answer in no more than 100 words",
+        "Use bullet points",
+        "Provide the output as a JSON object",
+        "Present the information in a table"
+      ],
+      "answer": 3,
+      "explanation": "Specifying \"present the information in a table\" directly tells the model the required format."
+    },
+    {
+      "question": "According to the key takeaways, why should constraints be used sparingly?",
+      "options": [
+        "Because they always improve the answer",
+        "Because unnecessary limits can restrict useful information",
+        "Because they make the prompt shorter",
+        "Because they replace the need for a clear goal"
+      ],
+      "answer": 1,
+      "explanation": "Too many or unnecessary constraints may prevent the model from providing all relevant details."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
