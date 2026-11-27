@@ -1,0 +1,140 @@
+{
+  "day": 53,
+  "courseDate": "2026-11-26",
+  "publishAt": "2026-11-26T06:00:00+05:30",
+  "title": "Few-Shot Prompting for Consistent Results",
+  "introduction": "Few-shot prompting lets you give the AI a few examples so it knows the pattern you want. Good examples produce reliable and consistent answers, while bad ones cause errors.",
+  "sections": [
+    {
+      "heading": "What is Few-Shot Prompting?",
+      "subheading": "Using examples to guide AI responses",
+      "paragraphs": [
+        "Few-shot prompting means adding a small number of example inputs and outputs to your main request. The AI looks at these examples and tries to follow the same pattern for the new query.",
+        "It is a middle ground between zero‑shot (no examples) and many‑shot (many examples)."
+      ],
+      "example": {
+        "title": "Simple classification example",
+        "content": "Prompt:\n\nTranslate the sentiment:\n\n\"I love this movie.\" -> Positive\n\"The food was terrible.\" -> Negative\n\nNow classify:\n\"The service was okay.\" ->"
+      }
+    },
+    {
+      "heading": "Choosing Good Representative Examples",
+      "subheading": "Select examples that cover the range of cases",
+      "paragraphs": [
+        "Pick examples that show the variety of inputs you expect. Include both typical and edge cases so the model learns the full pattern.",
+        "Make sure each example is clear and correct. Mistakes in examples teach the model the wrong behavior."
+      ],
+      "example": {
+        "title": "Email sorting examples",
+        "content": "Prompt:\n\n\"Subject: Win a free iPhone!\" -> Spam\n\"Subject: Meeting agenda for tomorrow\" -> Important\n\nClassify:\n\"Subject: Your invoice is attached\" ->"
+      }
+    },
+    {
+      "heading": "Controlling Output Patterns with Examples",
+      "subheading": "Shape format and style through demonstration",
+      "paragraphs": [
+        "The way you format your examples tells the model how to format its answer. Use bullet points, tables, or JSON in the examples to get the same style back.",
+        "Consistent formatting helps the model keep the output tidy and easy to use in later steps."
+      ],
+      "example": {
+        "title": "Structured data output",
+        "content": "Prompt:\n\nItem: Apple, Price: $1 -> {\"item\":\"Apple\",\"price\":1}\nItem: Banana, Price: $0.5 -> {\"item\":\"Banana\",\"price\":0.5}\n\nNow produce:\nItem: Orange, Price: $0.8 ->"
+      }
+    },
+    {
+      "heading": "Pitfalls of Poor Examples",
+      "subheading": "How bad examples lead to bad results",
+      "paragraphs": [
+        "If examples are ambiguous, contradictory, or contain errors, the model will copy those problems. This creates inconsistent or wrong outputs.",
+        "Avoid overly long examples that distract from the core pattern, and never include unrelated information."
+      ],
+      "example": {
+        "title": "Misleading example",
+        "content": "Prompt:\n\n\"The sky is blue.\" -> True\n\"Water is dry.\" -> True\n\nNow answer:\n\"Fire is hot.\" ->"
+      }
+    },
+    {
+      "heading": "Limits of Few-Shot Prompting",
+      "subheading": "When examples cannot fix everything",
+      "paragraphs": [
+        "Few-shot prompting works best for tasks the model already understands. For completely new domains, examples may not be enough.",
+        "The model may still make mistakes if the task requires deep reasoning or external knowledge beyond the examples."
+      ],
+      "example": {
+        "title": "Complex reasoning limit",
+        "content": "Prompt:\n\n\"2 + 2 = 4\" -> Correct\n\"5 * 3 = 15\" -> Correct\n\nNow solve:\n\"What is the capital of France?\" ->"
+      }
+    }
+  ],
+  "practice": {
+    "title": "Write Your Own Few-Shot Prompt",
+    "instruction": "Create a prompt that translates English sentences to Spanish. Provide two example pairs, then add a new English sentence and write the expected Spanish translation."
+  },
+  "keyTakeaways": [
+    "Good few-shot examples clearly show the desired input‑output pattern.",
+    "Choose examples that represent the full range of cases you expect.",
+    "The format of examples controls the format of the model’s output."
+  ],
+  "mcqs": [
+    {
+      "question": "What does few-shot prompting involve?",
+      "options": [
+        "Providing a large number of examples",
+        "Providing no examples at all",
+        "Providing a small number of example input-output pairs",
+        "Providing only the final answer without context"
+      ],
+      "answer": 2,
+      "explanation": "Few-shot prompting adds a few example inputs and their expected outputs so the model can see the pattern before answering the new query."
+    },
+    {
+      "question": "Which practice helps the model learn the full pattern when selecting examples?",
+      "options": [
+        "Using only typical cases",
+        "Including both typical and edge cases",
+        "Choosing ambiguous examples",
+        "Adding long unrelated information"
+      ],
+      "answer": 1,
+      "explanation": "Showing both common and edge cases lets the model understand the range of inputs it may encounter, leading to more reliable behavior."
+    },
+    {
+      "question": "How can you make the model return its answer in JSON format?",
+      "options": [
+        "Ask the model directly to use JSON",
+        "Include JSON‑formatted examples in the prompt",
+        "Use bullet points in the examples",
+        "Provide no examples at all"
+      ],
+      "answer": 1,
+      "explanation": "The model copies the formatting style shown in the examples; giving JSON examples teaches it to output JSON."
+    },
+    {
+      "question": "What is a likely result of using ambiguous or contradictory examples?",
+      "options": [
+        "The model may copy the ambiguity and produce wrong or inconsistent answers",
+        "The model will ask for clarification before answering",
+        "The model will refuse to answer the query",
+        "The model will always output the word \"True\""
+      ],
+      "answer": 0,
+      "explanation": "Ambiguous or contradictory examples teach the model incorrect behavior, so its outputs become unreliable."
+    },
+    {
+      "question": "In which situation is few-shot prompting least likely to succeed?",
+      "options": [
+        "When the task is already familiar to the model",
+        "For simple classification with clear patterns",
+        "For a completely new domain that needs external knowledge",
+        "When translating short, common sentences"
+      ],
+      "answer": 2,
+      "explanation": "If the task is outside the model's existing knowledge and requires deep reasoning or external facts, a few examples may not be enough to achieve correct results."
+    }
+  ],
+  "aiUpdate": {
+    "enabled": false,
+    "title": "AI Update",
+    "items": []
+  }
+}
